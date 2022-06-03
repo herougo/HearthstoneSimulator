@@ -1,0 +1,33 @@
+# To Do
+
+- [x] fix end_of_turn HS effects
+  - fix to_remove self
+- [x] implement minion death
+- [x] implement attackability, attackable characters
+- [x] refresh minion attacks at the end of the turn
+- [x] charge
+- [x] taunt, stealth, windfury
+- [x] conditional effect
+- [x] WhileSelfDamaged
+- [x] hero power, SelectCharacter
+- [x] weapon, WhileWeaponEquipped
+- [x] Can't be targeted by spell or hero power
+- [x] show weapon in UI
+- [x] selection: make sure if no targets exist, skip
+- [x] Bloodsail Raider
+- [ ] implement tests
+- [ ] other heroes
+- [ ] return to hand
+- [ ] DireWolfAlpha
+- [ ] OWN_SELF, random other character
+- [ ] Dread Corsair
+- [ ] Silence
+- [ ] Minions cost 3 more
+- [ ] freeze (on turn end 2)
+- [ ] when summon a murloc 
+- [ ] poisonous
+- [ ] clean up memory to use attributes
+- [ ] origin vs affected
+- [ ] capitalize constants
+- [ ] implement slot equals
+- [ ] refactor to use MVC framework

@@ -1,0 +1,2 @@
+DEBUG = True
+HERO_INDEX = -1
