@@ -10,7 +10,7 @@ from hearthsim.game.metadata import (GameMetadata, PlayerMetadata)
 from hearthsim.game.ui_manager import UIManager
 from hearthsim.game.battleboard import Battleboard
 from hearthsim.game.utils import targetable_with_hero_power
-from hearthsim.cards.core import (MinionCard, WeaponCard)
+from hearthsim.cards.types_of_cards import (MinionCard, WeaponCard)
 from hearthsim.effects.effects_continuous import Sleep
 
 

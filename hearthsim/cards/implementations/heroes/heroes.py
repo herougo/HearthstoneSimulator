@@ -1,6 +1,6 @@
 from hearthsim.cards.card_registry import register_card
 from hearthsim.selections.predefined_constants import SELECT_CHARACTER, PLAYER
-from hearthsim.cards.core import OriginalHeroCard
+from hearthsim.cards.types_of_cards import OriginalHeroCard
 from hearthsim.cards.implementations.heroes.uncollectible import RogueDagger12
 from hearthsim.effects.effects_one_time import (Heal, EquipWeapon, DealDamage)
 
