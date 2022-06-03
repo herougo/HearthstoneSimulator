@@ -1,6 +1,9 @@
+from hearthsim.utils.enums import (Actions, CanAttackResponse)
+
 class DecisionMaker:
     def __init__(self, action_getter):
         self._action_getter = action_getter
+        self.game = None
 
     def set_game(self, game):
         self.game = game

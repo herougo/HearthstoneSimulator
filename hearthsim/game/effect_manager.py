@@ -1,4 +1,7 @@
 import collections
+from hearthsim.utils.hash_generation import (generate_random_hash, NULL_HASH)
+from hearthsim.utils.linked_list import (LinkedList, LinkedListNode)
+
 
 class EffectManagerNodePlan:
     '''

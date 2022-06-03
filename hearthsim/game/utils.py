@@ -1,3 +1,6 @@
+from hearthsim.utils.enums import PlayerChoice
+
+
 def targetable_with_hero_power(source_player, target_card_slot):
     if source_player != target_card_slot.player and target_card_slot.has_stealth:
         return False

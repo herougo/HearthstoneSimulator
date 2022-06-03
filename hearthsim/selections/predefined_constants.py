@@ -1,4 +1,5 @@
-
+from hearthsim.selections.selections import (SelectCharacter, SelectFriendlyMinion, RandomOtherCharacter,
+                                             HeroSelection, OwnSelf, AdjacentMinions, AllFriendlyCharacters)
 
 SELECT_CHARACTER = SelectCharacter()
 SELECT_FRIENDLY_MINION = SelectFriendlyMinion()

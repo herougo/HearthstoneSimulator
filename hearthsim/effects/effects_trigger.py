@@ -1,3 +1,7 @@
+from hearthsim.utils.enums import (Events, EffectArea, PlayerChoice)
+from hearthsim.effects.core import TriggerEffect
+from hearthsim.game.utils import is_player_affected
+
 class WhenMinionDies(TriggerEffect):
     _events_received = (Events.minion_dies.value,)
 
@@ -6,6 +10,7 @@ class WhenMinionDies(TriggerEffect):
 
     def start(self, game, em_node):
         raise NotImplementedError()
+
 
 class OnTurnStart(TriggerEffect):
     _events_received = (Events.start_turn.value,)
@@ -25,6 +30,7 @@ class OnTurnStart(TriggerEffect):
 
         return None
 
+
 class OnTurnEnd(TriggerEffect):
     _events_received = (Events.end_turn.value,)
 
@@ -43,6 +49,7 @@ class OnTurnEnd(TriggerEffect):
 
         return None
 
+
 class Battlecry(TriggerEffect):
     _events_received = (Events.minion_battlecry.value,)
     _requires_slot_match_for_event = True
@@ -57,6 +64,7 @@ class Battlecry(TriggerEffect):
     def send_event(self, event, game, em_node):
         assert event in self.events_received, (event, self.events_received)
         return self.effect.execute(game, em_node)
+
 
 class Deathrattle(TriggerEffect):
     _events_received = (Events.minion_dies.value,)

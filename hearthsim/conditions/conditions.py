@@ -1,3 +1,7 @@
+from hearthsim.conditions.core import Condition
+from hearthsim.utils.enums import Events
+
+
 class WhileWeaponEquipped(Condition):
     _events_received = (Events.weapon_equipped.value,
                         Events.weapon_destroyed.value)
@@ -5,6 +9,7 @@ class WhileWeaponEquipped(Condition):
     def evaluate(self, game, em_node):
         player = em_node.affected_slot.player
         return game.weapons[player] is not None
+
 
 class WhileSelfDamaged(Condition):
     _events_received = (Events.after_combat_damage.value,)

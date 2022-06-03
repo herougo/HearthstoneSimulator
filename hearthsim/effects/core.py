@@ -1,3 +1,5 @@
+from hearthsim.utils.utils import deep_copy
+
 class Effect:
     _events_received = tuple()
     _requires_slot_match_for_event = False
@@ -23,9 +25,6 @@ class Effect:
     def adjust_stats(self, card_slot):
         pass
 
-    def send_event(self, event, game, em_node):
-        raise NotImplementedError()
-
     @property
     def effect_area(self):
         return self._effect_area
@@ -33,12 +32,14 @@ class Effect:
     def copy(self):
         return deep_copy(self)
 
+
 class ContinuousEffect(Effect):
     def start(self, game, em_node):
         raise NotImplementedError()
 
     def stop(self, game, em_node):
         pass
+
 
 class OneTimeEffect(Effect):
     _events_received = tuple()
@@ -50,6 +51,7 @@ class OneTimeEffect(Effect):
     def events_received(self):
         assert not self._events_received  # one-time effects cannot receive events (not continuous)
         return self._events_received
+
 
 class TriggerEffect(Effect):
     def __init__(self, effect):
@@ -70,6 +72,7 @@ class ActivatedEffect(TriggerEffect):
     def send_event(self, event, game, em_node):
         assert event in self.events_received
         self.effect.execute(game, em_node)
+
 
 class ConditionalEffect(Effect):
     def __init__(self, condition, effect):
@@ -113,6 +116,7 @@ class ConditionalEffect(Effect):
     def adjust_stats(self, card_slot):
         return self.effect.adjust_stats(card_slot)
 
+
 class WrappedEffect(Effect):
     # A compound effect whose affect area solely depends on the contained effect.
     def __init__(self, effect):
@@ -142,10 +146,12 @@ class WrappedEffect(Effect):
         else:
             return self._events_received + self.effect.events_received
 
+
 class ExternalEffect(WrappedEffect):
     # cannot be silenced
     def __init__(self, effect):
         super(ExternalEffect, self).__init__(effect)
+
 
 def is_one_time_effect(effect):
     if effect.is_compound_effect:

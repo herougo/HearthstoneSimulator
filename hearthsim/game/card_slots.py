@@ -1,3 +1,8 @@
+from hearthsim.utils.hash_generation import generate_random_hash
+from hearthsim.cards.core import Card
+from hearthsim.effects.effects_activated import HeroPowerEffect
+from hearthsim.game.effect_manager import EffectManagerNode
+
 class CardSlot:
     def __init__(self, card_id, player, game):
         self.hash = generate_random_hash()
@@ -14,7 +19,6 @@ class CardSlot:
     def __str__(self):
         return f'CardSlot(card_id={self.card_id}, player={self.player}, hash={self.hash}, game=...)'
 
-
 class WeaponCardSlot(CardSlot):
     mana = None
     attack = None
@@ -25,7 +29,6 @@ class WeaponCardSlot(CardSlot):
         self.mana = self.card.mana
         self.attack = self.card.attack
         self.durability = self.card.durability
-
 
 class HeroCardSlot(CardSlot):
     current_mana = 0
@@ -164,3 +167,4 @@ class MinionCardSlot(CardSlot):
     def switch_players(self):
         self.player = 1 - self.player
         # add and remove taunts using self.game
+        raise NotImplementedError()

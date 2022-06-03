@@ -1,3 +1,9 @@
+from hearthsim.effects.core import OneTimeEffect
+from hearthsim.effects.effects_continuous import (AttackBuff, HealthBuff)
+from hearthsim.game.effect_manager import (EffectManagerNodePlan, EffectManagerNode)
+from hearthsim.game.card_slots import HeroCardSlot
+
+
 class ChangeAttack(OneTimeEffect):
     def __init__(self, selection, amount):
         self.selection = selection
@@ -25,6 +31,7 @@ class ChangeAttack(OneTimeEffect):
 
         return EffectManagerNodePlan(to_add=em_nodes_to_add)
 
+
 class ChangeHealth(OneTimeEffect):
     def __init__(self, selection, amount):
         self.selection = selection
@@ -42,7 +49,7 @@ class ChangeHealth(OneTimeEffect):
         em_nodes_to_add = []
         for selected_card_slot in self.selection.get_selected_card_slots(game, em_node):
             em_node = EffectManagerNode(
-                effect=HealthBuff(amount=self.compute_amount(game, em_node)),
+                effect=HealthBuff(amount=self._compute_amount(game, em_node)),
                 affected_slot=selected_card_slot,
                 origin_slot=em_node.origin_slot,
                 silenceable=True
@@ -50,6 +57,7 @@ class ChangeHealth(OneTimeEffect):
             em_nodes_to_add.append(em_node)
 
         return EffectManagerNodePlan(to_add=em_nodes_to_add)
+
 
 class Heal(OneTimeEffect):
     def __init__(self, selection, amount):
@@ -62,6 +70,7 @@ class Heal(OneTimeEffect):
             card_slot.health = min(card_slot.health + self.amount,
                                    card_slot.max_health)
 
+
 class DealDamage(OneTimeEffect):
     def __init__(self, selection, amount):
         self.selection = selection
@@ -72,12 +81,14 @@ class DealDamage(OneTimeEffect):
         for card_slot in selected_card_slots:
             card_slot.health = card_slot.health - self.amount
 
+
 class ReturnMinionToHand(OneTimeEffect):
     def __init__(self, selection):
         self.selection = selection
 
     def execute(self, game, em_node):
         pass
+
 
 class Silence(OneTimeEffect):
     def __init__(self, selection):
@@ -86,12 +97,14 @@ class Silence(OneTimeEffect):
     def execute(self, game, em_node):
         pass
 
+
 class DrawCard(OneTimeEffect):
     def __init__(self, selection):
         self.selection = selection
 
     def execute(self, game, em_node):
         game.draw_cards(em_node.affected_slot.player, n=1)
+
 
 class GainManaCrystals(OneTimeEffect):
     def __init__(self, selection, amount):
@@ -107,6 +120,7 @@ class GainManaCrystals(OneTimeEffect):
             player_slot.maximum_mana - player_slot.current_mana,
             self.amount)
 
+
 class RefreshAllManaCrystals(OneTimeEffect):
     def __init__(self, selection):
         self.selection = selection
@@ -114,6 +128,7 @@ class RefreshAllManaCrystals(OneTimeEffect):
     def execute(self, game, em_node):
         player_slot = game.players[em_node.affected_slot.player]
         player_slot.current_mana = player_slot.available_mana
+
 
 class RefreshMinionAttacks(OneTimeEffect):
     def __init__(self, selection):
@@ -124,6 +139,7 @@ class RefreshMinionAttacks(OneTimeEffect):
         for card_slot in selected_card_slots:
             card_slot.attacks_this_turn = 0
 
+
 class RefreshHeroPower(OneTimeEffect):
     def __init__(self, selection):
         self.selection = selection
@@ -132,6 +148,7 @@ class RefreshHeroPower(OneTimeEffect):
         selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
         for card_slot in selected_card_slots:
             card_slot.hero_power_used_this_turn = False
+
 
 class EquipWeapon(OneTimeEffect):
     def __init__(self, selection, weapon):

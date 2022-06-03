@@ -15,6 +15,8 @@
 - [x] show weapon in UI
 - [x] selection: make sure if no targets exist, skip
 - [x] Bloodsail Raider
+- [x] added import statements (took ~1 hour)
+- [ ] fix circular imports  
 - [ ] implement tests
   - [ ] basic unittest
   - [ ] load all cards

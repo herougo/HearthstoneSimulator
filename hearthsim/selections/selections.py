@@ -1,3 +1,9 @@
+from hearthsim.selections.core import CharacterSelection
+from hearthsim.utils.enums import PlayerChoice, Events
+from hearthsim.effects.effects_activated import HeroPowerEffect
+from hearthsim.game.utils import targetable_with_hero_power
+
+
 class SelectCharacter(CharacterSelection):
     def get_selected_card_slots(self, game, em_node):
         player = em_node.origin_card_slot.player
@@ -24,7 +30,7 @@ class SelectFriendlyMinion(CharacterSelection):
         player = origin_card_slot.player
         player_board_index = game.battleboard.hash_to_board_index(origin_card_slot.hash)
         if player_board_index:
-            exclusion_options = set([player_board_index[1]])
+            exclusion_options = {player_board_index[1]}
         else:
             exclusion_options = set()
 

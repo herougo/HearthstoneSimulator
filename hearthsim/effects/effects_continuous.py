@@ -1,4 +1,6 @@
-# continuous effect
+from hearthsim.utils.enums import (Events, EffectArea)
+from hearthsim.effects.core import (ContinuousEffect, is_one_time_effect)
+from hearthsim.game.effect_manager import EffectManagerNodePlan
 
 class DivineShield(ContinuousEffect):
     _events_received = (Events.after_attacker_initial_combat_damage.value,
@@ -20,6 +22,7 @@ class DivineShield(ContinuousEffect):
             raise ValueError(f'Incorrect event received: {event}')
 
         return EffectManagerNodePlan(to_remove=em_node)
+
 
 class Taunt(ContinuousEffect):
     _effect_area = EffectArea.field.value
@@ -45,6 +48,7 @@ class Charge(ContinuousEffect):
         em_node.affected_slot.n_charge -= 1
         assert em_node.affected_slot.n_charge >= 0
 
+
 class Windfury(ContinuousEffect):
     _effect_area = EffectArea.field.value
 
@@ -54,6 +58,7 @@ class Windfury(ContinuousEffect):
     def stop(self, game, em_node):
         em_node.affected_slot.n_windfury -= 1
         assert em_node.affected_slot.n_windfury >= 0
+
 
 class Stealth(ContinuousEffect):
     _events_received = (Events.after_attacker_attacked.value,)
@@ -71,11 +76,13 @@ class Stealth(ContinuousEffect):
         assert event in self.events_received, (event, self.events_received)
         return EffectManagerNodePlan(to_remove=em_node)
 
+
 class CantBeTargetedBySpellsOrHP(ContinuousEffect):
     _effect_area = EffectArea.field.value
 
     def start(self, game, em_node):
         pass
+
 
 class Sleep(ContinuousEffect):
     _events_received = (Events.end_turn.value,)
@@ -89,6 +96,7 @@ class Sleep(ContinuousEffect):
 
     def stop(self, game, em_node):
         em_node.affected_slot.has_sleep = False
+
 
 class AttackBuff(ContinuousEffect):
     _effect_area = EffectArea.all.value
@@ -104,6 +112,7 @@ class AttackBuff(ContinuousEffect):
     def start(self, game, em_node):
         pass
 
+
 class HealthBuff(ContinuousEffect):
     _effect_area = EffectArea.all.value
 
@@ -118,6 +127,7 @@ class HealthBuff(ContinuousEffect):
 
     def start(self, game, em_node):
         pass
+
 
 class Buff(ContinuousEffect):
     _effect_area = EffectArea.all.value
@@ -136,6 +146,7 @@ class Buff(ContinuousEffect):
 
     def start(self, game, em_node):
         pass
+
 
 class ContinuousSelectionFieldEffect(ContinuousEffect):
     _effect_area = EffectArea.field.value

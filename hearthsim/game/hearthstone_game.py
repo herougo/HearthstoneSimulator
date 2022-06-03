@@ -1,12 +1,26 @@
+from hearthsim.utils.enums import (Events, PlayerChoice,  Actions)
+from hearthsim.utils.logger import LOGGER
+from hearthsim.utils.pile import Pile
+from hearthsim.utils.utils import maybe_wrap_as_tuple
+from hearthsim.utils.constants import HERO_INDEX
+from hearthsim.utils.exceptions import GameOverException
+from hearthsim.game.effect_manager import (EffectManager, EffectManagerNode)
+from hearthsim.game.card_slots import (MinionCardSlot, HeroCardSlot, WeaponCardSlot)
+from hearthsim.game.metadata import (GameMetadata, PlayerMetadata)
+from hearthsim.game.ui_manager import UIManager
+from hearthsim.game.battleboard import Battleboard
+from hearthsim.game.utils import targetable_with_hero_power
+from hearthsim.cards.core import (MinionCard, WeaponCard)
+from hearthsim.effects.effects_continuous import Sleep
+
+
 class HearthstoneGame:
     def __init__(self, deck0, deck1, decision_maker0, decision_maker1):
         self.deck_lists = (deck0, deck1)
         self.decision_makers = (decision_maker0, decision_maker1)
         decision_maker0.set_game(self)
         decision_maker1.set_game(self)
-        self.reset()
 
-    def reset(self):
         self.decks = None
         self.hands = None
         self.players = None
@@ -191,7 +205,7 @@ class HearthstoneGame:
                 self.effect_manager.send_event(Events.minion_dies.value,
                                                event_slot=card_slots[i])
                 self.effect_manager.pop_effects_by_slot(card_slots[i])
-                self.remove_card(card_slots[i])
+                self.remove_card_slot(card_slots[i])
 
     def draw_cards(self, player, n=1):
         self.hands[player].add_cards(self.decks[player].draw(n=n))
@@ -254,10 +268,10 @@ class HearthstoneGame:
             raise ValueError()
         result = []
         for player in available_players_for_target:
-            if targetable_with_hero_power(targeting_player, self.players[player])
+            if targetable_with_hero_power(targeting_player, self.players[player]):
                 result.append(self.players[player])
             for card_slot in self.battleboard.iter_board(opp):
-                if targetable_with_hero_power(targeting_player, card_slot)
+                if targetable_with_hero_power(targeting_player, card_slot):
                     result.append(card_slot)
 
         return result
