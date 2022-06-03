@@ -16,6 +16,9 @@
 - [x] selection: make sure if no targets exist, skip
 - [x] Bloodsail Raider
 - [ ] implement tests
+  - [ ] basic unittest
+  - [ ] load all cards
+  - [ ] test each effect
 - [ ] other heroes
 - [ ] return to hand
 - [ ] DireWolfAlpha
