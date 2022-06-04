@@ -1,5 +1,5 @@
 from hearthsim.cards.card_registry import register_card
-from hearthsim.utils.enums import EffectTimeLimit
+from hearthsim.utils.enums import (EffectTimeLimit, HSClass)
 from hearthsim.cards.types_of_cards import MinionCard
 from hearthsim.selections.predefined_constants import (PLAYER, OPP, OWN_SELF, ADJACENT_MINIONS, RANDOM_OTHER_CHARACTER)
 from hearthsim.effects.core import ConditionalEffect

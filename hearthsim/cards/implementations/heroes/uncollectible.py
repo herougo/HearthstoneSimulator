@@ -1,7 +1,7 @@
 from hearthsim.cards.card_registry import register_card
 from hearthsim.cards.types_of_cards import WeaponCard
 
-@register_card(card_id='U0001')
+@register_card(card_id='HU001')
 class RogueDagger12(WeaponCard):
     name = 'Rogue Dagger 1/2'
     mana = 1

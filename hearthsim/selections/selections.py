@@ -6,7 +6,7 @@ from hearthsim.game.utils import targetable_with_hero_power
 
 class SelectCharacter(CharacterSelection):
     def get_selected_card_slots(self, game, em_node):
-        player = em_node.origin_card_slot.player
+        player = em_node.origin_slot.player
         if (isinstance(em_node.effect, HeroPowerEffect) and
                 (not game.get_card_slots_targetable_by_hp(player, PlayerChoice.both.value))):
             return tuple()
@@ -26,7 +26,7 @@ class SelectCharacter(CharacterSelection):
 
 class SelectFriendlyMinion(CharacterSelection):
     def get_selected_card_slots(self, game, em_node):
-        origin_card_slot = em_node.origin_card_slot
+        origin_card_slot = em_node.origin_slot
         player = origin_card_slot.player
         player_board_index = game.battleboard.hash_to_board_index(origin_card_slot.hash)
         if player_board_index:
@@ -69,7 +69,7 @@ class HeroSelection(CharacterSelection):
         self.opposing = opposing
 
     def get_selected_card_slots(self, game, em_node):
-        origin_card_slot = em_node.origin_card_slot
+        origin_card_slot = em_node.origin_slot
         if self.opposing:
             player = 1 - origin_card_slot.player
         else:
@@ -87,7 +87,7 @@ class AllFriendlyCharacters(CharacterSelection):
                         Events.minion_put_in_play.value)
 
     def get_selected_card_slots(self, game, em_node):
-        origin_card_slot = em_node.origin_card_slot
+        origin_card_slot = em_node.origin_slot
         player_slot = game.players[origin_card_slot.player]
         minion_slots = tuple(game.battleboard.iter_board(origin_card_slot.player))
         return (player_slot,) + minion_slots

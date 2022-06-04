@@ -9,5 +9,6 @@ def deep_copy(val):
     for k, v in kwargs.items():
         if k == 'memory':
             continue
-        kwargs[k] = deep_copy(v)
+        if hasattr(v, 'copy'):
+            kwargs[k] = v.copy()
     return type(val)(**kwargs)

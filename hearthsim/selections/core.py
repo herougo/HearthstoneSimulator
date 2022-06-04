@@ -1,3 +1,5 @@
+from hearthsim.utils.utils import deep_copy
+
 class CharacterSelection:
     _events_received = tuple()
 
@@ -7,3 +9,6 @@ class CharacterSelection:
     @property
     def events_received(self):
         return self._events_received
+
+    def copy(self):
+        return deep_copy(self)
