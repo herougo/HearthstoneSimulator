@@ -21,9 +21,9 @@
   - [ ] basic unittest
   - [ ] load all cards
   - [ ] test each effect
-- [ ] other heroes
+- [x] other heroes
   - [x] druid
-  - [ ] shaman
+  - [x] shaman
   - [x] warlock
   - [x] paladin
   - [x] warrior
