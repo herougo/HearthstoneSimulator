@@ -25,6 +25,10 @@ class EffectManagerNodePlan:
         for em_node in self.to_remove:
             effect_manager.pop_effect(em_node)
 
+    def update(self, new_plan):
+        self.to_add.extend(new_plan.to_add)
+        self.to_remove.extend(new_plan.to_remove)
+
 class EffectManagerNode:
     def __init__(self, effect, affected_slot, origin_slot, silenceable, hash=None):
         self.effect = effect

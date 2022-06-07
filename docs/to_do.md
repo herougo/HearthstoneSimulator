@@ -22,9 +22,9 @@
   - [ ] load all cards
   - [ ] test each effect
 - [ ] other heroes
-  - [ ] druid
+  - [x] druid
   - [ ] shaman
-  - [ ] warlock
+  - [x] warlock
   - [ ] paladin
   - [x] warrior
   - [x] hunter

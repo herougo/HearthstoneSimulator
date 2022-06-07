@@ -2,7 +2,8 @@ from hearthsim.cards.card_registry import register_card
 from hearthsim.selections.predefined_constants import SELECT_CHARACTER, PLAYER, OPP
 from hearthsim.cards.types_of_cards import OriginalHeroCard
 from hearthsim.cards.implementations.heroes.uncollectible import RogueDagger12
-from hearthsim.effects.effects_one_time import Heal, EquipWeapon, DealDamage, ChangeAttack, GainArmour
+from hearthsim.effects.core import OneTimeEffectSequence
+from hearthsim.effects.effects_one_time import Heal, EquipWeapon, DealDamage, ChangeAttack, GainArmour, DrawCard
 from hearthsim.effects.effects_wrapped import TimeLimitedEffect
 from hearthsim.utils.enums import EffectTimeLimit
 
@@ -24,7 +25,12 @@ class Rogue(OriginalHeroCard):
 class Druid(OriginalHeroCard):
     name = 'Druid'
     hero_power_cost = 2
-    hero_power_effect = None
+    hero_power_effect = OneTimeEffectSequence(
+        GainArmour(PLAYER, 1),
+        TimeLimitedEffect(
+            ChangeAttack(PLAYER, 1),
+            until_when=EffectTimeLimit.END_OF_TURN.value)
+    )
 
 
 @register_card(card_id='shaman')
@@ -38,7 +44,10 @@ class Shaman(OriginalHeroCard):
 class Warlock(OriginalHeroCard):
     name = 'Warlock'
     hero_power_cost = 2
-    hero_power_effect = None
+    hero_power_effect = OneTimeEffectSequence(
+        DealDamage(PLAYER, 2),
+        DrawCard(PLAYER)
+    )
 
 
 @register_card(card_id='paladin')

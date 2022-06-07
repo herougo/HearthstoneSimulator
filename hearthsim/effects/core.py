@@ -1,4 +1,5 @@
 from hearthsim.utils.utils import deep_copy
+from hearthsim.game.effect_manager import EffectManagerNodePlan
 
 class Effect:
     _events_received = tuple()
@@ -53,9 +54,27 @@ class OneTimeEffect(Effect):
         return self._events_received
 
 
+class OneTimeEffectSequence(OneTimeEffect):
+    def __init__(self, *effects):
+        super(OneTimeEffectSequence, self).__init__()
+        self.effects = effects
+        for effect in self.effects:
+            if not is_one_time_effect(effect):
+                raise ValueError('OneTimeEffectSequence only takes one-time effects as arguments')
+
+    def execute(self, game, em_node):
+        plan = EffectManagerNodePlan()
+        for effect in self.effects:
+            new_plan = effect.execute(game, em_node)
+            plan.update(new_plan)
+        return plan
+
+
 class TriggerEffect(Effect):
     def __init__(self, effect):
         super(TriggerEffect, self).__init__()
+        if isinstance(effect, (tuple, list)):
+            effect = OneTimeEffectSequence(*effect)
         self.effect = effect
         if not is_one_time_effect(effect):
             raise ValueError('ActivatedEffect only takes one-time effects as arguments')
@@ -65,6 +84,7 @@ class TriggerEffect(Effect):
 
     def stop(self, game, em_node):
         pass
+
 
 class ActivatedEffect(TriggerEffect):
     # these effects are "triggered" by events caused by user input (e.g. "hero_power")
