@@ -25,7 +25,7 @@
   - [x] druid
   - [ ] shaman
   - [x] warlock
-  - [ ] paladin
+  - [x] paladin
   - [x] warrior
   - [x] hunter
   - [x] demon hunter
