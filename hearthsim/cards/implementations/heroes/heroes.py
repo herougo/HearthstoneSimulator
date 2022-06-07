@@ -1,9 +1,10 @@
 from hearthsim.cards.card_registry import register_card
-from hearthsim.selections.predefined_constants import SELECT_CHARACTER, PLAYER
+from hearthsim.selections.predefined_constants import SELECT_CHARACTER, PLAYER, OPP
 from hearthsim.cards.types_of_cards import OriginalHeroCard
 from hearthsim.cards.implementations.heroes.uncollectible import RogueDagger12
-from hearthsim.effects.effects_one_time import (Heal, EquipWeapon, DealDamage)
-
+from hearthsim.effects.effects_one_time import Heal, EquipWeapon, DealDamage, ChangeAttack, GainArmour
+from hearthsim.effects.effects_wrapped import TimeLimitedEffect
+from hearthsim.utils.enums import EffectTimeLimit
 
 @register_card(card_id='priest')
 class Priest(OriginalHeroCard):
@@ -51,14 +52,14 @@ class Paladin(OriginalHeroCard):
 class Warrior(OriginalHeroCard):
     name = 'Warrior'
     hero_power_cost = 2
-    hero_power_effect = None
+    hero_power_effect = GainArmour(PLAYER, 2)
 
 
 @register_card(card_id='hunter')
 class Hunter(OriginalHeroCard):
     name = 'Hunter'
     hero_power_cost = 2
-    hero_power_effect = None
+    hero_power_effect = DealDamage(OPP, 2)
 
 
 @register_card(card_id='mage')
@@ -72,4 +73,6 @@ class Mage(OriginalHeroCard):
 class DemonHunter(OriginalHeroCard):
     name = 'Demon Hunter'
     hero_power_cost = 1
-    hero_power_effect = None
+    hero_power_effect = TimeLimitedEffect(
+        ChangeAttack(PLAYER, 1),
+        until_when=EffectTimeLimit.END_OF_TURN.value)

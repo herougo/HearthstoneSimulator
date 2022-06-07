@@ -63,6 +63,8 @@ class Heal(OneTimeEffect):
     def __init__(self, selection, amount):
         self.selection = selection
         self.amount = amount
+        if not callable(amount) and amount <= 0:
+            raise ValueError('Heal must have a positive amount argument')
 
     def execute(self, game, em_node):
         selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
@@ -75,6 +77,8 @@ class DealDamage(OneTimeEffect):
     def __init__(self, selection, amount):
         self.selection = selection
         self.amount = amount
+        if not callable(amount) and amount <= 0:
+            raise ValueError('DealDamage must have a positive amount argument')
 
     def execute(self, game, em_node):
         selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
@@ -103,22 +107,27 @@ class DrawCard(OneTimeEffect):
         self.selection = selection
 
     def execute(self, game, em_node):
-        game.draw_cards(em_node.affected_slot.player, n=1)
+        selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
+        for card_slot in selected_card_slots:
+            game.draw_cards(card_slot.player, n=1)
 
 
 class GainManaCrystals(OneTimeEffect):
     def __init__(self, selection, amount):
         self.selection = selection
         self.amount = amount
+        if not callable(amount) and amount <= 0:
+            raise ValueError('GainManaCrystals must have a positive amount argument')
 
     def execute(self, game, em_node):
-        player_slot = game.players[em_node.affected_slot.player]
-        player_slot.available_mana += min(
-            player_slot.maximum_mana - player_slot.available_mana,
-            self.amount)
-        player_slot.current_mana += min(
-            player_slot.maximum_mana - player_slot.current_mana,
-            self.amount)
+        selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
+        for card_slot in selected_card_slots:
+            card_slot.available_mana += min(
+                card_slot.maximum_mana - card_slot.available_mana,
+                self.amount)
+            card_slot.current_mana += min(
+                card_slot.maximum_mana - card_slot.current_mana,
+                self.amount)
 
 
 class RefreshAllManaCrystals(OneTimeEffect):
@@ -126,8 +135,9 @@ class RefreshAllManaCrystals(OneTimeEffect):
         self.selection = selection
 
     def execute(self, game, em_node):
-        player_slot = game.players[em_node.affected_slot.player]
-        player_slot.current_mana = player_slot.available_mana
+        selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
+        for card_slot in selected_card_slots:
+            card_slot.current_mana = card_slot.available_mana
 
 
 class RefreshMinionAttacks(OneTimeEffect):
@@ -162,3 +172,16 @@ class EquipWeapon(OneTimeEffect):
             assert isinstance(card_slot, HeroCardSlot)
             weapon_card_slot = game.create_card_slot(card_slot.player, self.weapon)
             game.equip_weapon(card_slot.player, weapon_card_slot)
+
+
+class GainArmour(OneTimeEffect):
+    def __init__(self, selection, amount):
+        self.selection = selection
+        self.amount = amount
+        if not callable(amount) and amount <= 0:
+            raise ValueError('GainArmour must have a positive amount argument')
+
+    def execute(self, game, em_node):
+        selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
+        for card_slot in selected_card_slots:
+            card_slot.armour += self.amount

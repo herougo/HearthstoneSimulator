@@ -16,12 +16,19 @@
 - [x] selection: make sure if no targets exist, skip
 - [x] Bloodsail Raider
 - [x] added import statements (took ~1 hour)
-- [ ] fix circular imports  
+- [x] fix circular imports  
 - [ ] implement tests
   - [ ] basic unittest
   - [ ] load all cards
   - [ ] test each effect
 - [ ] other heroes
+  - [ ] druid
+  - [ ] shaman
+  - [ ] warlock
+  - [ ] paladin
+  - [x] warrior
+  - [x] hunter
+  - [x] demon hunter
 - [ ] return to hand
 - [ ] DireWolfAlpha
 - [ ] OWN_SELF, random other character
