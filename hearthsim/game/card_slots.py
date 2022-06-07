@@ -3,6 +3,7 @@ from hearthsim.cards.core import Card
 from hearthsim.effects.effects_activated import HeroPowerEffect
 from hearthsim.game.effect_manager import EffectManagerNode
 
+
 class CardSlot:
     def __init__(self, card_id, player, game):
         self.hash = generate_random_hash()
@@ -19,6 +20,12 @@ class CardSlot:
     def __str__(self):
         return f'CardSlot(card_id={self.card_id}, player={self.player}, hash={self.hash}, game=...)'
 
+
+class DamageableCardSlot(CardSlot):
+    def take_damage(self, amount):
+        raise NotImplementedError()
+
+
 class WeaponCardSlot(CardSlot):
     mana = None
     attack = None
@@ -30,7 +37,8 @@ class WeaponCardSlot(CardSlot):
         self.attack = self.card.attack
         self.durability = self.card.durability
 
-class HeroCardSlot(CardSlot):
+
+class HeroCardSlot(DamageableCardSlot):
     current_mana = 0
     available_mana = 0
     maximum_mana = 10
@@ -62,6 +70,12 @@ class HeroCardSlot(CardSlot):
                                     origin_slot=self,
                                     silenceable=False)
         self.game.effect_manager.add_effect(em_node)
+
+    def take_damage(self, amount):
+        damage_to_health = max(amount - self.armour, 0)
+        damage_to_armour = amount - damage_to_health
+        self.armour -= damage_to_armour
+        self.health -= damage_to_health
 
     @property
     def hero_power_effect(self):
@@ -99,7 +113,7 @@ class HeroCardSlot(CardSlot):
             return 0  # ?????
 
 
-class MinionCardSlot(CardSlot):
+class MinionCardSlot(DamageableCardSlot):
     # stats
     mana = None
     attack = None
@@ -140,6 +154,9 @@ class MinionCardSlot(CardSlot):
             self.health = min(self.max_health, prev_health)
 
         return (self.mana, self.attack, self.health)
+
+    def take_damage(self, amount):
+        self.health -= amount
 
     @property
     def has_taunt(self):

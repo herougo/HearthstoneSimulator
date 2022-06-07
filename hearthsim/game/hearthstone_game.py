@@ -178,8 +178,8 @@ class HearthstoneGame:
         self.game_metadata.defender_damage_taken = attacker_card_slot.attack
         self.effect_manager.send_event(Events.after_attacker_initial_combat_damage.value)
         self.effect_manager.send_event(Events.after_defender_initial_combat_damage.value)
-        attacker_card_slot.health -= self.game_metadata.attacker_damage_taken
-        defender_card_slot.health -= self.game_metadata.defender_damage_taken
+        attacker_card_slot.take_damage(self.game_metadata.attacker_damage_taken)
+        defender_card_slot.take_damage(self.game_metadata.defender_damage_taken)
         self.effect_manager.send_event(Events.after_attacker_attacked.value,
                                        event_slot=attacker_card_slot)
         self.effect_manager.send_event(Events.after_combat_damage.value)

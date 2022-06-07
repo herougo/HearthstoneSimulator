@@ -26,7 +26,7 @@ class UIManager:
         opp_slot = self.game.players[opp]
         opp_current_mana = opp_slot.current_mana
         opp_available_mana = opp_slot.available_mana
-        self.logger.info(f'Opponent ({opp}) - health: {opp_slot.health}, '
+        self.logger.info(f'Opponent ({opp}) - health: {opp_slot.health}, armour: {opp_slot.armour}, '
                          f'mana: {opp_current_mana} / {opp_available_mana}')
         weapon = self.game.weapons[opp]
         if weapon:
@@ -43,7 +43,7 @@ class UIManager:
         player_slot = self.game.players[player]
         player_current_mana = player_slot.current_mana
         player_available_mana = player_slot.available_mana
-        self.logger.info(f'Player ({player}) - health: {player_slot.health}, '
+        self.logger.info(f'Player ({player}) - health: {player_slot.health}, armour: {player_slot.armour}, '
                          f'mana: {player_current_mana} / {player_available_mana}')
         self._log_hand(player)
         self.logger.info('')
