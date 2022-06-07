@@ -1,9 +1,10 @@
 from hearthsim.cards.card_registry import register_card
 from hearthsim.selections.predefined_constants import SELECT_CHARACTER, PLAYER, OPP
 from hearthsim.cards.types_of_cards import OriginalHeroCard
-from hearthsim.cards.implementations.heroes.uncollectible import RogueDagger12
+from hearthsim.cards.implementations.heroes.uncollectible import RogueDagger12, SilverHandRecruit
 from hearthsim.effects.core import OneTimeEffectSequence
-from hearthsim.effects.effects_one_time import Heal, EquipWeapon, DealDamage, ChangeAttack, GainArmour, DrawCard
+from hearthsim.effects.effects_one_time import (Heal, EquipWeapon, DealDamage, ChangeAttack, GainArmour, DrawCard,
+                                                SummonMinion)
 from hearthsim.effects.effects_wrapped import TimeLimitedEffect
 from hearthsim.utils.enums import EffectTimeLimit
 
@@ -54,7 +55,7 @@ class Warlock(OriginalHeroCard):
 class Paladin(OriginalHeroCard):
     name = 'Paladin'
     hero_power_cost = 2
-    hero_power_effect = None
+    hero_power_effect = SummonMinion(SilverHandRecruit())
 
 
 @register_card(card_id='warrior')

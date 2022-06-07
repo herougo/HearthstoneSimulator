@@ -275,3 +275,33 @@ class HearthstoneGame:
                     result.append(card_slot)
 
         return result
+
+    def can_summon_minion(self, player):
+        return self.battleboard.board_len(player) < self.game_metadata.battleboard_limit
+
+    def summon_minion(self, card_slot):
+        self.battleboard.add_cards(card_slot.player, [card_slot], index=None)
+
+        card_name = card_slot.card.name
+        self.ui_manager.log_summon_minion(card_slot.player, card_name)
+
+        for effect in maybe_wrap_as_tuple(card_slot.card.in_play_effects):
+            em_node = EffectManagerNode(
+                effect=effect, affected_slot=card_slot,
+                origin_slot=card_slot, silenceable=True
+            )
+            self.effect_manager.add_effect(em_node)
+
+        # prevent attacking on the turn it's summoned (via Sleep effect)
+        em_node = EffectManagerNode(
+            effect=Sleep(), affected_slot=card_slot,
+            origin_slot=card_slot, silenceable=False
+        )
+        self.effect_manager.add_effect(em_node)
+
+        # send events
+        self.effect_manager.send_event(Events.minion_put_in_play.value,
+                                       event_slot=card_slot)
+        # (no battlecry event)
+        self.effect_manager.send_event(Events.minion_summoned.value,
+                                       event_slot=card_slot)

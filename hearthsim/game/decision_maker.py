@@ -90,6 +90,10 @@ class DecisionMaker:
             self.game.ui_manager.log_line('ERROR: Invalid action argument type')
             return
 
+        if not self.game.can_summon_minion(self.game.game_metadata.turn):
+            self.game.ui_manager.log_line('ERROR: not enough space on the battleboard')
+            return
+
         hand_size = len(self.game.hands[self.game.game_metadata.turn])
         if card_in_hand_index < 0 or hand_size <= card_in_hand_index:
             self.game.ui_manager.log_line('ERROR: card_in_hand outside range')

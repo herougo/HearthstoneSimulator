@@ -3,6 +3,7 @@ from hearthsim.cards.card_registry import CARD_REGISTRY
 
 class Card:
     card_id = None
+    hs_class = None
     collectible = True
 
     @classmethod

@@ -65,6 +65,9 @@ class UIManager:
     def log_play_card(self, card_name):
         self.logger.info(f'{self.game.game_metadata.turn} plays {card_name}')
 
+    def log_summon_minion(self, player, card_name):
+        self.logger.info(f'{player} summons {card_name}')
+
     def log_attack(self, attacker_slot, defender_slot):
         self.logger.info(f'{attacker_slot} attacks {defender_slot}')
 

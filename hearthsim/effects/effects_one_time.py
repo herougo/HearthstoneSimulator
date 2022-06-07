@@ -185,3 +185,14 @@ class GainArmour(OneTimeEffect):
         selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
         for card_slot in selected_card_slots:
             card_slot.armour += self.amount
+
+
+class SummonMinion(OneTimeEffect):
+    def __init__(self, minion):
+        self.minion = minion
+
+    def execute(self, game, em_node):
+        player = em_node.affected_slot.player
+        if game.can_summon_minion(player):
+            card_slot = game.create_card_slot(player, self.minion)
+            game.summon_minion(card_slot)
