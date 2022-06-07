@@ -1,3 +1,4 @@
+import random
 from hearthsim.effects.core import OneTimeEffect
 from hearthsim.effects.effects_continuous import (AttackBuff, HealthBuff)
 from hearthsim.game.effect_manager import (EffectManagerNodePlan, EffectManagerNode)
@@ -195,4 +196,28 @@ class SummonMinion(OneTimeEffect):
         player = em_node.affected_slot.player
         if game.can_summon_minion(player):
             card_slot = game.create_card_slot(player, self.minion)
+            game.summon_minion(card_slot)
+
+
+class SummonMinionLikeShamanHP(OneTimeEffect):
+    def __init__(self, possible_minions):
+        self.possible_minions = possible_minions
+        self._card_id_to_minion = {
+            card.card_id: card for card in possible_minions
+        }
+        self._card_id_set = set(self._card_id_to_minion.keys())
+
+    def execute(self, game, em_node):
+        player = em_node.affected_slot.player
+        if game.can_summon_minion(player):
+            unavailable_card_ids = {slot.card.card_id for slot in game.battleboard.iter_board(player)}
+            diff = self._card_id_set - unavailable_card_ids
+            if not diff:
+                available_card_ids = self._card_id_set
+            else:
+                available_card_ids = diff
+            available_card_ids = list(available_card_ids)
+            chosen_index = random.randint(0, len(available_card_ids) - 1)
+            chosen_card_id = available_card_ids[chosen_index]
+            card_slot = game.create_card_slot(player, self._card_id_to_minion[chosen_card_id])
             game.summon_minion(card_slot)

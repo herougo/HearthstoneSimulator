@@ -1,10 +1,11 @@
 from hearthsim.cards.card_registry import register_card
 from hearthsim.selections.predefined_constants import SELECT_CHARACTER, PLAYER, OPP
 from hearthsim.cards.types_of_cards import OriginalHeroCard
-from hearthsim.cards.implementations.heroes.uncollectible import RogueDagger12, SilverHandRecruit
+from hearthsim.cards.implementations.heroes.uncollectible import (RogueDagger12, SilverHandRecruit, SearingTotem,
+                                                                  HealingTotem, StoneclawTotem, StrengthTotem)
 from hearthsim.effects.core import OneTimeEffectSequence
 from hearthsim.effects.effects_one_time import (Heal, EquipWeapon, DealDamage, ChangeAttack, GainArmour, DrawCard,
-                                                SummonMinion)
+                                                SummonMinion, SummonMinionLikeShamanHP)
 from hearthsim.effects.effects_wrapped import TimeLimitedEffect
 from hearthsim.utils.enums import EffectTimeLimit
 
@@ -38,7 +39,9 @@ class Druid(OriginalHeroCard):
 class Shaman(OriginalHeroCard):
     name = 'Shaman'
     hero_power_cost = 2
-    hero_power_effect = None
+    hero_power_effect = SummonMinionLikeShamanHP((
+        SearingTotem(), HealingTotem(), StoneclawTotem(), StrengthTotem()
+    ))
 
 
 @register_card(card_id='warlock')

@@ -1,3 +1,4 @@
+import random
 from hearthsim.selections.core import CharacterSelection
 from hearthsim.utils.enums import PlayerChoice, Events
 from hearthsim.effects.effects_activated import HeroPowerEffect
@@ -6,7 +7,7 @@ from hearthsim.game.utils import targetable_with_hero_power
 
 class SelectCharacter(CharacterSelection):
     def get_selected_card_slots(self, game, em_node):
-        player = em_node.origin_slot.player
+        player = em_node.affected_slot.player
         if (isinstance(em_node.effect, HeroPowerEffect) and
                 (not game.get_card_slots_targetable_by_hp(player, PlayerChoice.both.value))):
             return tuple()
@@ -26,9 +27,9 @@ class SelectCharacter(CharacterSelection):
 
 class SelectFriendlyMinion(CharacterSelection):
     def get_selected_card_slots(self, game, em_node):
-        origin_card_slot = em_node.origin_slot
-        player = origin_card_slot.player
-        player_board_index = game.battleboard.hash_to_board_index(origin_card_slot.hash)
+        affected_card_slot = em_node.affected_slot
+        player = affected_card_slot.player
+        player_board_index = game.battleboard.hash_to_board_index(affected_card_slot.hash)
         if player_board_index:
             exclusion_options = {player_board_index[1]}
         else:
@@ -59,9 +60,17 @@ class SelectFriendlyMinion(CharacterSelection):
             return (game.battleboard.get_slot(player, selection_board_index),)
 
 
-class RandomOtherCharacter(CharacterSelection):
+class RandomCharacter(CharacterSelection):
+    def __init__(self, selection):
+        self.selection = selection
+
     def get_selected_card_slots(self, game, em_node):
-        raise NotImplementedError()
+        possible_card_slots = self.selection.get_selected_card_slots()
+        if not possible_card_slots:
+            return tuple()
+
+        chosen = random.randint(0, len(possible_card_slots) - 1)
+        return (possible_card_slots[chosen],)
 
 
 class HeroSelection(CharacterSelection):
@@ -69,11 +78,11 @@ class HeroSelection(CharacterSelection):
         self.opposing = opposing
 
     def get_selected_card_slots(self, game, em_node):
-        origin_card_slot = em_node.origin_slot
+        card_slot = em_node.affected_slot
         if self.opposing:
-            player = 1 - origin_card_slot.player
+            player = 1 - card_slot.player
         else:
-            player = origin_card_slot.player
+            player = card_slot.player
         return (game.players[player],)
 
 
@@ -87,10 +96,44 @@ class AllFriendlyCharacters(CharacterSelection):
                         Events.minion_put_in_play.value)
 
     def get_selected_card_slots(self, game, em_node):
-        origin_card_slot = em_node.origin_slot
-        player_slot = game.players[origin_card_slot.player]
-        minion_slots = tuple(game.battleboard.iter_board(origin_card_slot.player))
+        card_slot = em_node.affected_slot
+        player_slot = game.players[card_slot.player]
+        minion_slots = tuple(game.battleboard.iter_board(card_slot.player))
         return (player_slot,) + minion_slots
+
+
+class AllFriendlyMinions(CharacterSelection):
+    _events_received = (Events.minion_dies.value,
+                        Events.minion_put_in_play.value)
+
+    def get_selected_card_slots(self, game, em_node):
+        card_slot = em_node.affected_slot
+        minion_slots = tuple(game.battleboard.iter_board(card_slot.player))
+        return minion_slots
+
+
+class AllOtherFriendlyCharacters(CharacterSelection):
+    _events_received = (Events.minion_dies.value,
+                        Events.minion_put_in_play.value)
+
+    def get_selected_card_slots(self, game, em_node):
+        card_slot = em_node.affected_slot
+        player_slot = game.players[card_slot.player]
+        minion_slots = list(game.battleboard.iter_board(card_slot.player))
+        slots = [player_slot] + minion_slots
+        slots = [slot for slot in slots if slot.hash != em_node.hash]
+        return tuple(slots)
+
+
+class AllOtherFriendlyMinions(CharacterSelection):
+    _events_received = (Events.minion_dies.value,
+                        Events.minion_put_in_play.value)
+
+    def get_selected_card_slots(self, game, em_node):
+        card_slot = em_node.affected_slot
+        minion_slots = tuple([slot for slot in game.battleboard.iter_board(card_slot.player)
+                              if slot.hash != em_node.hash])
+        return minion_slots
 
 
 class AdjacentMinions(CharacterSelection):

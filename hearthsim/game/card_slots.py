@@ -7,9 +7,8 @@ from hearthsim.game.effect_manager import EffectManagerNode
 class CardSlot:
     def __init__(self, card_id, player, game):
         self.hash = generate_random_hash()
-        self.card_id = card_id
         self.player = player
-        self.card = Card.from_card_id(self.card_id)
+        self.card = Card.from_card_id(card_id)
         self.game = game
         self.game.register_card_slot(self)
 
@@ -18,7 +17,7 @@ class CardSlot:
             yield em_node
 
     def __str__(self):
-        return f'CardSlot(card_id={self.card_id}, player={self.player}, hash={self.hash}, game=...)'
+        return f'CardSlot(card_id={self.card.card_id}, player={self.player}, hash={self.hash}, game=...)'
 
 
 class DamageableCardSlot(CardSlot):
