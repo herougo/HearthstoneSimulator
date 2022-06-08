@@ -190,25 +190,34 @@ class HearthstoneGame:
                 self.destroy_weapon(attacker_card_slot.player)
 
         self.check_game_over()
-        death = [False, False]
         card_slots = [attacker_card_slot, defender_card_slot]
-        for i in range(2):
-            death[i] = (isinstance(card_slots[i], MinionCardSlot) and
-                        card_slots[i].health <= 0)
-            if death[i]:
-                self.battleboard.pop_card_slot(card_slots[i])
-                self.send_card_to_limbo(card_slots[i])
+        minions_to_kill = [card_slot for card_slot in card_slots
+                           if isinstance(card_slot, MinionCardSlot) and (card_slot.health <= 0)]
+        self.kill_minions(minions_to_kill)
 
-        for i in range(2):
-            if death[i]:
-                self.ui_manager.log_line(f'{card_slots[i]} died')
-                self.effect_manager.send_event(Events.MINION_DIES.value,
-                                               event_slot=card_slots[i])
-                self.effect_manager.pop_effects_by_slot(card_slots[i])
-                self.remove_card_slot(card_slots[i])
+    def kill_minions(self, card_slots):
+        for i in range(len(card_slots)):
+            self.battleboard.pop_card_slot(card_slots[i])
+            self.send_card_to_limbo(card_slots[i])
+
+        for i in range(len(card_slots)):
+            self.ui_manager.log_line(f'{card_slots[i]} died')
+            self.effect_manager.send_event(Events.MINION_DIES.value,
+                                           event_slot=card_slots[i])
+            self.effect_manager.pop_effects_by_slot(card_slots[i])
+            self.remove_card_slot(card_slots[i])
 
     def draw_cards(self, player, n=1):
-        self.hands[player].add_cards(self.decks[player].draw(n=n))
+        n_can_draw = self.player_metadata[player].hand_limit - len(self.hands[player])
+        n_burned = max(0, n - n_can_draw)
+        n_drawn = n - n_burned
+        cards_from_deck = list(reversed(self.decks[player].draw(n=n)))
+        drawn_cards, burned_cards = cards_from_deck[:n_drawn], cards_from_deck[n_drawn:]
+        self.hands[player].add_cards(drawn_cards)
+        for card_slot in burned_cards:
+            self.send_card_to_limbo(card_slot)
+            self.remove_card_slot(card_slot)
+            self.ui_manager.log_line(f'{player} Burned {card_slot}')
 
     def hash_to_slot(self, hash):
         return self.hash_to_slot_dict[hash]
@@ -277,7 +286,7 @@ class HearthstoneGame:
         return result
 
     def can_summon_minion(self, player):
-        return self.battleboard.board_len(player) < self.game_metadata.battleboard_limit
+        return self.battleboard.board_len(player) < self.player_metadata[player].battleboard_limit
 
     def summon_minion(self, card_slot):
         self.battleboard.add_cards(card_slot.player, [card_slot], index=None)
@@ -305,3 +314,25 @@ class HearthstoneGame:
         # (no battlecry event)
         self.effect_manager.send_event(Events.MINION_SUMMONED.value,
                                        event_slot=card_slot)
+
+
+    def return_minions_to_hand(self, player, card_slots):
+        # returns from battleboard to hand
+        available_hand_space = self.player_metadata[player].hand_limit - len(self.hands[player])
+        n_to_die = max(0, len(card_slots) - available_hand_space)
+        n_to_return = len(card_slots) - n_to_die
+        to_return, to_die = card_slots[:n_to_return], card_slots[n_to_return:]
+
+        for card_slot in to_return:
+            self.battleboard.pop_card_slot(card_slot)
+
+        self.hands[player].add_cards(to_return)
+
+        for card_slot in to_return:
+            self.ui_manager.log_line(f'{card_slot} returned to {player} hand')
+            self.effect_manager.send_event(Events.MINION_RETURNED_TO_HAND.value,
+                                           event_slot=card_slot)
+            self.effect_manager.pop_effects_by_slot(card_slot)
+
+        self.kill_minions(to_die)
+        self.ui_manager.log_game_state()

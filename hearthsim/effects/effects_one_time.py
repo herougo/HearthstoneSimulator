@@ -92,7 +92,8 @@ class ReturnMinionToHand(OneTimeEffect):
         self.selection = selection
 
     def execute(self, game, em_node):
-        pass
+        selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
+        game.return_minions_to_hand(em_node.affected_slot.player, selected_card_slots)
 
 
 class Silence(OneTimeEffect):

@@ -29,9 +29,9 @@
   - [x] warrior
   - [x] hunter
   - [x] demon hunter
-- [ ] return to hand
+- [x] return to hand
 - [ ] DireWolfAlpha
-- [ ] OWN_SELF, random other character
+- [x] OWN_SELF, random other character
 - [ ] Dread Corsair
 - [ ] Silence
 - [ ] Minions cost 3 more
@@ -42,4 +42,9 @@
 - [ ] origin vs affected
 - [x] capitalize enums
 - [ ] implement slot equals
+- [x] hand limit
+- [ ] coin
+- [ ] spell cards
+- [ ] fatigue cards
+- [ ] correct return to hand death order
 - [ ] refactor to use MVC framework

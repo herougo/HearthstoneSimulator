@@ -88,7 +88,7 @@ class HeroSelection(CharacterSelection):
 
 class OwnSelf(CharacterSelection):
     def get_selected_card_slots(self, game, em_node):
-        raise NotImplementedError()
+        return (em_node.affected_slot,)
 
 
 class AllFriendlyCharacters(CharacterSelection):

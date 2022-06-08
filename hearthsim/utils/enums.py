@@ -39,6 +39,7 @@ class Events(Enum):
     MINION_DIES = 23
     ACTIVATE_HERO_POWER = 26
     HERO_POWER_END = 27
+    MINION_RETURNED_TO_HAND = 28
 
 class CardTypes(Enum):
     MINION = 0
