@@ -16,9 +16,9 @@ def targetable_with_spell(source_player, target_card_slot):
 def is_player_affected(player, ref_player, player_choice):
     # ref_player can be turn
     result = (
-        (player_choice == PlayerChoice.both.value) or
-        ((player_choice == PlayerChoice.player.value) and (player == ref_player)) or
-        ((player_choice == PlayerChoice.opponent.value) and (player != ref_player)))
+        (player_choice == PlayerChoice.BOTH.value) or
+        ((player_choice == PlayerChoice.PLAYER.value) and (player == ref_player)) or
+        ((player_choice == PlayerChoice.OPPONENT.value) and (player != ref_player)))
     return result
 
 def weapon_attack(game, card_slot):

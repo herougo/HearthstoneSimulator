@@ -18,7 +18,7 @@ class OriginalHeroCard(Card):
 
     @property
     def card_type(self):
-        return CardTypes.original_hero.value
+        return CardTypes.ORIGINAL_HERO.value
 
 
 class MinionCard(Card):
@@ -29,7 +29,7 @@ class MinionCard(Card):
 
     @property
     def card_type(self):
-        return CardTypes.minion.value
+        return CardTypes.MINION.value
 
 
 class WeaponCard(Card):
@@ -40,4 +40,4 @@ class WeaponCard(Card):
 
     @property
     def card_type(self):
-        return CardTypes.weapon.value
+        return CardTypes.WEAPON.value

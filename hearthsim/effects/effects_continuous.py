@@ -3,10 +3,10 @@ from hearthsim.effects.core import (ContinuousEffect, is_one_time_effect)
 from hearthsim.game.effect_manager import EffectManagerNodePlan
 
 class DivineShield(ContinuousEffect):
-    _events_received = (Events.after_attacker_initial_combat_damage.value,
-                        Events.after_defender_initial_combat_damage.value)
+    _events_received = (Events.AFTER_ATTACKER_INITIAL_COMBAT_DAMAGE.value,
+                        Events.AFTER_DEFENDER_INITIAL_COMBAT_DAMAGE.value)
     _requires_slot_match_for_event = True
-    _effect_area = EffectArea.field.value
+    _effect_area = EffectArea.FIELD.value
 
     def start(self, game, em_node):
         pass
@@ -14,9 +14,9 @@ class DivineShield(ContinuousEffect):
     def send_event(self, event, game, em_node):
         assert event in self.events_received, (event, self.events_received)
         # handle dealing 0 damage ????
-        if event == Events.after_attacker_initial_combat_damage.value:
+        if event == Events.AFTER_ATTACKER_INITIAL_COMBAT_DAMAGE.value:
             game.game_metadata.attacker_damage_taken = 0
-        elif event == Events.after_defender_initial_combat_damage.value:
+        elif event == Events.AFTER_DEFENDER_INITIAL_COMBAT_DAMAGE.value:
             game.game_metadata.defender_damage_taken = 0
         else:
             raise ValueError(f'Incorrect event received: {event}')
@@ -25,7 +25,7 @@ class DivineShield(ContinuousEffect):
 
 
 class Taunt(ContinuousEffect):
-    _effect_area = EffectArea.field.value
+    _effect_area = EffectArea.FIELD.value
 
     def start(self, game, em_node):
         em_node.affected_slot.n_taunt += 1
@@ -39,7 +39,7 @@ class Taunt(ContinuousEffect):
             game.battleboard.remove_taunt(em_node.affected_slot)
 
 class Charge(ContinuousEffect):
-    _effect_area = EffectArea.field.value
+    _effect_area = EffectArea.FIELD.value
 
     def start(self, game, em_node):
         em_node.affected_slot.n_charge += 1
@@ -50,7 +50,7 @@ class Charge(ContinuousEffect):
 
 
 class Windfury(ContinuousEffect):
-    _effect_area = EffectArea.field.value
+    _effect_area = EffectArea.FIELD.value
 
     def start(self, game, em_node):
         em_node.affected_slot.n_windfury += 1
@@ -61,9 +61,9 @@ class Windfury(ContinuousEffect):
 
 
 class Stealth(ContinuousEffect):
-    _events_received = (Events.after_attacker_attacked.value,)
+    _events_received = (Events.AFTER_ATTACKER_ATTACKED.value,)
     _requires_slot_match_for_event = True
-    _effect_area = EffectArea.field.value
+    _effect_area = EffectArea.FIELD.value
 
     def start(self, game, em_node):
         em_node.affected_slot.n_stealth += 1
@@ -78,14 +78,14 @@ class Stealth(ContinuousEffect):
 
 
 class CantBeTargetedBySpellsOrHP(ContinuousEffect):
-    _effect_area = EffectArea.field.value
+    _effect_area = EffectArea.FIELD.value
 
     def start(self, game, em_node):
         pass
 
 
 class Sleep(ContinuousEffect):
-    _events_received = (Events.end_turn.value,)
+    _events_received = (Events.END_TURN.value,)
 
     def start(self, game, em_node):
         em_node.affected_slot.has_sleep = True
@@ -99,7 +99,7 @@ class Sleep(ContinuousEffect):
 
 
 class AttackBuff(ContinuousEffect):
-    _effect_area = EffectArea.all.value
+    _effect_area = EffectArea.ALL.value
 
     def __init__(self, amount):
         self.amount = amount
@@ -114,7 +114,7 @@ class AttackBuff(ContinuousEffect):
 
 
 class HealthBuff(ContinuousEffect):
-    _effect_area = EffectArea.all.value
+    _effect_area = EffectArea.ALL.value
 
     def __init__(self, amount):
         self.amount = amount
@@ -130,7 +130,7 @@ class HealthBuff(ContinuousEffect):
 
 
 class Buff(ContinuousEffect):
-    _effect_area = EffectArea.all.value
+    _effect_area = EffectArea.ALL.value
 
     def __init__(self, attack_amount, health_amount):
         self.attack_amount = attack_amount
@@ -149,7 +149,7 @@ class Buff(ContinuousEffect):
 
 
 class ContinuousSelectionFieldEffect(ContinuousEffect):
-    _effect_area = EffectArea.field.value
+    _effect_area = EffectArea.FIELD.value
 
     def __init__(self, selection, effect):
         super(ContinuousSelectionFieldEffect, self).__init__()

@@ -10,7 +10,7 @@ from hearthsim.utils.enums import HSClass
 @register_card(card_id='HU001')
 class RogueDagger12(WeaponCard):
     name = 'Rogue Dagger 1/2'
-    hs_class = HSClass.rogue.value
+    hs_class = HSClass.ROGUE.value
     mana = 1
     attack = 1
     durability = 2
@@ -20,7 +20,7 @@ class RogueDagger12(WeaponCard):
 @register_card(card_id='HU002')
 class SilverHandRecruit(MinionCard):
     name = 'Silver Hand Recruit'
-    hs_class = HSClass.paladin.value
+    hs_class = HSClass.PALADIN.value
     mana = 1
     attack = 1
     health = 1
@@ -31,7 +31,7 @@ class SilverHandRecruit(MinionCard):
 @register_card(card_id='HU003')
 class SearingTotem(MinionCard):
     name = 'Searing Totem'
-    hs_class = HSClass.shaman.value
+    hs_class = HSClass.SHAMAN.value
     mana = 1
     attack = 1
     health = 1
@@ -42,7 +42,7 @@ class SearingTotem(MinionCard):
 @register_card(card_id='HU004')
 class StoneclawTotem(MinionCard):
     name = 'Stoneclaw Totem'
-    hs_class = HSClass.shaman.value
+    hs_class = HSClass.SHAMAN.value
     mana = 1
     attack = 0
     health = 2
@@ -53,7 +53,7 @@ class StoneclawTotem(MinionCard):
 @register_card(card_id='HU004')
 class StrengthTotem(MinionCard):
     name = 'Strength Totem'
-    hs_class = HSClass.shaman.value
+    hs_class = HSClass.SHAMAN.value
     mana = 1
     attack = 0
     health = 2
@@ -64,7 +64,7 @@ class StrengthTotem(MinionCard):
 @register_card(card_id='HU004')
 class HealingTotem(MinionCard):
     name = 'Healing Totem'
-    hs_class = HSClass.shaman.value
+    hs_class = HSClass.SHAMAN.value
     mana = 1
     attack = 0
     health = 2

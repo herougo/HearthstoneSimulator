@@ -6,70 +6,70 @@ class EffectTimeLimit(Enum):
     END_OF_OPP_TURN = 2
 
 class PlayerChoice(Enum):
-    both = 0
-    player = 1
-    opponent = 2
+    BOTH = 0
+    PLAYER = 1
+    OPPONENT = 2
 
 class EffectType(Enum):
-    continuous = 0
-    trigger = 1
-    onetime = 2
-    wrapper = 3
-    conditional = 4
+    CONTINUOUS = 0
+    TRIGGER = 1
+    ONE_TIME = 2
+    WRAPPER = 3
+    CONDITIONAL = 4
 
 class EffectArea(Enum):
-    field = 0
-    hand = 1
-    deck = 2
-    all = 3
+    FIELD = 0
+    HAND = 1
+    DECK = 2
+    ALL = 3
 
 class Events(Enum):
-    start_turn = 2
-    end_turn = 3
-    weapon_destroyed = 4
-    weapon_equipped = 5
-    after_attacker_initial_combat_damage = 7
-    after_defender_initial_combat_damage = 24
-    after_attacker_attacked = 25
-    after_combat_damage = 8
-    calculate_stats = 9
-    minion_put_in_play = 20
-    minion_battlecry = 21
-    minion_summoned = 22
-    minion_dies = 23
-    activate_hero_power = 26
-    hero_power_end = 27
+    START_TURN = 2
+    END_TURN = 3
+    WEAPON_DESTROYED = 4
+    WEAPON_EQUIPPED = 5
+    AFTER_ATTACKER_INITIAL_COMBAT_DAMAGE = 7
+    AFTER_DEFENDER_INITIAL_COMBAT_DAMAGE = 24
+    AFTER_ATTACKER_ATTACKED = 25
+    AFTER_COMBAT_DAMAGE = 8
+    CALCULATE_STATS = 9
+    MINION_PUT_IN_PLAY = 20
+    MINION_BATTLECRY = 21
+    MINION_SUMMONED = 22
+    MINION_DIES = 23
+    ACTIVATE_HERO_POWER = 26
+    HERO_POWER_END = 27
 
 class CardTypes(Enum):
-    minion = 0
-    spell = 1
-    weapon = 2
-    original_hero = 3
+    MINION = 0
+    SPELL = 1
+    WEAPON = 2
+    ORIGINAL_HERO = 3
 
 class HSClass(Enum):
-    druid = 'druid'
-    mage = 'mage'
-    hunter = 'hunter'
-    warlock = 'warlock'
-    shaman = 'shaman'
-    demon_hunter = 'demon_hunter'
-    priest = 'priest'
-    warrior = 'warrior'
-    rogue = 'rogue'
-    paladin = 'paladin'
-    neutral = 'neutral'
+    DRUID = 'druid'
+    MAGE = 'mage'
+    HUNTER = 'hunter'
+    WARLOCK = 'warlock'
+    SHAMAN = 'shaman'
+    DEMON_HUNTER = 'demon_hunter'
+    PRIEST = 'priest'
+    WARRIOR = 'warrior'
+    ROGUE = 'rogue'
+    PALADIN = 'paladin'
+    NEUTRAL = 'neutral'
 
 class CanAttackResponse(Enum):
-    yes = 0
-    attacked_enough = 1
-    asleep = 2
-    defender_has_stealth = 3
-    zero_attack = 4
-    disobeys_taunt = 5
+    YES = 0
+    ATTACKED_ENOUGH = 1
+    ASLEEP = 2
+    DEFENDER_HAS_STEALTH = 3
+    ZERO_ATTACK = 4
+    DISOBEYS_TAUNT = 5
 
 class Actions(Enum):
-    end_turn = 'end_turn'
-    play = 'play'
-    attack = 'attack'
-    select = 'select'
-    hero_power = 'hero_power'
+    END_TURN = 'end_turn'
+    PLAY = 'play'
+    ATTACK = 'attack'
+    SELECT = 'select'
+    HERO_POWER = 'hero_power'

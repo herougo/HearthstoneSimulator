@@ -3,7 +3,7 @@ from hearthsim.effects.core import TriggerEffect
 from hearthsim.game.utils import is_player_affected
 
 class WhenMinionDies(TriggerEffect):
-    _events_received = (Events.minion_dies.value,)
+    _events_received = (Events.MINION_DIES.value,)
 
     def __init__(self, effect):
         super(WhenMinionDies, self).__init__(effect)
@@ -13,9 +13,9 @@ class WhenMinionDies(TriggerEffect):
 
 
 class OnTurnStart(TriggerEffect):
-    _events_received = (Events.start_turn.value,)
+    _events_received = (Events.START_TURN.value,)
 
-    def __init__(self, effect, player_choice=PlayerChoice.player.value):
+    def __init__(self, effect, player_choice=PlayerChoice.PLAYER.value):
         super(OnTurnStart, self).__init__(effect)
         self.player_choice = player_choice
 
@@ -32,9 +32,9 @@ class OnTurnStart(TriggerEffect):
 
 
 class OnTurnEnd(TriggerEffect):
-    _events_received = (Events.end_turn.value,)
+    _events_received = (Events.END_TURN.value,)
 
-    def __init__(self, effect, player_choice=PlayerChoice.player.value):
+    def __init__(self, effect, player_choice=PlayerChoice.PLAYER.value):
         super(OnTurnEnd, self).__init__(effect)
         self.player_choice = player_choice
 
@@ -51,9 +51,9 @@ class OnTurnEnd(TriggerEffect):
 
 
 class Battlecry(TriggerEffect):
-    _events_received = (Events.minion_battlecry.value,)
+    _events_received = (Events.MINION_BATTLECRY.value,)
     _requires_slot_match_for_event = True
-    _effect_area = EffectArea.field.value
+    _effect_area = EffectArea.FIELD.value
 
     def __init__(self, effect):
         super(Battlecry, self).__init__(effect)
@@ -67,9 +67,9 @@ class Battlecry(TriggerEffect):
 
 
 class Deathrattle(TriggerEffect):
-    _events_received = (Events.minion_dies.value,)
+    _events_received = (Events.MINION_DIES.value,)
     _requires_slot_match_for_event = True
-    _effect_area = EffectArea.field.value
+    _effect_area = EffectArea.FIELD.value
 
     def __init__(self, effect):
         super(Deathrattle, self).__init__(effect)

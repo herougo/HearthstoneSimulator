@@ -9,7 +9,7 @@ class SelectCharacter(CharacterSelection):
     def get_selected_card_slots(self, game, em_node):
         player = em_node.affected_slot.player
         if (isinstance(em_node.effect, HeroPowerEffect) and
-                (not game.get_card_slots_targetable_by_hp(player, PlayerChoice.both.value))):
+                (not game.get_card_slots_targetable_by_hp(player, PlayerChoice.BOTH.value))):
             return tuple()
 
         while True:
@@ -92,8 +92,8 @@ class OwnSelf(CharacterSelection):
 
 
 class AllFriendlyCharacters(CharacterSelection):
-    _events_received = (Events.minion_dies.value,
-                        Events.minion_put_in_play.value)
+    _events_received = (Events.MINION_DIES.value,
+                        Events.MINION_PUT_IN_PLAY.value)
 
     def get_selected_card_slots(self, game, em_node):
         card_slot = em_node.affected_slot
@@ -103,8 +103,8 @@ class AllFriendlyCharacters(CharacterSelection):
 
 
 class AllFriendlyMinions(CharacterSelection):
-    _events_received = (Events.minion_dies.value,
-                        Events.minion_put_in_play.value)
+    _events_received = (Events.MINION_DIES.value,
+                        Events.MINION_PUT_IN_PLAY.value)
 
     def get_selected_card_slots(self, game, em_node):
         card_slot = em_node.affected_slot
@@ -113,8 +113,8 @@ class AllFriendlyMinions(CharacterSelection):
 
 
 class AllOtherFriendlyCharacters(CharacterSelection):
-    _events_received = (Events.minion_dies.value,
-                        Events.minion_put_in_play.value)
+    _events_received = (Events.MINION_DIES.value,
+                        Events.MINION_PUT_IN_PLAY.value)
 
     def get_selected_card_slots(self, game, em_node):
         card_slot = em_node.affected_slot
@@ -126,8 +126,8 @@ class AllOtherFriendlyCharacters(CharacterSelection):
 
 
 class AllOtherFriendlyMinions(CharacterSelection):
-    _events_received = (Events.minion_dies.value,
-                        Events.minion_put_in_play.value)
+    _events_received = (Events.MINION_DIES.value,
+                        Events.MINION_PUT_IN_PLAY.value)
 
     def get_selected_card_slots(self, game, em_node):
         card_slot = em_node.affected_slot
@@ -137,8 +137,8 @@ class AllOtherFriendlyMinions(CharacterSelection):
 
 
 class AdjacentMinions(CharacterSelection):
-    _events_received = (Events.minion_dies.value,
-                        Events.minion_put_in_play.value)
+    _events_received = (Events.MINION_DIES.value,
+                        Events.MINION_PUT_IN_PLAY.value)
 
     def get_selected_card_slots(self, game, em_node):
         raise NotImplementedError()

@@ -16,7 +16,7 @@ from hearthsim.game.utils import weapon_attack
 @register_card(card_id='C001')
 class Wisp(MinionCard):
     name = 'Wisp'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 0
     attack = 1
     health = 1
@@ -26,7 +26,7 @@ class Wisp(MinionCard):
 @register_card(card_id='C002')
 class AbusiveSergeant(MinionCard):
     name = 'Abusive Sergeant'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 1
     attack = 1
     health = 1
@@ -40,7 +40,7 @@ class AbusiveSergeant(MinionCard):
 @register_card(card_id='C003')
 class ArgentSquire(MinionCard):
     name = 'Argent Squire'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 1
     attack = 1
     health = 1
@@ -51,7 +51,7 @@ class ArgentSquire(MinionCard):
 @register_card(card_id='C004')
 class LeperGnome(MinionCard):
     name = 'Leper Gnome'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 1
     attack = 2
     health = 1
@@ -63,7 +63,7 @@ class LeperGnome(MinionCard):
 @register_card(card_id='C005')
 class Shieldbearer(MinionCard):
     name = 'Shieldbearer'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 1
     attack = 0
     health = 4
@@ -74,7 +74,7 @@ class Shieldbearer(MinionCard):
 @register_card(card_id='C006')
 class SouthseaDeckhand(MinionCard):
     name = 'Southsea Deckhand'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 1
     attack = 2
     health = 1
@@ -87,7 +87,7 @@ class SouthseaDeckhand(MinionCard):
 @register_card(card_id='C007')
 class WorgenInfiltrator(MinionCard):
     name = 'Worgen Infiltrator'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 1
     attack = 2
     health = 1
@@ -98,7 +98,7 @@ class WorgenInfiltrator(MinionCard):
 @register_card(card_id='C008')
 class YoungDragonhawk(MinionCard):
     name = 'Young Dragonhawk'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 1
     attack = 1
     health = 1
@@ -109,7 +109,7 @@ class YoungDragonhawk(MinionCard):
 @register_card(card_id='C009')
 class AmaniBerserker(MinionCard):
     name = 'Amani Berserker'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 2
     attack = 2
     health = 3
@@ -123,7 +123,7 @@ class AmaniBerserker(MinionCard):
 @register_card(card_id='C010')
 class BloodsailRaider(MinionCard):
     name = 'Bloodsail Raider'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 2
     attack = 2
     health = 3
@@ -136,7 +136,7 @@ class BloodsailRaider(MinionCard):
 @register_card(card_id='C011')
 class DireWolfAlpha(MinionCard):
     name = 'Dire Wolf Alpha'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 2
     attack = 2
     health = 2
@@ -148,7 +148,7 @@ class DireWolfAlpha(MinionCard):
 @register_card(card_id='C012')
 class FaerieDragon(MinionCard):
     name = 'Faerie Dragon'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 2
     attack = 3
     health = 2
@@ -159,7 +159,7 @@ class FaerieDragon(MinionCard):
 @register_card(card_id='C013')
 class LootHoarder(MinionCard):
     name = 'Loot Hoarder'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 2
     attack = 2
     health = 1
@@ -170,7 +170,7 @@ class LootHoarder(MinionCard):
 @register_card(card_id='C014')
 class MadBomber(MinionCard):
     name = 'Mad Bomber'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 2
     attack = 3
     health = 2
@@ -183,7 +183,7 @@ class MadBomber(MinionCard):
 @register_card(card_id='C015')
 class YouthfulBrewmaster(MinionCard):
     name = 'Youthful Brewmaster'
-    hs_class = HSClass.neutral.value
+    hs_class = HSClass.NEUTRAL.value
     mana = 2
     attack = 3
     health = 2

@@ -40,6 +40,6 @@
 - [ ] poisonous
 - [ ] clean up memory to use attributes
 - [ ] origin vs affected
-- [ ] capitalize constants
+- [x] capitalize enums
 - [ ] implement slot equals
 - [ ] refactor to use MVC framework

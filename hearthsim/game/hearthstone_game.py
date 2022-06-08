@@ -89,12 +89,12 @@ class HearthstoneGame:
         try:
             # turns
             for i in range(1000):
-                self.effect_manager.send_event(Events.start_turn.value)
+                self.effect_manager.send_event(Events.START_TURN.value)
                 self.ui_manager.log_turn()
                 self.ui_manager.log_game_state()
 
                 self.loop_actions_until_end_turn()
-                self.effect_manager.send_event(Events.end_turn.value)
+                self.effect_manager.send_event(Events.END_TURN.value)
 
                 self.game_metadata.turn = 1 - self.game_metadata.turn
         except GameOverException as ex:
@@ -108,19 +108,19 @@ class HearthstoneGame:
             action = self.decision_makers[turn].get_action()
             if action:
                 action_type, args = action
-                if action_type == Actions.end_turn.value:
+                if action_type == Actions.END_TURN.value:
                     end_turn = True
                     continue
-                elif action_type == Actions.attack.value:
+                elif action_type == Actions.ATTACK.value:
                     attacker_card_slot, defender_card_slot = args
                     self.attack(attacker_card_slot, defender_card_slot)
-                elif action_type == Actions.play.value:
+                elif action_type == Actions.PLAY.value:
                     card_in_hand_index, destination_index = args
                     self.play_card(card_in_hand_index, destination_index)
-                elif action_type == Actions.hero_power.value:
-                    self.effect_manager.send_event(Events.activate_hero_power.value,
+                elif action_type == Actions.HERO_POWER.value:
+                    self.effect_manager.send_event(Events.ACTIVATE_HERO_POWER.value,
                                                    event_slot=self.players[turn])
-                    self.effect_manager.send_event(Events.hero_power_end.value,
+                    self.effect_manager.send_event(Events.HERO_POWER_END.value,
                                                    event_slot=self.players[turn])
                     self.ui_manager.log_game_state()
             else:
@@ -152,11 +152,11 @@ class HearthstoneGame:
         self.effect_manager.add_effect(em_node)
 
         # send events
-        self.effect_manager.send_event(Events.minion_put_in_play.value,
+        self.effect_manager.send_event(Events.MINION_PUT_IN_PLAY.value,
                                        event_slot=card_slot)
-        self.effect_manager.send_event(Events.minion_battlecry.value,
+        self.effect_manager.send_event(Events.MINION_BATTLECRY.value,
                                        event_slot=card_slot)
-        self.effect_manager.send_event(Events.minion_summoned.value,
+        self.effect_manager.send_event(Events.MINION_SUMMONED.value,
                                        event_slot=card_slot)
 
     def check_game_over(self):
@@ -176,13 +176,13 @@ class HearthstoneGame:
         attacker_card_slot.attacks_this_turn += 1
         self.game_metadata.attacker_damage_taken = defender_card_slot.attack
         self.game_metadata.defender_damage_taken = attacker_card_slot.attack
-        self.effect_manager.send_event(Events.after_attacker_initial_combat_damage.value)
-        self.effect_manager.send_event(Events.after_defender_initial_combat_damage.value)
+        self.effect_manager.send_event(Events.AFTER_ATTACKER_INITIAL_COMBAT_DAMAGE.value)
+        self.effect_manager.send_event(Events.AFTER_DEFENDER_INITIAL_COMBAT_DAMAGE.value)
         attacker_card_slot.take_damage(self.game_metadata.attacker_damage_taken)
         defender_card_slot.take_damage(self.game_metadata.defender_damage_taken)
-        self.effect_manager.send_event(Events.after_attacker_attacked.value,
+        self.effect_manager.send_event(Events.AFTER_ATTACKER_ATTACKED.value,
                                        event_slot=attacker_card_slot)
-        self.effect_manager.send_event(Events.after_combat_damage.value)
+        self.effect_manager.send_event(Events.AFTER_COMBAT_DAMAGE.value)
         if (isinstance(attacker_card_slot, HeroCardSlot) and
                 self.weapons[attacker_card_slot.player]):
             self.weapons[attacker_card_slot.player].durability -= 1
@@ -202,7 +202,7 @@ class HearthstoneGame:
         for i in range(2):
             if death[i]:
                 self.ui_manager.log_line(f'{card_slots[i]} died')
-                self.effect_manager.send_event(Events.minion_dies.value,
+                self.effect_manager.send_event(Events.MINION_DIES.value,
                                                event_slot=card_slots[i])
                 self.effect_manager.pop_effects_by_slot(card_slots[i])
                 self.remove_card_slot(card_slots[i])
@@ -244,7 +244,7 @@ class HearthstoneGame:
         weapon_card_slot = self.weapons[player]
         self.send_card_to_limbo(weapon_card_slot)
         self.weapons[player] = None  # must set to None before sending the event
-        self.effect_manager.send_event(Events.weapon_destroyed.value,
+        self.effect_manager.send_event(Events.WEAPON_DESTROYED.value,
                                        event_slot=self.weapons[player])
         self.remove_card_slot(weapon_card_slot)
 
@@ -253,16 +253,16 @@ class HearthstoneGame:
             self.destroy_weapon(player)
 
         self.weapons[player] = card_slot  # must set before sending the event
-        self.effect_manager.send_event(Events.weapon_equipped.value,
+        self.effect_manager.send_event(Events.WEAPON_EQUIPPED.value,
                                        event_slot=self.weapons[player])
 
     def get_card_slots_targetable_by_hp(self, targeting_player, target_player_choice):
         opp = 1 - targeting_player
-        if target_player_choice == PlayerChoice.both.value:
+        if target_player_choice == PlayerChoice.BOTH.value:
             available_players_for_target = [targeting_player, opp]
-        elif target_player_choice == PlayerChoice.opponent.value:
+        elif target_player_choice == PlayerChoice.OPPONENT.value:
             available_players_for_target = [opp]
-        elif target_player_choice == PlayerChoice.player.value:
+        elif target_player_choice == PlayerChoice.PLAYER.value:
             available_players_for_target = [targeting_player]
         else:
             raise ValueError()
@@ -300,8 +300,8 @@ class HearthstoneGame:
         self.effect_manager.add_effect(em_node)
 
         # send events
-        self.effect_manager.send_event(Events.minion_put_in_play.value,
+        self.effect_manager.send_event(Events.MINION_PUT_IN_PLAY.value,
                                        event_slot=card_slot)
         # (no battlecry event)
-        self.effect_manager.send_event(Events.minion_summoned.value,
+        self.effect_manager.send_event(Events.MINION_SUMMONED.value,
                                        event_slot=card_slot)
