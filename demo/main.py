@@ -6,8 +6,8 @@ from hearthsim.game.action_getter import TextActionGetter
 from hearthsim.game.hearthstone_game import HearthstoneGame
 
 def main():
-    my_deck = Deck(['C002'] * 30, cls=HSClass.priest.value)
-    opp_deck = Deck(['C002'] * 30, cls=HSClass.priest.value)
+    my_deck = Deck(['C002'] * 30, cls=HSClass.PRIEST.value)
+    opp_deck = Deck(['C002'] * 30, cls=HSClass.PRIEST.value)
     player_text = '''
     0:
         hero_power
