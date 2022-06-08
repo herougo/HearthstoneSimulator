@@ -38,10 +38,10 @@
 - [ ] freeze (on turn end 2)
 - [ ] when summon a murloc 
 - [ ] poisonous
-- [ ] clean up memory to use attributes
+- [x] clean up memory to use attributes
 - [ ] origin vs affected
 - [x] capitalize enums
-- [ ] implement slot equals
+- [x] implement slot equals
 - [x] hand limit
 - [ ] coin
 - [ ] spell cards

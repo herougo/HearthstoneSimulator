@@ -1,3 +1,4 @@
+from easydict import EasyDict as edict
 from hearthsim.utils.enums import Events, EffectTimeLimit
 from hearthsim.effects.core import WrappedEffect, is_one_time_effect
 from hearthsim.game.effect_manager import EffectManagerNodePlan
@@ -9,14 +10,14 @@ class TimeLimitedEffect(WrappedEffect):
     def __init__(self, effect, until_when):
         super(TimeLimitedEffect, self).__init__(effect)
         self.until_when = until_when
-        self.memory = None  # turn the effect started
+        self.memory = edict({'player': None})  # turn the effect started
 
     def start(self, game, em_node):
         result = self.effect.start(game, em_node)
         if result:
             for em_node in result.to_add:
                 em_node.effect = TimeLimitedEffect(em_node.effect, self.until_when)
-        self.memory = em_node.affected_slot.player
+        self.memory.player = em_node.affected_slot.player
         return result
 
     def execute(self, game, em_node):
@@ -32,7 +33,7 @@ class TimeLimitedEffect(WrappedEffect):
         elif self.until_when == EffectTimeLimit.END_OF_TURN.value:
             return True
         elif self.until_when == EffectTimeLimit.END_OF_OPP_TURN.value:
-            return ending_turn != self.memory
+            return ending_turn != self.memory.player
         else:
             raise ValueError('_is_time_up encountered an unknown until_when value')
 

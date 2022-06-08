@@ -1,3 +1,4 @@
+from easydict import EasyDict as edict
 from hearthsim.utils.utils import deep_copy
 from hearthsim.game.effect_manager import EffectManagerNodePlan
 
@@ -99,18 +100,18 @@ class ConditionalEffect(Effect):
         super(ConditionalEffect, self).__init__()
         self.effect = effect
         self.condition = condition
-        self.memory = False  # current condition evaluation
+        self.memory = edict({'current_cond_eval': False})  # current condition evaluation
 
     @property
     def events_received(self):
         return self.condition.events_received + self.effect.events_received
 
     def _check_condition_and_affect_effect(self, game, em_node):
-        prev_condition_evaluation = self.memory
-        self.memory = self.condition.evaluate(game, em_node)
+        prev_condition_evaluation = self.memory.current_cond_eval
+        self.memory.current_cond_eval = self.condition.evaluate(game, em_node)
 
-        if prev_condition_evaluation != self.memory:
-            if self.memory:  # turn on
+        if prev_condition_evaluation != self.memory.current_cond_eval:
+            if self.memory.current_cond_eval:  # turn on
                 plan = self.effect.start(game, em_node)
             else:  # turn off
                 plan = self.effect.stop(game, em_node)
@@ -121,7 +122,7 @@ class ConditionalEffect(Effect):
         self._check_condition_and_affect_effect(game, em_node)
 
     def stop(self, game, em_node):
-        if self.memory:
+        if self.memory.current_cond_eval:
             plan = self.effect.stop(game, em_node)
             if plan:
                 raise ValueError(f'ConditionalEffect cannot handle EffectManagerNodePlan objects {em_node}')
@@ -130,7 +131,7 @@ class ConditionalEffect(Effect):
         if event in self.condition.events_received:
             self._check_condition_and_affect_effect(game, em_node)
 
-        if self.memory and (event in self.effect.events_received):
+        if self.memory.current_cond_eval and (event in self.effect.events_received):
             return self.effect.send_event(event, game, em_node)
 
     def adjust_stats(self, card_slot):

@@ -163,5 +163,4 @@ class ContinuousSelectionFieldEffect(ContinuousEffect):
 
     @property
     def events_received(self):
-        return (self._events_received + self.effect.events_received +
-                self.selection.events_received)
+        return self.effect.events_received + self.selection.events_received
