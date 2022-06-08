@@ -56,8 +56,8 @@ class Battleboard:
     def get_slot(self, player, ix):
         return self._boards[player][ix]
 
-    def hash_to_board_index(self, the_hash):
-        return self._hash_to_board_index.get(the_hash, None)
+    def card_slot_to_board_index(self, card_slot):
+        return self._hash_to_board_index.get(card_slot.hash, None)
 
     def add_taunt(self, card_slot):
         assert card_slot.hash not in self._taunt_hashes[card_slot.player]

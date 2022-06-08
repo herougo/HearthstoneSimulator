@@ -1,6 +1,7 @@
-from hearthsim.utils.enums import (Events, EffectArea)
-from hearthsim.effects.core import (ContinuousEffect, is_one_time_effect)
-from hearthsim.game.effect_manager import EffectManagerNodePlan
+from easydict import EasyDict as edict
+from hearthsim.utils.enums import Events, EffectArea
+from hearthsim.effects.core import ContinuousEffect, is_one_time_effect, ExternalEffect
+from hearthsim.game.effect_manager import EffectManagerNodePlan, EffectManagerNode
 
 class DivineShield(ContinuousEffect):
     _events_received = (Events.AFTER_ATTACKER_INITIAL_COMBAT_DAMAGE.value,
@@ -157,9 +158,31 @@ class ContinuousSelectionFieldEffect(ContinuousEffect):
         if is_one_time_effect(self.effect):
             raise ValueError("ContinuousSelectionFieldEffect doesn't expect a one-time effect")
         self.selection = selection
+        self.memory = edict({
+            'current_selection': {}  # maps slots to EffectManagerNodes
+        })
 
     def start(self, game, em_node):
-        return self.effect.start(game, em_node)
+        pass
+
+    def send_event(self, event, game, em_node):
+        assert event in self.events_received
+        prev_selected_slots = set(self.memory.current_selection.keys())
+        selected_card_slots = set(self.selection.get_selected_card_slots(game, em_node))
+
+        plan = EffectManagerNodePlan()
+
+        for card_slot in (prev_selected_slots - selected_card_slots):
+            plan.to_remove.append(self.memory.current_selection[card_slot])
+
+        for card_slot in (selected_card_slots - prev_selected_slots):
+            effect = ExternalEffect(self.effect.copy())
+            node = EffectManagerNode(effect=effect, affected_slot=card_slot, origin_slot=em_node.affected_slot,
+                                     silenceable=False)
+            plan.to_add.append(node)
+            self.memory.current_selection[card_slot] = node
+
+        return plan
 
     @property
     def events_received(self):

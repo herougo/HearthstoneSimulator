@@ -29,7 +29,7 @@ class SelectFriendlyMinion(CharacterSelection):
     def get_selected_card_slots(self, game, em_node):
         affected_card_slot = em_node.affected_slot
         player = affected_card_slot.player
-        player_board_index = game.battleboard.hash_to_board_index(affected_card_slot.hash)
+        player_board_index = game.battleboard.card_slot_to_board_index(affected_card_slot)
         if player_board_index:
             exclusion_options = {player_board_index[1]}
         else:
@@ -141,4 +141,12 @@ class AdjacentMinions(CharacterSelection):
                         Events.MINION_PUT_IN_PLAY.value)
 
     def get_selected_card_slots(self, game, em_node):
-        raise NotImplementedError()
+        card_slot = em_node.affected_slot
+        board_index = game.battleboard.card_slot_to_board_index(card_slot)
+        proposed_neighbours = (board_index - 1, board_index + 1)
+        result = [
+            game.index_to_slot[proposed_neighbour]
+            for proposed_neighbour in proposed_neighbours
+            if 0 <= proposed_neighbour and proposed_neighbour < len(self.battleboard.board_len(card_slot.player))
+        ]
+        return tuple(result)

@@ -30,7 +30,7 @@
   - [x] hunter
   - [x] demon hunter
 - [x] return to hand
-- [ ] DireWolfAlpha
+- [x] DireWolfAlpha
 - [x] OWN_SELF, random other character
 - [ ] Dread Corsair
 - [x] Silence
