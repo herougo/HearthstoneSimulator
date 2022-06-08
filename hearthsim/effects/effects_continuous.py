@@ -151,6 +151,7 @@ class Buff(ContinuousEffect):
 
 class ContinuousSelectionFieldEffect(ContinuousEffect):
     _effect_area = EffectArea.FIELD.value
+    _requires_slot_player_match_for_event = True
 
     def __init__(self, selection, effect):
         super(ContinuousSelectionFieldEffect, self).__init__()
@@ -158,29 +159,30 @@ class ContinuousSelectionFieldEffect(ContinuousEffect):
         if is_one_time_effect(self.effect):
             raise ValueError("ContinuousSelectionFieldEffect doesn't expect a one-time effect")
         self.selection = selection
-        self.memory = edict({
-            'current_selection': {}  # maps slots to EffectManagerNodes
-        })
+        # (using regular dict because edict automatically converts dict to edict and throws error when you use CardSlot
+        # as a key)
+        self.memory = dict()  # maps slots to EffectManagerNodes
+        self.memory['current_selection'] = dict()
 
     def start(self, game, em_node):
         pass
 
     def send_event(self, event, game, em_node):
         assert event in self.events_received
-        prev_selected_slots = set(self.memory.current_selection.keys())
+        prev_selected_slots = set(self.memory['current_selection'].keys())
         selected_card_slots = set(self.selection.get_selected_card_slots(game, em_node))
 
         plan = EffectManagerNodePlan()
 
         for card_slot in (prev_selected_slots - selected_card_slots):
-            plan.to_remove.append(self.memory.current_selection[card_slot])
+            plan.to_remove.append(self.memory['current_selection'][card_slot])
 
         for card_slot in (selected_card_slots - prev_selected_slots):
             effect = ExternalEffect(self.effect.copy())
             node = EffectManagerNode(effect=effect, affected_slot=card_slot, origin_slot=em_node.affected_slot,
                                      silenceable=False)
             plan.to_add.append(node)
-            self.memory.current_selection[card_slot] = node
+            self.memory['current_selection'][card_slot] = node
 
         return plan
 

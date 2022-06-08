@@ -202,8 +202,9 @@ class HearthstoneGame:
 
         for i in range(len(card_slots)):
             self.ui_manager.log_line(f'{card_slots[i]} died')
-            self.effect_manager.send_event(Events.MINION_DIES.value,
-                                           event_slot=card_slots[i])
+            self.effect_manager.send_event(Events.MINION_DIES.value, event_slot=card_slots[i])
+
+        for i in range(len(card_slots)):
             self.effect_manager.pop_effects_by_slot(card_slots[i])
             self.remove_card_slot(card_slots[i])
 
@@ -222,7 +223,8 @@ class HearthstoneGame:
     def hash_to_slot(self, hash):
         return self.hash_to_slot_dict[hash]
 
-    def index_to_slot(self, player, board_index):
+    def index_to_slot(self, board_index):
+        player, board_index = board_index
         if board_index == HERO_INDEX:
             card_slot = self.players[player]
         else:

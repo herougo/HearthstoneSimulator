@@ -15,7 +15,7 @@ class SelectCharacter(CharacterSelection):
         while True:
             _, selection = game.decision_makers[player].get_unverified_selection()
             selection_player, selection_board_index = selection
-            targeted_slot = game.index_to_slot(selection_player, selection_board_index)
+            targeted_slot = game.index_to_slot((selection_player, selection_board_index))
 
             if (isinstance(em_node.effect, HeroPowerEffect) and
                     (not targetable_with_hero_power(player, targeted_slot))):
@@ -143,10 +143,14 @@ class AdjacentMinions(CharacterSelection):
     def get_selected_card_slots(self, game, em_node):
         card_slot = em_node.affected_slot
         board_index = game.battleboard.card_slot_to_board_index(card_slot)
-        proposed_neighbours = (board_index - 1, board_index + 1)
+        if not board_index:
+            return tuple()
+        neighbour1 = (board_index[0], board_index[1] - 1)
+        neighbour2 = (board_index[0], board_index[1] + 1)
+        proposed_neighbours = (neighbour1, neighbour2)
         result = [
-            game.index_to_slot[proposed_neighbour]
+            game.index_to_slot(proposed_neighbour)
             for proposed_neighbour in proposed_neighbours
-            if 0 <= proposed_neighbour and proposed_neighbour < len(self.battleboard.board_len(card_slot.player))
+            if 0 <= proposed_neighbour[1] and proposed_neighbour[1] < game.battleboard.board_len(card_slot.player)
         ]
         return tuple(result)

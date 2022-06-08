@@ -55,8 +55,8 @@ class DecisionMaker:
             return
 
         attacking_player = self.game.game_metadata.turn
-        attacker_card_slot = self.game.index_to_slot(attacking_player, attacker)
-        defender_card_slot = self.game.index_to_slot(1 - attacking_player, defender)
+        attacker_card_slot = self.game.index_to_slot((attacking_player, attacker))
+        defender_card_slot = self.game.index_to_slot((1 - attacking_player, defender))
 
         can_attack_response = self.can_voluntarily_attack(attacker_card_slot, defender_card_slot)
         if can_attack_response != CanAttackResponse.YES.value:

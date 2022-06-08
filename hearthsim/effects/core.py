@@ -5,6 +5,7 @@ from hearthsim.game.effect_manager import EffectManagerNodePlan
 class Effect:
     _events_received = tuple()
     _requires_slot_match_for_event = False
+    _requires_slot_player_match_for_event = False
 
     @property
     def is_compound_effect(self):
@@ -13,6 +14,10 @@ class Effect:
     @property
     def requires_slot_match_for_event(self):
         return self._requires_slot_match_for_event
+
+    @property
+    def requires_slot_player_match_for_event(self):
+        return self._requires_slot_player_match_for_event
 
     @property
     def events_received(self):

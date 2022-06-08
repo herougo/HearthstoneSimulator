@@ -1,5 +1,5 @@
 import collections
-from hearthsim.utils.hash_generation import (generate_random_hash, NULL_HASH)
+from hearthsim.utils.hash_generation import (generate_random_hash, NULL_HASH, PLAYER0_HASH, PLAYER1_HASH)
 from hearthsim.utils.linked_list import (LinkedList, LinkedListNode)
 
 
@@ -40,7 +40,7 @@ class EffectManagerNodePlan:
 
 class EffectManagerNode:
     def __init__(self, effect, affected_slot, origin_slot, silenceable, hash=None):
-        self.effect = effect
+        self.effect = effect.copy()
         self.affected_slot = affected_slot  # what the effect affects
         self.origin_slot = origin_slot  # where the effect came from
         self.silenceable = silenceable
@@ -97,19 +97,24 @@ class EffectManager:
 
     def add_effect(self, em_node):
         slot_hash = em_node.affected_slot.hash
+        player = em_node.affected_slot.player
 
         self._em_node_hash_to_node[em_node.hash] = em_node
         for received_event in em_node.effect.events_received:
             self._em_node_hash_to_events[em_node.hash].append(received_event)
             if received_event not in self._event_to_effect_node_list:
                 self._event_to_effect_node_list[received_event] = {
-                    NULL_HASH: EffectManagerNodeList()
+                    NULL_HASH: EffectManagerNodeList(),
+                    PLAYER0_HASH: EffectManagerNodeList(),
+                    PLAYER1_HASH: EffectManagerNodeList()
                 }
             if em_node.effect.requires_slot_match_for_event:
                 hash_to_em_node_list = self._event_to_effect_node_list[received_event]
                 if slot_hash not in hash_to_em_node_list:
                     self._event_to_effect_node_list[received_event][slot_hash] = EffectManagerNodeList()
                 self._event_to_effect_node_list[received_event][slot_hash].append(em_node)
+            elif em_node.effect.requires_slot_player_match_for_event:
+                self._event_to_effect_node_list[received_event][player].append(em_node)
             else:
                 self._event_to_effect_node_list[received_event][NULL_HASH].append(em_node)
 
@@ -130,6 +135,8 @@ class EffectManager:
         for event in self._em_node_hash_to_events[em_node_hash]:
             if em_node.effect.requires_slot_match_for_event:
                 slot_hash = em_node.affected_slot.hash
+            elif em_node.effect.requires_slot_player_match_for_event:
+                slot_hash = em_node.affected_slot.player
             else:
                 slot_hash = NULL_HASH
             self._event_to_effect_node_list[event][slot_hash].remove_by_hash(em_node.hash)
@@ -149,11 +156,14 @@ class EffectManager:
             for em_node in slot_hash_to_em_node[NULL_HASH]:
                 em_node.send_event(event, game=self._game, effect_manager=self)
             if event_slot:
+                em_node_list = slot_hash_to_em_node.get(event_slot.player, None)
+                if em_node_list:
+                    for em_node in slot_hash_to_em_node[event_slot.player]:
+                        em_node.send_event(event, game=self._game, effect_manager=self)
                 em_node_list = slot_hash_to_em_node.get(event_slot.hash, None)
                 if em_node_list:
                     for em_node in slot_hash_to_em_node[event_slot.hash]:
-                        em_node.send_event(event, game=self._game,
-                                           effect_manager=self)
+                        em_node.send_event(event, game=self._game, effect_manager=self)
 
     def log_state(self):
         lines = []

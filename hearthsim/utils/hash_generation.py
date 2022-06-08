@@ -1,7 +1,9 @@
 import uuid
 
 NULL_HASH = -1
-LAST_HASH = 0
+PLAYER0_HASH = 0
+PLAYER1_HASH = 1
+LAST_HASH = 1
 
 def _generate_random_hash_v2(hash_dict=None):
     while True:
