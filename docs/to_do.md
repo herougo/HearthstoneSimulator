@@ -36,7 +36,7 @@
 - [x] Silence
 - [ ] Minions cost 3 more
 - [x] freeze (on turn end 2)
-- [ ] when summon a murloc 
+- [x] when summon a murloc 
 - [ ] poisonous
 - [x] clean up memory to use attributes
 - [ ] origin vs affected

@@ -61,8 +61,8 @@ class EffectManagerNode:
         if plan:
             plan.perform(effect_manager)
 
-    def send_event(self, event, game, effect_manager):
-        plan = self.effect.send_event(event, game, self)
+    def send_event(self, event, game, effect_manager, event_slot):
+        plan = self.effect.send_event(event, game, self, event_slot)
         if plan:
             plan.perform(effect_manager)
 
@@ -159,16 +159,16 @@ class EffectManager:
         slot_hash_to_em_node = self._event_to_effect_node_list.get(event, None)
         if slot_hash_to_em_node:
             for em_node in slot_hash_to_em_node[NULL_HASH]:
-                em_node.send_event(event, game=self._game, effect_manager=self)
+                em_node.send_event(event, game=self._game, effect_manager=self, event_slot=event_slot)
             if event_slot:
                 em_node_list = slot_hash_to_em_node.get(event_slot.player, None)
                 if em_node_list:
                     for em_node in slot_hash_to_em_node[event_slot.player]:
-                        em_node.send_event(event, game=self._game, effect_manager=self)
+                        em_node.send_event(event, game=self._game, effect_manager=self, event_slot=event_slot)
                 em_node_list = slot_hash_to_em_node.get(event_slot.hash, None)
                 if em_node_list:
                     for em_node in slot_hash_to_em_node[event_slot.hash]:
-                        em_node.send_event(event, game=self._game, effect_manager=self)
+                        em_node.send_event(event, game=self._game, effect_manager=self, event_slot=event_slot)
 
     def log_state(self):
         lines = []

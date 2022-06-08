@@ -37,14 +37,14 @@ class TimeLimitedEffect(WrappedEffect):
         else:
             raise ValueError('_is_time_up encountered an unknown until_when value')
 
-    def send_event(self, event, game, em_node):
+    def send_event(self, event, game, em_node, event_slot):
         assert event in self.events_received
 
         if (event == Events.END_TURN.value and
                 self._is_time_up(game.game_metadata.turn)):
             return EffectManagerNodePlan(to_remove=[em_node])
         elif event in self.effect.events_received:
-            self.effect.send_event(event, game, em_node)
+            self.effect.send_event(event, game, em_node, event_slot)
 
 
 class NEffects(WrappedEffect):

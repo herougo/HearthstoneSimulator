@@ -95,7 +95,7 @@ class TriggerEffect(Effect):
 class ActivatedEffect(TriggerEffect):
     # these effects are "triggered" by events caused by user input (e.g. "hero_power")
 
-    def send_event(self, event, game, em_node):
+    def send_event(self, event, game, em_node, event_slot):
         assert event in self.events_received
         self.effect.execute(game, em_node)
 
@@ -132,12 +132,12 @@ class ConditionalEffect(Effect):
             if plan:
                 raise ValueError(f'ConditionalEffect cannot handle EffectManagerNodePlan objects {em_node}')
 
-    def send_event(self, event, game, em_node):
+    def send_event(self, event, game, em_node, event_slot):
         if event in self.condition.events_received:
             self._check_condition_and_affect_effect(game, em_node)
 
         if self.memory.current_cond_eval and (event in self.effect.events_received):
-            return self.effect.send_event(event, game, em_node)
+            return self.effect.send_event(event, game, em_node, event_slot)
 
     def adjust_stats(self, card_slot):
         return self.effect.adjust_stats(card_slot)
@@ -156,8 +156,8 @@ class WrappedEffect(Effect):
     def adjust_stats(self, card_slot):
         return self.effect.adjust_stats(card_slot)
 
-    def send_event(self, event, game, em_node):
-        return self.effect.send_event(event, game, em_node)
+    def send_event(self, event, game, em_node, event_slot):
+        return self.effect.send_event(event, game, em_node, event_slot)
 
     def start(self, game, em_node):
         return self.effect.start(game, em_node)

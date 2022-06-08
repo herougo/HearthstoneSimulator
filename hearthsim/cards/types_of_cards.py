@@ -25,6 +25,7 @@ class MinionCard(Card):
     mana = None
     attack = None
     health = None
+    tag = None
     in_play_effects = tuple()
 
     @property

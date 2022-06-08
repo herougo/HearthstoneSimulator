@@ -77,3 +77,8 @@ class Actions(Enum):
     ATTACK = 'attack'
     SELECT = 'select'
     HERO_POWER = 'hero_power'
+
+class Tag(Enum):
+    MURLOC = 'murloc'
+    ANY = 'any'
+    ALL = 'all'

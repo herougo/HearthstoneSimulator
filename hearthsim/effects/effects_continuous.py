@@ -12,7 +12,7 @@ class DivineShield(ContinuousEffect):
     def start(self, game, em_node):
         pass
 
-    def send_event(self, event, game, em_node):
+    def send_event(self, event, game, em_node, event_slot):
         assert event in self.events_received, (event, self.events_received)
         # handle dealing 0 damage ????
         if event == Events.AFTER_ATTACKER_INITIAL_COMBAT_DAMAGE.value:
@@ -74,7 +74,7 @@ class Stealth(ContinuousEffect):
         em_node.affected_slot.n_stealth -= 1
         assert em_node.affected_slot.n_stealth >= 0
 
-    def send_event(self, event, game, em_node):
+    def send_event(self, event, game, em_node, event_slot):
         assert event in self.events_received, (event, self.events_received)
         return EffectManagerNodePlan(to_remove=em_node)
 
@@ -92,7 +92,7 @@ class Sleep(ContinuousEffect):
     def start(self, game, em_node):
         em_node.affected_slot.has_sleep = True
 
-    def send_event(self, event, game, em_node):
+    def send_event(self, event, game, em_node, event_slot):
         assert event in self.events_received
         return EffectManagerNodePlan(to_remove=[em_node])
 
@@ -168,7 +168,7 @@ class ContinuousSelectionFieldEffect(ContinuousEffect):
     def start(self, game, em_node):
         pass
 
-    def send_event(self, event, game, em_node):
+    def send_event(self, event, game, em_node, event_slot):
         assert event in self.events_received
         prev_selected_slots = set(self.memory['current_selection'].keys())
         selected_card_slots = set(self.selection.get_selected_card_slots(game, em_node))
@@ -203,7 +203,7 @@ class Frozen(ContinuousEffect):
         em_node.affected_slot.n_frozen -= 1
         assert em_node.affected_slot.n_frozen >= 0
 
-    def send_event(self, event, game, em_node):
+    def send_event(self, event, game, em_node, event_slot):
         assert event in self.events_received, (event, self.events_received)
         if em_node.affected_slot.attacks_this_turn < em_node.affected_slot.n_possible_attacks_ignoring_frozen:
             return EffectManagerNodePlan(to_remove=em_node)
