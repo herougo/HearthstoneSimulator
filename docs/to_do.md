@@ -35,7 +35,7 @@
 - [ ] Dread Corsair
 - [x] Silence
 - [ ] Minions cost 3 more
-- [ ] freeze (on turn end 2)
+- [x] freeze (on turn end 2)
 - [ ] when summon a murloc 
 - [ ] poisonous
 - [x] clean up memory to use attributes

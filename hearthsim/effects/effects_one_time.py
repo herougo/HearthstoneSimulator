@@ -1,6 +1,6 @@
 import random
 from hearthsim.effects.core import OneTimeEffect
-from hearthsim.effects.effects_continuous import (AttackBuff, HealthBuff)
+from hearthsim.effects.effects_continuous import AttackBuff, HealthBuff, Frozen
 from hearthsim.game.effect_manager import (EffectManagerNodePlan, EffectManagerNode)
 from hearthsim.game.card_slots import HeroCardSlot
 
@@ -244,3 +244,22 @@ class SummonMinionLikeShamanHP(OneTimeEffect):
             chosen_card_id = available_card_ids[chosen_index]
             card_slot = game.create_card_slot(player, self._card_id_to_minion[chosen_card_id])
             game.summon_minion(card_slot)
+
+
+class Freeze(OneTimeEffect):
+    def __init__(self, selection):
+        self.selection = selection
+
+    def execute(self, game, em_node):
+        selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
+        em_nodes_to_add = []
+        for selected_card_slot in selected_card_slots:
+            em_node = EffectManagerNode(
+                effect=Frozen(),
+                affected_slot=selected_card_slot,
+                origin_slot=em_node.origin_slot,
+                silenceable=True
+            )
+            em_nodes_to_add.append(em_node)
+
+        return EffectManagerNodePlan(to_add=em_nodes_to_add)

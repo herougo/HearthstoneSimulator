@@ -168,12 +168,14 @@ class DecisionMaker:
     def can_voluntarily_attack(self, attacker, defender):
         if attacker.attack == 0:
             return CanAttackResponse.ZERO_ATTACK.value
-        elif attacker.attacks_this_turn == attacker.n_possible_attacks:
+        elif attacker.is_frozen:
+            return CanAttackResponse.FROZEN.value
+        elif attacker.has_sleep:
+            return CanAttackResponse.ASLEEP.value
+        elif attacker.attacks_this_turn >= attacker.n_possible_attacks_ignoring_frozen:
             return CanAttackResponse.ATTACKED_ENOUGH.value
         elif attacker.has_charge:
             pass
-        elif attacker.has_sleep:
-            return CanAttackResponse.ASLEEP.value
 
         if not self.game.battleboard.defender_obeys_taunt(defender):
             return CanAttackResponse.DISOBEYS_TAUNT.value

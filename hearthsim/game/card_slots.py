@@ -133,6 +133,7 @@ class MinionCardSlot(DamageableCardSlot):
     n_charge = 0
     n_windfury = 0
     n_stealth = 0
+    n_frozen = 0
     has_sleep = False
 
     # need to manage effectively
@@ -189,8 +190,14 @@ class MinionCardSlot(DamageableCardSlot):
         return self.n_stealth > 0
 
     @property
-    def n_possible_attacks(self):
-        if self.has_windfury:
+    def is_frozen(self):
+        return self.n_frozen > 0
+
+    @property
+    def n_possible_attacks_ignoring_frozen(self):
+        if self.has_sleep:
+            return 0
+        elif self.has_windfury:
             return 2
         else:
             return 1

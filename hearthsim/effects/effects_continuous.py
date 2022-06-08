@@ -39,6 +39,7 @@ class Taunt(ContinuousEffect):
         if em_node.affected_slot.n_taunt == 0:
             game.battleboard.remove_taunt(em_node.affected_slot)
 
+
 class Charge(ContinuousEffect):
     _effect_area = EffectArea.FIELD.value
 
@@ -189,3 +190,20 @@ class ContinuousSelectionFieldEffect(ContinuousEffect):
     @property
     def events_received(self):
         return self.effect.events_received + self.selection.events_received
+
+
+class Frozen(ContinuousEffect):
+    _events_received = (Events.AFTER_ATTACKER_ATTACKED.value,)
+    _effect_area = EffectArea.FIELD.value
+
+    def start(self, game, em_node):
+        em_node.affected_slot.n_frozen += 1
+
+    def stop(self, game, em_node):
+        em_node.affected_slot.n_frozen -= 1
+        assert em_node.affected_slot.n_frozen >= 0
+
+    def send_event(self, event, game, em_node):
+        assert event in self.events_received, (event, self.events_received)
+        if em_node.affected_slot.attacks_this_turn < em_node.affected_slot.n_possible_attacks_ignoring_frozen:
+            return EffectManagerNodePlan(to_remove=em_node)

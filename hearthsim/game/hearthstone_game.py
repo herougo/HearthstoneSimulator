@@ -97,6 +97,7 @@ class HearthstoneGame:
                 self.ui_manager.log_game_state()
 
                 self.loop_actions_until_end_turn()
+                self.effect_manager.send_event(Events.PRE_END_TURN_FROZEN.value)
                 self.effect_manager.send_event(Events.END_TURN.value)
 
                 self.game_metadata.turn = 1 - self.game_metadata.turn

@@ -41,6 +41,7 @@ class Events(Enum):
     HERO_POWER_END = 27
     MINION_RETURNED_TO_HAND = 28
     AFTER_SPELL_ACTIVATED = 29
+    PRE_END_TURN_FROZEN = 29
 
 class CardTypes(Enum):
     MINION = 0
@@ -68,6 +69,7 @@ class CanAttackResponse(Enum):
     DEFENDER_HAS_STEALTH = 3
     ZERO_ATTACK = 4
     DISOBEYS_TAUNT = 5
+    FROZEN = 6
 
 class Actions(Enum):
     END_TURN = 'end_turn'
