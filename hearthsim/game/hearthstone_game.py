@@ -325,6 +325,8 @@ class HearthstoneGame:
 
         for card_slot in to_return:
             self.battleboard.pop_card_slot(card_slot)
+            if player != card_slot.player:
+                card_slot.switch_players()
 
         self.hands[player].add_cards(to_return)
 

@@ -19,6 +19,15 @@ class CardSlot:
     def __str__(self):
         return f'CardSlot(card_id={self.card.card_id}, player={self.player}, hash={self.hash}, game=...)'
 
+    def __eq__(self, other):
+        return self.hash == other.hash
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
+    def __hash__(self):
+        return self.hash
+
 
 class DamageableCardSlot(CardSlot):
     def take_damage(self, amount):
@@ -119,12 +128,14 @@ class MinionCardSlot(DamageableCardSlot):
     max_health = None
     health = None
 
-    # other metadata
+    # managed by effects
     n_taunt = 0
     n_charge = 0
     n_windfury = 0
     n_stealth = 0
     has_sleep = False
+
+    # need to manage effectively
     silenced = False
     attacks_this_turn = 0
 
@@ -133,8 +144,14 @@ class MinionCardSlot(DamageableCardSlot):
         # self.reset(silenced=False)
         self.compute_stats()
 
-    def play(self):
-        pass
+    def return_to_hand(self):
+        self.mana = self.card.mana
+        self.attack = self.card.attack
+        self.max_health = self.card.health
+        self.health = self.max_health
+
+        self.silenced = False
+        self.attacks_this_turn = 0
 
     def compute_stats(self):
         self.mana = self.card.mana

@@ -11,9 +11,13 @@ class EffectManagerNodePlan:
     final result and takes according actions.
     '''
 
-    def __init__(self, to_add=None, to_remove=None):
+    def __init__(self, to_add=None, to_remove=None, compute_stats=None):
+        # compute_stats
+        if not compute_stats:
+            compute_stats = set()
         self.to_add = to_add or []
         self.to_remove = to_remove or []
+        self.compute_stats = compute_stats
         if not isinstance(self.to_add, list):
             raise ValueError('EffectManagerNodePlan needs to_add to be a list')
         if not isinstance(self.to_remove, list):
@@ -24,10 +28,15 @@ class EffectManagerNodePlan:
             effect_manager.add_effect(em_node)
         for em_node in self.to_remove:
             effect_manager.pop_effect(em_node)
+        if self.compute_stats:
+            for card_slot in self.compute_stats:
+                card_slot.compute_stats()
 
     def update(self, new_plan):
         self.to_add.extend(new_plan.to_add)
         self.to_remove.extend(new_plan.to_remove)
+        self.compute_stats = self.compute_stats | new_plan.compute_stats
+
 
 class EffectManagerNode:
     def __init__(self, effect, affected_slot, origin_slot, silenceable, hash=None):
@@ -55,6 +64,7 @@ class EffectManagerNode:
     def __str__(self):
         return f'EffectManagerNode(effect={self.effect}, hash={self.hash})'
 
+
 class EffectManagerNodeList:
     def __init__(self):
         self._linked_list = LinkedList()
@@ -75,6 +85,7 @@ class EffectManagerNodeList:
 
     def __str__(self):
         return ', '.join(([str(node) for node in self]))
+
 
 class EffectManager:
     def __init__(self, game):
@@ -100,7 +111,6 @@ class EffectManager:
                     self._event_to_effect_node_list[received_event][slot_hash] = EffectManagerNodeList()
                 self._event_to_effect_node_list[received_event][slot_hash].append(em_node)
             else:
-                hash_to_em_node_list = self._event_to_effect_node_list[received_event]
                 self._event_to_effect_node_list[received_event][NULL_HASH].append(em_node)
 
         em_node.start(self._game, self)

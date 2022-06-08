@@ -101,7 +101,14 @@ class Silence(OneTimeEffect):
         self.selection = selection
 
     def execute(self, game, em_node):
-        pass
+        plan = EffectManagerNodePlan()
+        selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
+        for card_slot in selected_card_slots:
+            card_slot.silenced = True
+            for card_slot_em_node in card_slot.iter_em_nodes():
+                if card_slot_em_node.silenceable:
+                    plan.to_remove.append(card_slot_em_node)
+        return plan
 
 
 class DrawCard(OneTimeEffect):

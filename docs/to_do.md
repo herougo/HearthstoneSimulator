@@ -33,7 +33,7 @@
 - [ ] DireWolfAlpha
 - [x] OWN_SELF, random other character
 - [ ] Dread Corsair
-- [ ] Silence
+- [x] Silence
 - [ ] Minions cost 3 more
 - [ ] freeze (on turn end 2)
 - [ ] when summon a murloc 
