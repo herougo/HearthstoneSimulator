@@ -8,16 +8,14 @@ class UIManager:
 
     def _log_hand(self, player):
         for i, card_slot in enumerate(self.game.hands[player]):
-            mana, attack, health = card_slot.compute_stats()
-            to_print = (f'{i}: {card_slot.card.name} - {mana} '
-                        f'mana, ({attack}, {health}) stats')
+            card_slot.update_stats()
+            to_print = f'{i}: {card_slot}'
             self.logger.info(to_print)
 
     def _log_board(self, player):
         for i, card_slot in enumerate(self.game.battleboard.iter_board(player)):
-            mana, attack, health = card_slot.compute_stats()
-            to_print = (f'\t{i}: {card_slot.card.name} - {mana} '
-                        f'mana, ({attack}, {health}) stats')
+            card_slot.update_stats()
+            to_print = f'\t{i}: {card_slot}'
             self.logger.info(to_print)
 
     def log_game_state(self):

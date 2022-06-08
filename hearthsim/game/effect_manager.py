@@ -11,13 +11,13 @@ class EffectManagerNodePlan:
     final result and takes according actions.
     '''
 
-    def __init__(self, to_add=None, to_remove=None, compute_stats=None):
-        # compute_stats
-        if not compute_stats:
-            compute_stats = set()
+    def __init__(self, to_add=None, to_remove=None, update_stats=None):
+        # update_stats
+        if not update_stats:
+            update_stats = set()
         self.to_add = to_add or []
         self.to_remove = to_remove or []
-        self.compute_stats = compute_stats
+        self.update_stats = update_stats
         if not isinstance(self.to_add, list):
             raise ValueError('EffectManagerNodePlan needs to_add to be a list')
         if not isinstance(self.to_remove, list):
@@ -28,14 +28,14 @@ class EffectManagerNodePlan:
             effect_manager.add_effect(em_node)
         for em_node in self.to_remove:
             effect_manager.pop_effect(em_node)
-        if self.compute_stats:
-            for card_slot in self.compute_stats:
-                card_slot.compute_stats()
+        if self.update_stats:
+            for card_slot in self.update_stats:
+                card_slot.update_stats()
 
     def update(self, new_plan):
         self.to_add.extend(new_plan.to_add)
         self.to_remove.extend(new_plan.to_remove)
-        self.compute_stats = self.compute_stats | new_plan.compute_stats
+        self.update_stats = self.update_stats | new_plan.update_stats
 
 
 class EffectManagerNode:
@@ -53,6 +53,11 @@ class EffectManagerNode:
 
     def stop(self, game, effect_manager):
         plan = self.effect.stop(game, self)
+        if plan:
+            plan.perform(effect_manager)
+
+    def execute(self, game, effect_manager):
+        plan = self.effect.execute(game, self)
         if plan:
             plan.perform(effect_manager)
 
@@ -192,5 +197,4 @@ class EffectManager:
             for em_node in em_node_list:
                 result.append(f'\t{em_node.effect}')
         return '\n'.join(result)
-
 

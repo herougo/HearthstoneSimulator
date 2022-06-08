@@ -13,6 +13,9 @@ def main():
         hero_power
         end_turn
     1:
+        play 4
+        hero_power
+        select 1 -1
         end_turn
     0:
         hero_power

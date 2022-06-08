@@ -40,6 +40,7 @@ class Events(Enum):
     ACTIVATE_HERO_POWER = 26
     HERO_POWER_END = 27
     MINION_RETURNED_TO_HAND = 28
+    AFTER_SPELL_ACTIVATED = 29
 
 class CardTypes(Enum):
     MINION = 0

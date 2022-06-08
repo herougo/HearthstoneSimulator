@@ -1,4 +1,5 @@
-from hearthsim.utils.enums import (Actions, CanAttackResponse)
+from hearthsim.utils.enums import Actions, CanAttackResponse
+from hearthsim.game.card_slots import MinionCardSlot, SpellCardSlot
 
 class DecisionMaker:
     def __init__(self, action_getter):
@@ -20,7 +21,7 @@ class DecisionMaker:
         elif action_type == Actions.ATTACK.value:
             return self._get_attack_action(args)
         elif action_type == Actions.PLAY.value:
-            return self._get_play_minion_action(args)
+            return self._get_play_card_action(args)
         elif action_type == Actions.SELECT.value:
             return self._get_selection_action(args)
         elif action_type == Actions.HERO_POWER.value:
@@ -76,22 +77,16 @@ class DecisionMaker:
 
         return (Actions.ATTACK.value, (attacker_card_slot, defender_card_slot))
 
-    def _get_play_minion_action(self, args):
-        if len(args) != 2:
-            self.game.ui_manager.log_line('ERROR: Invalid action argument number')
+    def _get_play_card_action(self, args):
+        if len(args) == 0:
+            self.game.ui_manager.log_line('ERROR: Invalid action argument number (should be >= 1)')
             return
 
         card_in_hand_index = args[0]
-        destination_index = args[1]
         try:
             card_in_hand_index = int(card_in_hand_index)
-            destination_index = int(destination_index)
         except Exception as ex:
             self.game.ui_manager.log_line('ERROR: Invalid action argument type')
-            return
-
-        if not self.game.can_summon_minion(self.game.game_metadata.turn):
-            self.game.ui_manager.log_line('ERROR: not enough space on the battleboard')
             return
 
         hand_size = len(self.game.hands[self.game.game_metadata.turn])
@@ -99,15 +94,38 @@ class DecisionMaker:
             self.game.ui_manager.log_line('ERROR: card_in_hand outside range')
             return
 
-        player_board_size = self.game.battleboard.board_len(self.game.game_metadata.turn)
-        if destination_index < 0 or player_board_size < destination_index:
-            self.game.ui_manager.log_line('ERROR: destination outside range')
-            return
-
-        mana = self.game.hands[self.game.game_metadata.turn][card_in_hand_index].card.mana
-        if mana > self.game.players[self.game.game_metadata.turn].current_mana:
+        card_slot = self.game.hands[self.game.game_metadata.turn][card_in_hand_index]
+        if card_slot.mana > self.game.players[self.game.game_metadata.turn].current_mana:
             self.game.ui_manager.log_line('ERROR: not enough mana to play the card')
             return
+
+        if isinstance(card_slot, MinionCardSlot):
+            if len(args) != 2:
+                self.game.ui_manager.log_line('ERROR: Invalid action argument number (should be 2)')
+                return
+
+            destination_index = args[1]
+            try:
+                destination_index = int(destination_index)
+            except Exception as ex:
+                self.game.ui_manager.log_line('ERROR: Invalid action argument type')
+                return
+
+            player_board_size = self.game.battleboard.board_len(self.game.game_metadata.turn)
+            if destination_index < 0 or player_board_size < destination_index:
+                self.game.ui_manager.log_line('ERROR: destination outside range')
+                return
+
+            if not self.game.can_summon_minion(self.game.game_metadata.turn):
+                self.game.ui_manager.log_line('ERROR: not enough space on the battleboard')
+                return
+        elif isinstance(card_slot, SpellCardSlot):
+            if len(args) != 1:
+                self.game.ui_manager.log_line('ERROR: Invalid action argument number (should be 1)')
+                return
+            destination_index = None
+        else:
+            raise NotImplementedError()
 
         return (Actions.PLAY.value, (card_in_hand_index, destination_index))
 

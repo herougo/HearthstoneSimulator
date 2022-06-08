@@ -142,7 +142,7 @@ class MinionCardSlot(DamageableCardSlot):
     def __init__(self, card_id, player, game):
         super(MinionCardSlot, self).__init__(card_id, player, game)
         # self.reset(silenced=False)
-        self.compute_stats()
+        self.update_stats()
 
     def return_to_hand(self):
         self.mana = self.card.mana
@@ -153,7 +153,7 @@ class MinionCardSlot(DamageableCardSlot):
         self.silenced = False
         self.attacks_this_turn = 0
 
-    def compute_stats(self):
+    def update_stats(self):
         self.mana = self.card.mana
         self.attack = self.card.attack
         self.max_health = self.card.health
@@ -168,8 +168,6 @@ class MinionCardSlot(DamageableCardSlot):
 
         if self.health < prev_health:  # if some buffs wear off or get silenced
             self.health = min(self.max_health, prev_health)
-
-        return (self.mana, self.attack, self.health)
 
     def take_damage(self, amount):
         self.health -= amount
@@ -201,3 +199,21 @@ class MinionCardSlot(DamageableCardSlot):
         self.player = 1 - self.player
         # add and remove taunts using self.game
         raise NotImplementedError()
+
+    def __str__(self):
+        return (f'MinionCardSlot - card_name={self.card.name}, mana={self.mana}, attack={self.attack}, '
+                f'health={self.health})')
+
+
+class SpellCardSlot(CardSlot):
+    mana = None
+
+    def __init__(self, card_id, player, game):
+        super(SpellCardSlot, self).__init__(card_id, player, game)
+        self.update_stats()
+
+    def update_stats(self):
+        self.mana = self.card.mana
+
+    def __str__(self):
+        return f'SpellCardSlot - card_name={self.card.name}, mana={self.mana}'

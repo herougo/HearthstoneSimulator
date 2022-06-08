@@ -41,3 +41,12 @@ class WeaponCard(Card):
     @property
     def card_type(self):
         return CardTypes.WEAPON.value
+
+
+class SpellCard(Card):
+    mana = None
+    when_played_effects = tuple()
+
+    @property
+    def card_type(self):
+        return CardTypes.SPELL.value

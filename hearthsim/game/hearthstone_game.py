@@ -1,17 +1,19 @@
-from hearthsim.utils.enums import (Events, PlayerChoice,  Actions)
+from hearthsim.utils.enums import Events, PlayerChoice,  Actions
 from hearthsim.utils.logger import LOGGER
 from hearthsim.utils.pile import Pile
 from hearthsim.utils.utils import maybe_wrap_as_tuple
 from hearthsim.utils.constants import HERO_INDEX
 from hearthsim.utils.exceptions import GameOverException
-from hearthsim.game.effect_manager import (EffectManager, EffectManagerNode)
-from hearthsim.game.card_slots import (MinionCardSlot, HeroCardSlot, WeaponCardSlot)
-from hearthsim.game.metadata import (GameMetadata, PlayerMetadata)
+from hearthsim.game.effect_manager import EffectManager, EffectManagerNode
+from hearthsim.game.card_slots import MinionCardSlot, HeroCardSlot, WeaponCardSlot, SpellCardSlot
+from hearthsim.game.metadata import GameMetadata, PlayerMetadata
 from hearthsim.game.ui_manager import UIManager
 from hearthsim.game.battleboard import Battleboard
 from hearthsim.game.utils import targetable_with_hero_power
-from hearthsim.cards.types_of_cards import (MinionCard, WeaponCard)
+from hearthsim.cards.types_of_cards import MinionCard, WeaponCard, SpellCard
 from hearthsim.effects.effects_continuous import Sleep
+from hearthsim.cards.implementations.fundamental import Coin
+from hearthsim.effects.core import  OneTimeEffectSequence
 
 
 class HearthstoneGame:
@@ -57,6 +59,7 @@ class HearthstoneGame:
         # draw hands
         self.draw_cards(self.game_metadata.who_goes_first, 3)
         self.draw_cards(who_goes_second, 4)
+        self.create_card_and_add_to_hand(who_goes_second, Coin())
 
         # (mulligan skipped)
 
@@ -118,6 +121,7 @@ class HearthstoneGame:
                     card_in_hand_index, destination_index = args
                     self.play_card(card_in_hand_index, destination_index)
                 elif action_type == Actions.HERO_POWER.value:
+                    self.players[turn].current_mana -= self.players[turn].hero_power_cost
                     self.effect_manager.send_event(Events.ACTIVATE_HERO_POWER.value,
                                                    event_slot=self.players[turn])
                     self.effect_manager.send_event(Events.HERO_POWER_END.value,
@@ -131,11 +135,19 @@ class HearthstoneGame:
     def play_card(self, card_in_hand_index, destination_index):
         card_slot = self.hands[self.game_metadata.turn].pop(card_in_hand_index)
         self.players[self.game_metadata.turn].current_mana -= card_slot.card.mana
+
+        card_name = card_slot.card.name
+        self.ui_manager.log_play_card(card_name)
+        if isinstance(card_slot, MinionCardSlot):
+            self._play_minion(card_slot, destination_index)
+        elif isinstance(card_slot, SpellCardSlot):
+            self._play_spell(card_slot)
+        else:
+            raise NotImplementedError()
+
+    def _play_minion(self, card_slot, destination_index):
         self.battleboard.add_cards(self.game_metadata.turn, [card_slot],
                                    index=destination_index)
-
-        card_name = self.hands[self.game_metadata.turn][card_in_hand_index].card.name
-        self.ui_manager.log_play_card(card_name)
 
         for effect in maybe_wrap_as_tuple(card_slot.card.in_play_effects):
             em_node = EffectManagerNode(
@@ -158,6 +170,24 @@ class HearthstoneGame:
                                        event_slot=card_slot)
         self.effect_manager.send_event(Events.MINION_SUMMONED.value,
                                        event_slot=card_slot)
+
+    def _play_spell(self, card_slot):
+        self.send_card_to_limbo(card_slot)
+        effect = card_slot.card.when_played_effects
+        if isinstance(effect, tuple):
+            effect = OneTimeEffectSequence(*effect)
+
+        em_node = EffectManagerNode(effect=effect, affected_slot=card_slot, origin_slot=card_slot, silenceable=False)
+        em_node.execute(self, self.effect_manager)
+
+        self.effect_manager.send_event(Events.AFTER_SPELL_ACTIVATED.value, event_slot=card_slot)
+        self.remove_card_slot(card_slot)
+
+    def create_card_and_add_to_hand(self, player, card):
+        n_can_draw = self.player_metadata[player].hand_limit - len(self.hands[player])
+        if n_can_draw > 0:
+            card_slot = self.create_card_slot(player, card)
+            self.hands[player].add_cards([card_slot])
 
     def check_game_over(self):
         player0_dead = self.players[0].health <= 0
@@ -236,6 +266,8 @@ class HearthstoneGame:
             card_slot = MinionCardSlot(card.card_id, player, self)
         elif isinstance(card, WeaponCard):
             card_slot = WeaponCardSlot(card.card_id, player, self)
+        elif isinstance(card, SpellCard):
+            card_slot = SpellCardSlot(card.card_id, player, self)
         else:
             raise NotImplementedError(f'{type(card)}')
 

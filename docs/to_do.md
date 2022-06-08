@@ -43,8 +43,8 @@
 - [x] capitalize enums
 - [x] implement slot equals
 - [x] hand limit
-- [ ] coin
-- [ ] spell cards
+- [x] coin
+- [x] spell cards
 - [ ] fatigue cards
 - [ ] correct return to hand death order
 - [ ] refactor to use MVC framework

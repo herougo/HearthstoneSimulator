@@ -139,6 +139,21 @@ class GainManaCrystals(OneTimeEffect):
                 self.amount)
 
 
+class GainCurrentManaCrystals(OneTimeEffect):
+    def __init__(self, selection, amount):
+        self.selection = selection
+        self.amount = amount
+        if not callable(amount) and amount <= 0:
+            raise ValueError('GainManaCrystals must have a positive amount argument')
+
+    def execute(self, game, em_node):
+        selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
+        for card_slot in selected_card_slots:
+            card_slot.current_mana += min(
+                card_slot.maximum_mana - card_slot.current_mana,
+                self.amount)
+
+
 class RefreshAllManaCrystals(OneTimeEffect):
     def __init__(self, selection):
         self.selection = selection
