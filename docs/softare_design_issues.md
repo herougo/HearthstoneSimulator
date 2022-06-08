@@ -6,3 +6,5 @@
 - DecisionMaker get_action returning multiple types
 - Whose job should it be to execute play minion? Game or DecisionMaker?
 - Do we need affected_slot vs origin_slot?
+- Are start and stop needed for ContinuousSelectionFieldEffect?
+  - no because it only resolves when a minion is played or dies
