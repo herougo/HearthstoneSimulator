@@ -1,5 +1,5 @@
 from hearthsim.cards.card_registry import register_card
-from hearthsim.utils.enums import EffectTimeLimit, HSClass, Tag
+from hearthsim.utils.enums import EffectTimeLimit, HSClass, Tag, PlayerChoice
 from hearthsim.cards.types_of_cards import MinionCard
 from hearthsim.selections.predefined_constants import (PLAYER, OPP, OWN_SELF, ADJACENT_MINIONS, RANDOM_OTHER_CHARACTER,
                                                        SELECT_OTHER_CHARACTER, SELECT_OTHER_MINION,
@@ -222,7 +222,7 @@ class FlesheatingGhoul(MinionCard):
     def __init__(self):
         self.in_play_effects = WhenOtherMinionDies(ChangeAttack(
             OWN_SELF, 1
-        ))
+        ), player_choice=PlayerChoice.BOTH.value)
 
 
 @register_card(card_id='C018')
@@ -318,7 +318,7 @@ class AncientBrewmaster(MinionCard):
     attack = 5
     health = 4
     def __init__(self):
-        self.in_play_effects = ReturnMinionToHand(SELECT_OTHER_FRIENDLY_MINION)
+        self.in_play_effects = Battlecry(ReturnMinionToHand(SELECT_OTHER_FRIENDLY_MINION))
 
 
 @register_card(card_id='C026')
@@ -329,4 +329,4 @@ class CultMaster(MinionCard):
     attack = 4
     health = 2
     def __init__(self):
-        self.in_play_effects = WhenOtherMinionDies(DrawCard())
+        self.in_play_effects = WhenOtherMinionDies(DrawCard(PLAYER), player_choice=PlayerChoice.PLAYER.value)

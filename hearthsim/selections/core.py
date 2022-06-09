@@ -38,7 +38,7 @@ class SelectCharacterFrom(CharacterSelection):
         player = em_node.affected_slot.player
         options = self.selection.get_selected_card_slots(game, em_node)
         options = _filter_based_on_em_node(options, em_node)
-        if not options:
+        if options:
             return (game.decision_makers[player].get_verified_selection(options),)
         else:
             return tuple()

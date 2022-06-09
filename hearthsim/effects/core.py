@@ -62,21 +62,27 @@ class GroupContinuousEffect(Effect):
         for effect in self.effects:
             new_plan = effect.start(game, em_node)
             plan.update(new_plan)
-        return plan
+        if not plan.is_empty():
+            return plan
 
     def stop(self, game, em_node):
         plan = EffectManagerNodePlan()
         for effect in self.effects:
             new_plan = effect.stop(game, em_node)
             plan.update(new_plan)
-        return plan
+        if not plan.is_empty():
+            return plan
+
+    def adjust_stats(self, card_slot):
+        for effect in self.effects:
+            effect.adjust_stats(card_slot)
 
     @property
     def events_received(self):
         result = []
         for effect in self.effects:
             result.extend(list(effect.events_received))
-        return result
+        return tuple(result)
 
 
 class OneTimeEffect(Effect):
@@ -135,7 +141,7 @@ class ConditionalEffect(Effect):
     def __init__(self, condition, effect):
         super(ConditionalEffect, self).__init__()
         if isinstance(effect, (tuple, list)):
-            effect =
+            effect = GroupContinuousEffect(effect)
         self.effect = effect
         self.condition = condition
         self.memory = edict({'current_cond_eval': False})  # current condition evaluation

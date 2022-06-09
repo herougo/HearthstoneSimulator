@@ -12,7 +12,7 @@ class WhenOtherMinionDies(TriggerEffect):
         self.player_choice = player_choice
 
     def start(self, game, em_node):
-        raise NotImplementedError()
+        pass
 
     def send_event(self, event, game, em_node, event_slot):
         assert event in self.events_received

@@ -38,6 +38,9 @@ class EffectManagerNodePlan:
             self.to_remove.extend(new_plan.to_remove)
             self.update_stats = self.update_stats | new_plan.update_stats
 
+    def is_empty(self):
+        return (not self.to_add) and (not self.to_remove) and (not self.update_stats)
+
 
 class EffectManagerNode:
     def __init__(self, effect, affected_slot, origin_slot, silenceable, hash=None):
