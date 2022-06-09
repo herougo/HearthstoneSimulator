@@ -64,7 +64,7 @@ class AllOtherFriendlyCharacters(CharacterSelection):
         player_slot = game.players[card_slot.player]
         minion_slots = list(game.battleboard.iter_board(card_slot.player))
         slots = [player_slot] + minion_slots
-        slots = [slot for slot in slots if slot.hash != em_node.hash]
+        slots = [slot for slot in slots if slot != em_node.affected_slot]
         return tuple(slots)
 
 
@@ -75,7 +75,7 @@ class AllOtherFriendlyMinions(CharacterSelection):
     def get_selected_card_slots(self, game, em_node):
         card_slot = em_node.affected_slot
         minion_slots = tuple([slot for slot in game.battleboard.iter_board(card_slot.player)
-                              if slot.hash != em_node.hash])
+                              if slot != em_node.affected_slot])
         return minion_slots
 
 
