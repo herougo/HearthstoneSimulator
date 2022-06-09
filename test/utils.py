@@ -1,8 +1,9 @@
+from unittest.mock import Mock, patch
+
+
 def generate_class(name, base_class):
     return type(name, (base_class,), {})
 
-import snapshottest
-from unittest.mock import Mock, patch
 
 def patch_logger(f):
     def final_function(self, *args, **kwargs):

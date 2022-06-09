@@ -1,5 +1,5 @@
+import hearthsim
 from hearthsim.utils.enums import Events, PlayerChoice,  Actions
-from hearthsim.utils.logger import LOGGER
 from hearthsim.utils.pile import Pile
 from hearthsim.utils.utils import maybe_wrap_as_tuple
 from hearthsim.utils.constants import HERO_INDEX
@@ -65,7 +65,7 @@ class HearthstoneGame:
         self.game_metadata.who_goes_first = 0
         who_goes_second = 1 - self.game_metadata.who_goes_first
         self.hands = (Pile(), Pile())
-        self.ui_manager = UIManager(self, LOGGER)
+        self.ui_manager = UIManager(self, hearthsim.utils.logger.LOGGER)
         self.ui_manager.log_player_going_first()
 
         # draw hands

@@ -1,4 +1,5 @@
 import snapshottest
+import random
 from hearthsim.cards.core import Card
 from hearthsim.cards.types_of_cards import MinionCard, WeaponCard, SpellCard, OriginalHeroCard
 from hearthsim.cards.card_registry import CARD_REGISTRY
@@ -8,7 +9,7 @@ from hearthsim.utils.decision_maker_text import split_text_by_player
 from hearthsim.game.decision_maker import PlayerDecisionMakerWithFirstSelection
 from hearthsim.game.action_getter import TextActionGetter
 from hearthsim.game.hearthstone_game import HearthstoneGame
-from test.utils import generate_class
+from test.utils import generate_class, patch_logger
 
 
 def _play_game(player_deck, opp_deck, player_text):
@@ -36,7 +37,9 @@ def main():
 
 
     class TestBasicsOfMinionBaseClass(TestBasicsOfCardIdBaseClass):
-        def test_card_playing(self):
+        @patch_logger
+        def test_card_playing(self, logger_arguments):
+            random.seed(0)
             player_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
             opp_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
             player_text = '''
@@ -50,11 +53,15 @@ def main():
                     concede
             '''
             _play_game(player_deck, opp_deck, player_text)
+            logger_output = '\n'.join(logger_arguments)
+            self.assertMatchSnapshot(logger_output)
 
-        def test_card_attacking(self):
+        @patch_logger
+        def test_card_attacking(self, logger_arguments):
             if self.class_type.attack == 0:
                 return
 
+            random.seed(0)
             player_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
             opp_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
             player_text = '''
@@ -78,10 +85,14 @@ def main():
                     concede
             '''
             _play_game(player_deck, opp_deck, player_text)
+            logger_output = '\n'.join(logger_arguments)
+            self.assertMatchSnapshot(logger_output)
 
 
     class TestBasicsOfOriginalHeroBaseClass(TestBasicsOfCardIdBaseClass):
-        def test_card_playing(self):
+        @patch_logger
+        def test_card_playing(self, logger_arguments):
+            random.seed(0)
             player_deck = Deck(['C001'] * 30, cls=self.class_type.hs_class)  # Wisp
             opp_deck = Deck(['C001'] * 30, cls=self.class_type.hs_class)  # Wisp
             player_text = '''
@@ -98,6 +109,8 @@ def main():
                     concede
             '''
             _play_game(player_deck, opp_deck, player_text)
+            logger_output = '\n'.join(logger_arguments)
+            self.assertMatchSnapshot(logger_output)
 
 
     class TestBasicsOfWeaponBaseClass(TestBasicsOfCardIdBaseClass):
@@ -105,7 +118,9 @@ def main():
 
 
     class TestBasicsOfSpellBaseClass(TestBasicsOfCardIdBaseClass):
-        def test_card_playing(self):
+        @patch_logger
+        def test_card_playing(self, logger_arguments):
+            random.seed(0)
             player_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
             opp_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
             player_text = '''
@@ -119,6 +134,8 @@ def main():
                     concede
             '''
             _play_game(player_deck, opp_deck, player_text)
+            logger_output = '\n'.join(logger_arguments)
+            self.assertMatchSnapshot(logger_output)
 
 
     for card_id, class_type in sorted(CARD_REGISTRY.items()):

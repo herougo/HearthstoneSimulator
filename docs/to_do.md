@@ -47,6 +47,8 @@ To Do
 - [ ] implement tests
   - [x] basic unittest
   - [x] load all cards
+  - [x] mock logger
+  - [ ] why are the test snapshots in snap_utils.py?
   - [ ] test each effect
 - [ ] Dread Corsair
 - [ ] Minions cost 3 more
