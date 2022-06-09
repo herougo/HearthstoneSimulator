@@ -3,9 +3,9 @@ from hearthsim.utils.enums import EffectTimeLimit, HSClass
 from hearthsim.cards.types_of_cards import MinionCard
 from hearthsim.selections.predefined_constants import (PLAYER, OPP, OWN_SELF, ADJACENT_MINIONS, RANDOM_OTHER_CHARACTER)
 from hearthsim.effects.core import ConditionalEffect
-from hearthsim.effects.effects_trigger import (Battlecry, Deathrattle)
-from hearthsim.effects.effects_wrapped import (TimeLimitedEffect, NEffects)
-from hearthsim.effects.effects_one_time import (DrawCard, ChangeAttack, DealDamage, ReturnMinionToHand)
+from hearthsim.effects.effects_trigger import Battlecry, Deathrattle
+from hearthsim.effects.effects_wrapped import TimeLimitedEffect, NEffects
+from hearthsim.effects.effects_one_time import DrawCard, ChangeAttack, DealDamage, ReturnMinionToHand
 from hearthsim.effects.effects_continuous import (DivineShield, Taunt, Charge, Stealth, Windfury, AttackBuff,
                                                   CantBeTargetedBySpellsOrHP, ContinuousSelectionFieldEffect)
 from hearthsim.selections.predefined_constants import SELECT_FRIENDLY_MINION

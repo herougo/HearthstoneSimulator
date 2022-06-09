@@ -1,6 +1,6 @@
 from hearthsim.cards.core import Card
 from hearthsim.utils.enums import CardTypes
-from hearthsim.effects.effects_trigger import (OnTurnStart, OnTurnEnd)
+from hearthsim.effects.effects_trigger import OnTurnStart, OnTurnEnd
 from hearthsim.effects.effects_one_time import (DrawCard, GainManaCrystals, RefreshAllManaCrystals,
                                                 RefreshMinionAttacks, RefreshHeroPower)
 from hearthsim.selections.predefined_constants import (PLAYER, ALL_FRIENDLY_CHARACTERS)
