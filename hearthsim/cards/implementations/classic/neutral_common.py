@@ -388,4 +388,4 @@ class FrostElemental(MinionCard):
     health = 5
     tag = Tag.ELEMENTAL.value
     def __init__(self):
-        self.in_play_effects = Freeze(SELECT_OTHER_CHARACTER)
+        self.in_play_effects = Battlecry(Freeze(SELECT_OTHER_CHARACTER))

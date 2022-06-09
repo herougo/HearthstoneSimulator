@@ -206,4 +206,4 @@ class Frozen(ContinuousEffect):
     def send_event(self, event, game, em_node, event_slot):
         assert event in self.events_received, (event, self.events_received)
         if em_node.affected_slot.attacks_this_turn < em_node.affected_slot.n_possible_attacks_ignoring_frozen:
-            return EffectManagerNodePlan(to_remove=em_node)
+            return EffectManagerNodePlan(to_remove=[em_node])

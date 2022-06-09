@@ -75,6 +75,7 @@ class HeroCardSlot(DamageableCardSlot):
     n_charge = 0
     n_windfury = 0
     n_stealth = 0
+    n_frozen = 0
     n_targetable_with_spell_or_hp = 0
     has_sleep = False
     attacks_this_turn = 0
@@ -122,8 +123,21 @@ class HeroCardSlot(DamageableCardSlot):
         return self.n_stealth > 0
 
     @property
+    def is_frozen(self):
+        return self.n_frozen > 0
+
+    @property
     def targetable_with_spell_or_hp(self):
         return self.n_targetable_with_spell_or_hp == 0
+
+    @property
+    def n_possible_attacks_ignoring_frozen(self):
+        if self.has_sleep:
+            return 0
+        elif self.has_windfury:
+            return 2
+        else:
+            return 1
 
     @property
     def attack(self):
