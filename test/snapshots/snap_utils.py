@@ -35,7 +35,7 @@ Weapon: None
 3: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 4: SpellCardSlot - card_name=Coin, mana=0
 
-\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
 Player (0) - health: 5, armour: 0, mana: 99 / 100
 0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
@@ -51,7 +51,7 @@ Weapon: None
 3: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 4: SpellCardSlot - card_name=Coin, mana=0
 
-\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
 
 Player (0) - health: 5, armour: 0, mana: 98 / 100
@@ -86,7 +86,7 @@ Weapon: None
 3: SpellCardSlot - card_name=Coin, mana=0
 4: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
-\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
@@ -102,7 +102,7 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
-\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
 \t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
@@ -157,9 +157,9 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
-\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
 \t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
-\t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
+\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
+\t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
 
 Player (0) - health: 5, armour: 0, mana: 99 / 100
 0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
@@ -173,10 +173,10 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
-\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=5, health=1)
 \t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
-\t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
-\t2: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
+\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
+\t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
+\t2: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
 
 Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
@@ -225,7 +225,7 @@ Weapon: None
 2: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 3: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
-\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
@@ -239,7 +239,7 @@ Weapon: None
 1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 2: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
-\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
 \t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
@@ -253,7 +253,7 @@ Weapon: None
 1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 2: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
-\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
 \t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
@@ -291,7 +291,7 @@ Weapon: None
 3: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 4: SpellCardSlot - card_name=Coin, mana=0
 
-\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
 Player (0) - health: 5, armour: 0, mana: 99 / 100
 0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
@@ -307,7 +307,7 @@ Weapon: None
 3: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 4: SpellCardSlot - card_name=Coin, mana=0
 
-\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
 
 Player (0) - health: 5, armour: 0, mana: 98 / 100
@@ -342,7 +342,7 @@ Weapon: None
 3: SpellCardSlot - card_name=Coin, mana=0
 4: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
-\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
@@ -359,7 +359,7 @@ Weapon: None
 3: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
 \t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
-\t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=5, health=1)
+\t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
 \t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
@@ -375,7 +375,7 @@ Weapon: None
 3: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
 \t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
-\t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=5, health=1)
+\t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=3, health=1)
 \t0: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 \t1: MinionCardSlot - card_name=Abusive Sergeant, mana=1, attack=1, health=1)
 
@@ -783,7 +783,6 @@ Player (0) - health: 5, armour: 0, mana: 100 / 100
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 0 plays Ancient Brewmaster
-MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 0 hand
 Opponent (1) - health: 5, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
@@ -792,12 +791,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 100 / 100
 Weapon: None
@@ -807,12 +806,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 0 plays Ancient Brewmaster
 MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 0 hand
@@ -824,12 +823,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 100 / 100
 Weapon: None
@@ -839,12 +838,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 ------------------------------
 1 turn
@@ -858,15 +857,14 @@ Weapon: None
 4: SpellCardSlot - card_name=Coin, mana=0
 5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 1 plays Ancient Brewmaster
-MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 1 hand
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
@@ -874,14 +872,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 3: SpellCardSlot - card_name=Coin, mana=0
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
 Weapon: None
@@ -890,14 +888,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 3: SpellCardSlot - card_name=Coin, mana=0
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 1 plays Ancient Brewmaster
 MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 1 hand
@@ -908,14 +906,14 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 92 / 100
 Weapon: None
@@ -924,14 +922,14 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 ------------------------------
 0 turn
@@ -943,7 +941,26 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) attacks MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=-1) died
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=-1) died
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 
 Player (0) - health: 5, armour: 0, mana: 100 / 100
@@ -951,9 +968,38 @@ Player (0) - health: 5, armour: 0, mana: 100 / 100
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+0 plays Ancient Brewmaster
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
-ERROR: attacker outside range
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Player (0) - health: 5, armour: 0, mana: 96 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Player (0) - health: 5, armour: 0, mana: 96 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
 0 plays Ancient Brewmaster
 MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 0 hand
 Opponent (1) - health: 5, armour: 0, mana: 92 / 100
@@ -963,51 +1009,13 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
-
-Player (0) - health: 5, armour: 0, mana: 96 / 100
-0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-
-Opponent (1) - health: 5, armour: 0, mana: 92 / 100
-Weapon: None
-0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-2: SpellCardSlot - card_name=Coin, mana=0
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-
-
-Player (0) - health: 5, armour: 0, mana: 96 / 100
-0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-
-0 plays Ancient Brewmaster
-MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 0 hand
-Opponent (1) - health: 5, armour: 0, mana: 92 / 100
-Weapon: None
-0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-2: SpellCardSlot - card_name=Coin, mana=0
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 92 / 100
 Weapon: None
@@ -1016,15 +1024,13 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 ------------------------------
 1 turn
@@ -1037,19 +1043,16 @@ Weapon: None
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-6: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 ERROR: attacker outside range
 1 plays Ancient Brewmaster
-MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 1 hand
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
@@ -1057,16 +1060,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-6: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
 Weapon: None
@@ -1075,16 +1076,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-6: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 1 plays Ancient Brewmaster
 MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 1 hand
@@ -1095,16 +1094,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-6: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 92 / 100
 Weapon: None
@@ -1113,16 +1110,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-6: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 92 / 100
 Weapon: None
@@ -1131,16 +1126,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-6: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Game Over: Player 0 wins'''
 
@@ -1164,7 +1157,6 @@ Player (0) - health: 5, armour: 0, mana: 100 / 100
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 0 plays Ancient Brewmaster
-MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 0 hand
 Opponent (1) - health: 5, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
@@ -1173,12 +1165,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 100 / 100
 Weapon: None
@@ -1188,12 +1180,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 0 plays Ancient Brewmaster
 MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 0 hand
@@ -1205,12 +1197,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 100 / 100
 Weapon: None
@@ -1220,12 +1212,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 ------------------------------
 1 turn
@@ -1239,15 +1231,14 @@ Weapon: None
 4: SpellCardSlot - card_name=Coin, mana=0
 5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 1 plays Ancient Brewmaster
-MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 1 hand
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
@@ -1255,14 +1246,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 3: SpellCardSlot - card_name=Coin, mana=0
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
 Weapon: None
@@ -1271,14 +1262,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 3: SpellCardSlot - card_name=Coin, mana=0
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 1 plays Ancient Brewmaster
 MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 1 hand
@@ -1289,14 +1280,14 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 92 / 100
 Weapon: None
@@ -1305,14 +1296,14 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Opponent (1) - health: 5, armour: 0, mana: 92 / 100
 Weapon: None
@@ -1321,14 +1312,14 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+\t0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Player (0) - health: 5, armour: 0, mana: 92 / 100
 0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
-3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
 
 Game Over: Player 0 wins'''
 
@@ -3736,7 +3727,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 11, armour: 0, mana: 94 / 100
+Player (0) - health: 14, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
@@ -3753,7 +3744,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 11, armour: 0, mana: 94 / 100
+Player (0) - health: 17, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
@@ -3772,7 +3763,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 11, armour: 0, mana: 100 / 100
+Player (0) - health: 17, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
@@ -3790,7 +3781,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 11, armour: 0, mana: 100 / 100
+Player (0) - health: 17, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
@@ -3807,7 +3798,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 11, armour: 0, mana: 97 / 100
+Player (0) - health: 20, armour: 0, mana: 97 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
@@ -3824,7 +3815,7 @@ Weapon: None
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 11, armour: 0, mana: 94 / 100
+Player (0) - health: 23, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
 ------------------------------
@@ -3843,7 +3834,7 @@ Weapon: None
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 11, armour: 0, mana: 94 / 100
+Player (0) - health: 23, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
 MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3) attacks MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
@@ -3860,7 +3851,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 11, armour: 0, mana: 94 / 100
+Player (0) - health: 23, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
 1 plays Earthen Ring Farseer
@@ -3875,7 +3866,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 11, armour: 0, mana: 94 / 100
+Player (0) - health: 26, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
 1 plays Earthen Ring Farseer
@@ -3890,7 +3881,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 11, armour: 0, mana: 94 / 100
+Player (0) - health: 29, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
 Opponent (1) - health: 5, armour: 0, mana: 94 / 100
@@ -3904,7 +3895,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 11, armour: 0, mana: 94 / 100
+Player (0) - health: 29, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
 Game Over: Player 0 wins'''
@@ -7021,9 +7012,9 @@ Weapon: None
 3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 4: SpellCardSlot - card_name=Coin, mana=0
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-Player (0) - health: 4, armour: 0, mana: 98 / 100
+Player (0) - health: 2, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
@@ -7037,10 +7028,10 @@ Weapon: None
 3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 4: SpellCardSlot - card_name=Coin, mana=0
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 \t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
 
-Player (0) - health: 4, armour: 0, mana: 96 / 100
+Player (0) - health: 2, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
@@ -7056,15 +7047,15 @@ Weapon: None
 4: SpellCardSlot - card_name=Coin, mana=0
 5: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 \t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
 
-Player (0) - health: 4, armour: 0, mana: 96 / 100
+Player (0) - health: 2, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
 1 plays Mad Bomber
-Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Opponent (1) - health: 2, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
@@ -7072,180 +7063,68 @@ Weapon: None
 3: SpellCardSlot - card_name=Coin, mana=0
 4: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 \t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
 
-Player (0) - health: 4, armour: 0, mana: 96 / 100
+Player (0) - health: 2, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
 1 plays Mad Bomber
-Opponent (1) - health: 4, armour: 0, mana: 96 / 100
+Opponent (1) - health: 0, armour: 0, mana: 96 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
-\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
+\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 \t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
 
-Player (0) - health: 4, armour: 0, mana: 96 / 100
+Player (0) - health: 2, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
 ------------------------------
 0 turn
 ------------------------------
-Opponent (1) - health: 4, armour: 0, mana: 96 / 100
+Opponent (1) - health: 0, armour: 0, mana: 96 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
-\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
+\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 \t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
 
-Player (0) - health: 4, armour: 0, mana: 100 / 100
+Player (0) - health: 2, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0) attacks MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
-MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-3) died
-MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2) died
-Opponent (1) - health: 4, armour: 0, mana: 96 / 100
+MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2) attacks MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
+Opponent (1) - health: 0, armour: 0, mana: 96 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
 \t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
-
-Player (0) - health: 4, armour: 0, mana: 100 / 100
-0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-2: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-0 plays Mad Bomber
-Opponent (1) - health: 4, armour: 0, mana: 96 / 100
-Weapon: None
-0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-2: SpellCardSlot - card_name=Coin, mana=0
-3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
-\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-
-Player (0) - health: 3, armour: 0, mana: 98 / 100
-0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-0 plays Mad Bomber
-Opponent (1) - health: 4, armour: 0, mana: 96 / 100
-Weapon: None
-0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-2: SpellCardSlot - card_name=Coin, mana=0
-3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
-\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
-\t2: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-
-Player (0) - health: 2, armour: 0, mana: 96 / 100
-0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-------------------------------
-1 turn
-------------------------------
-Opponent (1) - health: 4, armour: 0, mana: 100 / 100
-Weapon: None
-0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-2: SpellCardSlot - card_name=Coin, mana=0
-3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
-\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
-\t2: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-
-Player (0) - health: 2, armour: 0, mana: 96 / 100
-0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2) attacks MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
-MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-5) died
-MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2) died
-Opponent (1) - health: 4, armour: 0, mana: 100 / 100
-Weapon: None
-0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-2: SpellCardSlot - card_name=Coin, mana=0
-3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
-\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-
-Player (0) - health: 2, armour: 0, mana: 96 / 100
-0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-1 plays Mad Bomber
-Opponent (1) - health: 2, armour: 0, mana: 98 / 100
-Weapon: None
-0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-1: SpellCardSlot - card_name=Coin, mana=0
-2: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
-\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-
-Player (0) - health: 2, armour: 0, mana: 96 / 100
-0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-1 plays Mad Bomber
-Opponent (1) - health: 1, armour: 0, mana: 96 / 100
-Weapon: None
-0: SpellCardSlot - card_name=Coin, mana=0
-1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-2: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
+\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
 \t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
-\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
 
-Player (0) - health: 2, armour: 0, mana: 96 / 100
+Player (0) - health: 2, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-Opponent (1) - health: 1, armour: 0, mana: 96 / 100
-Weapon: None
-0: SpellCardSlot - card_name=Coin, mana=0
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
-\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
-\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-
-Player (0) - health: 2, armour: 0, mana: 96 / 100
-0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
 Game Over: Player 0 wins'''
 
@@ -7277,9 +7156,9 @@ Weapon: None
 3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 4: SpellCardSlot - card_name=Coin, mana=0
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-Player (0) - health: 4, armour: 0, mana: 98 / 100
+Player (0) - health: 2, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
@@ -7293,10 +7172,10 @@ Weapon: None
 3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 4: SpellCardSlot - card_name=Coin, mana=0
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 \t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
 
-Player (0) - health: 4, armour: 0, mana: 96 / 100
+Player (0) - health: 2, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
@@ -7312,15 +7191,15 @@ Weapon: None
 4: SpellCardSlot - card_name=Coin, mana=0
 5: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 \t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
 
-Player (0) - health: 4, armour: 0, mana: 96 / 100
+Player (0) - health: 2, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
 1 plays Mad Bomber
-Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Opponent (1) - health: 2, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
@@ -7328,44 +7207,44 @@ Weapon: None
 3: SpellCardSlot - card_name=Coin, mana=0
 4: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 \t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
 
-Player (0) - health: 4, armour: 0, mana: 96 / 100
+Player (0) - health: 2, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
 1 plays Mad Bomber
-Opponent (1) - health: 4, armour: 0, mana: 96 / 100
+Opponent (1) - health: 0, armour: 0, mana: 96 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
-\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
+\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 \t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
 
-Player (0) - health: 4, armour: 0, mana: 96 / 100
+Player (0) - health: 2, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-Opponent (1) - health: 4, armour: 0, mana: 96 / 100
+Opponent (1) - health: 0, armour: 0, mana: 96 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
-\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-2)
-\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=0)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
+\t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 \t1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=-1)
 
-Player (0) - health: 4, armour: 0, mana: 96 / 100
+Player (0) - health: 2, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Mad Bomber, mana=2, attack=3, health=2)
 
@@ -7390,7 +7269,7 @@ Player (0) - health: 5, armour: 0, mana: 100 / 100
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
-Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Opponent (1) - health: 4, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -7399,13 +7278,13 @@ Weapon: None
 4: SpellCardSlot - card_name=Coin, mana=0
 
 
-Player (0) - health: 4, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
-Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Opponent (1) - health: 4, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -7414,7 +7293,7 @@ Weapon: None
 4: SpellCardSlot - card_name=Coin, mana=0
 
 
-Player (0) - health: 4, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -7424,7 +7303,7 @@ ERROR: already used the hero power
 ------------------------------
 1 turn
 ------------------------------
-Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Opponent (1) - health: 4, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -7434,13 +7313,13 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 4, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
-Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Opponent (1) - health: 3, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -7450,13 +7329,13 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 3, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
-Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Opponent (1) - health: 3, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -7466,7 +7345,7 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 3, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -7476,7 +7355,7 @@ ERROR: already used the hero power
 ------------------------------
 0 turn
 ------------------------------
-Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Opponent (1) - health: 3, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -7486,7 +7365,7 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 3, armour: 0, mana: 100 / 100
+Player (0) - health: 5, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -7496,7 +7375,7 @@ Player (0) - health: 3, armour: 0, mana: 100 / 100
 ------------------------------
 1 turn
 ------------------------------
-Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Opponent (1) - health: 3, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -7507,14 +7386,14 @@ Weapon: None
 6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 3, armour: 0, mana: 100 / 100
+Player (0) - health: 5, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
-Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Opponent (1) - health: 3, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -7525,7 +7404,7 @@ Weapon: None
 6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 3, armour: 0, mana: 100 / 100
+Player (0) - health: 5, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -12464,7 +12343,6 @@ Player (0) - health: 5, armour: 0, mana: 100 / 100
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 0 plays Youthful Brewmaster
-MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) returned to 0 hand
 Opponent (1) - health: 5, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
@@ -12473,12 +12351,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 100 / 100
 Weapon: None
@@ -12488,12 +12366,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 0 plays Youthful Brewmaster
 MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) returned to 0 hand
@@ -12505,12 +12383,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 100 / 100
 Weapon: None
@@ -12520,12 +12398,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 ------------------------------
 1 turn
@@ -12539,15 +12417,14 @@ Weapon: None
 4: SpellCardSlot - card_name=Coin, mana=0
 5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 1 plays Youthful Brewmaster
-MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) returned to 1 hand
 Opponent (1) - health: 5, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
@@ -12555,14 +12432,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 3: SpellCardSlot - card_name=Coin, mana=0
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 98 / 100
 Weapon: None
@@ -12571,14 +12448,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 3: SpellCardSlot - card_name=Coin, mana=0
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 1 plays Youthful Brewmaster
 MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) returned to 1 hand
@@ -12589,14 +12466,14 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
 Weapon: None
@@ -12605,14 +12482,14 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 ------------------------------
 0 turn
@@ -12624,7 +12501,26 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+
+MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) attacks MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=-1) died
+MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=-1) died
+Opponent (1) - health: 5, armour: 0, mana: 96 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 
 Player (0) - health: 5, armour: 0, mana: 100 / 100
@@ -12632,9 +12528,38 @@ Player (0) - health: 5, armour: 0, mana: 100 / 100
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+
+0 plays Youthful Brewmaster
+Opponent (1) - health: 5, armour: 0, mana: 96 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
-ERROR: attacker outside range
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+
+Opponent (1) - health: 5, armour: 0, mana: 96 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+
 0 plays Youthful Brewmaster
 MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) returned to 0 hand
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
@@ -12644,51 +12569,13 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
-
-Player (0) - health: 5, armour: 0, mana: 98 / 100
-0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-
-Opponent (1) - health: 5, armour: 0, mana: 96 / 100
-Weapon: None
-0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-2: SpellCardSlot - card_name=Coin, mana=0
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-
-
-Player (0) - health: 5, armour: 0, mana: 98 / 100
-0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-
-0 plays Youthful Brewmaster
-MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) returned to 0 hand
-Opponent (1) - health: 5, armour: 0, mana: 96 / 100
-Weapon: None
-0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-2: SpellCardSlot - card_name=Coin, mana=0
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
 Weapon: None
@@ -12697,15 +12584,13 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 ------------------------------
 1 turn
@@ -12718,19 +12603,16 @@ Weapon: None
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-6: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 ERROR: attacker outside range
 1 plays Youthful Brewmaster
-MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) returned to 1 hand
 Opponent (1) - health: 5, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
@@ -12738,16 +12620,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-6: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 98 / 100
 Weapon: None
@@ -12756,16 +12636,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-6: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 1 plays Youthful Brewmaster
 MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) returned to 1 hand
@@ -12776,16 +12654,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-6: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
 Weapon: None
@@ -12794,16 +12670,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-6: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
 Weapon: None
@@ -12812,16 +12686,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-6: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Game Over: Player 0 wins'''
 
@@ -12845,7 +12717,6 @@ Player (0) - health: 5, armour: 0, mana: 100 / 100
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 0 plays Youthful Brewmaster
-MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) returned to 0 hand
 Opponent (1) - health: 5, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
@@ -12854,12 +12725,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 100 / 100
 Weapon: None
@@ -12869,12 +12740,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 0 plays Youthful Brewmaster
 MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) returned to 0 hand
@@ -12886,12 +12757,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 100 / 100
 Weapon: None
@@ -12901,12 +12772,12 @@ Weapon: None
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: SpellCardSlot - card_name=Coin, mana=0
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 ------------------------------
 1 turn
@@ -12920,15 +12791,14 @@ Weapon: None
 4: SpellCardSlot - card_name=Coin, mana=0
 5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 1 plays Youthful Brewmaster
-MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) returned to 1 hand
 Opponent (1) - health: 5, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
@@ -12936,14 +12806,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 3: SpellCardSlot - card_name=Coin, mana=0
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 98 / 100
 Weapon: None
@@ -12952,14 +12822,14 @@ Weapon: None
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 3: SpellCardSlot - card_name=Coin, mana=0
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 1 plays Youthful Brewmaster
 MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2) returned to 1 hand
@@ -12970,14 +12840,14 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
 Weapon: None
@@ -12986,14 +12856,14 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Opponent (1) - health: 5, armour: 0, mana: 96 / 100
 Weapon: None
@@ -13002,13 +12872,13 @@ Weapon: None
 2: SpellCardSlot - card_name=Coin, mana=0
 3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 4: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-5: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
+\t0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Player (0) - health: 5, armour: 0, mana: 96 / 100
 0: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 1: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 2: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
-3: MinionCardSlot - card_name=Youthful Brewmaster, mana=2, attack=3, health=2)
 
 Game Over: Player 0 wins'''
