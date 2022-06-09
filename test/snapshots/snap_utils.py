@@ -4468,7 +4468,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 14, armour: 0, mana: 94 / 100
+Player (0) - health: 11, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
@@ -4485,7 +4485,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 17, armour: 0, mana: 94 / 100
+Player (0) - health: 11, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
@@ -4504,7 +4504,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 17, armour: 0, mana: 100 / 100
+Player (0) - health: 11, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
@@ -4522,7 +4522,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 17, armour: 0, mana: 100 / 100
+Player (0) - health: 11, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
@@ -4539,7 +4539,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 20, armour: 0, mana: 97 / 100
+Player (0) - health: 11, armour: 0, mana: 97 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
@@ -4556,7 +4556,7 @@ Weapon: None
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 23, armour: 0, mana: 94 / 100
+Player (0) - health: 11, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
 ------------------------------
@@ -4575,7 +4575,7 @@ Weapon: None
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 23, armour: 0, mana: 94 / 100
+Player (0) - health: 11, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
 MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3) attacks MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
@@ -4592,7 +4592,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 23, armour: 0, mana: 94 / 100
+Player (0) - health: 11, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
 1 plays Earthen Ring Farseer
@@ -4607,7 +4607,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 26, armour: 0, mana: 94 / 100
+Player (0) - health: 11, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
 1 plays Earthen Ring Farseer
@@ -4622,7 +4622,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 29, armour: 0, mana: 94 / 100
+Player (0) - health: 11, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
 Opponent (1) - health: 5, armour: 0, mana: 94 / 100
@@ -4636,7 +4636,7 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 \t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
-Player (0) - health: 29, armour: 0, mana: 94 / 100
+Player (0) - health: 11, armour: 0, mana: 94 / 100
 0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
 
 Game Over: Player 0 wins'''
@@ -9092,7 +9092,7 @@ Player (0) - health: 5, armour: 0, mana: 100 / 100
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
-Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Opponent (1) - health: 7, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -9101,13 +9101,13 @@ Weapon: None
 4: SpellCardSlot - card_name=Coin, mana=0
 
 
-Player (0) - health: 7, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
-Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Opponent (1) - health: 7, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -9116,7 +9116,7 @@ Weapon: None
 4: SpellCardSlot - card_name=Coin, mana=0
 
 
-Player (0) - health: 7, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -9126,7 +9126,7 @@ ERROR: already used the hero power
 ------------------------------
 1 turn
 ------------------------------
-Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Opponent (1) - health: 7, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -9136,13 +9136,13 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 7, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
-Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Opponent (1) - health: 9, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -9152,13 +9152,13 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 9, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
-Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Opponent (1) - health: 9, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -9168,7 +9168,7 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 9, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -9178,7 +9178,7 @@ ERROR: already used the hero power
 ------------------------------
 0 turn
 ------------------------------
-Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Opponent (1) - health: 9, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -9188,7 +9188,7 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 9, armour: 0, mana: 100 / 100
+Player (0) - health: 5, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -9198,7 +9198,7 @@ Player (0) - health: 9, armour: 0, mana: 100 / 100
 ------------------------------
 1 turn
 ------------------------------
-Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Opponent (1) - health: 9, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -9209,14 +9209,14 @@ Weapon: None
 6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 9, armour: 0, mana: 100 / 100
+Player (0) - health: 5, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
-Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Opponent (1) - health: 9, armour: 0, mana: 100 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -9227,7 +9227,7 @@ Weapon: None
 6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 9, armour: 0, mana: 100 / 100
+Player (0) - health: 5, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
