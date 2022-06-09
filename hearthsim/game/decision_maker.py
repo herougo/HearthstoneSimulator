@@ -1,6 +1,7 @@
 from hearthsim.utils.enums import Actions, CanAttackResponse
 from hearthsim.game.card_slots import MinionCardSlot, SpellCardSlot
 
+
 class DecisionMaker:
     def __init__(self, action_getter):
         self._action_getter = action_getter
@@ -161,11 +162,21 @@ class DecisionMaker:
 
         return (Actions.HERO_POWER.value, None)
 
-    def get_unverified_selection(self):
+    def get_verified_selection(self, options):
         while True:
             action = self.get_action()
             if action and action[0] == Actions.SELECT.value:
-                return action
+                _, selection = action
+                selection_player, selection_board_index = selection
+                targeted_slot = self.game.index_to_slot((selection_player, selection_board_index))
+                if targeted_slot is None:
+                    self.game.ui_manager.log_line('ERROR: selection does not exist')
+                    continue
+                if targeted_slot not in options:
+                    self.game.ui_manager.log_line('ERROR: Invalid selection')
+                    continue
+
+                return targeted_slot
 
     def can_voluntarily_attack(self, attacker, defender):
         if attacker.attack == 0:
@@ -186,8 +197,16 @@ class DecisionMaker:
 
         return CanAttackResponse.YES.value
 
+
 class PlayerDecisionMaker(DecisionMaker):
     pass
+
+
+class PlayerDecisionMakerWithFirstSelection(DecisionMaker):
+    def get_verified_selection(self, options):
+        assert options, options
+        return options[0]
+
 
 class RandomAIDecisionMaker(DecisionMaker):
     pass

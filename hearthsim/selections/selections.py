@@ -1,28 +1,17 @@
 import random
 from hearthsim.selections.core import CharacterSelection
-from hearthsim.utils.enums import PlayerChoice, Events
-from hearthsim.effects.effects_activated import HeroPowerEffect
-from hearthsim.game.utils import targetable_with_hero_power
+from hearthsim.utils.enums import PlayerChoice, Events, CardTypes
 
 
 class SelectCharacter(CharacterSelection):
     def get_selected_card_slots(self, game, em_node):
         player = em_node.affected_slot.player
-        if (isinstance(em_node.effect, HeroPowerEffect) and
-                (not game.get_card_slots_targetable_by_hp(player, PlayerChoice.BOTH.value))):
+        options = game.get_card_slots(player, PlayerChoice.BOTH.value, CardTypes.ALL.value, em_node.effect)
+
+        if not options:
             return tuple()
 
-        while True:
-            _, selection = game.decision_makers[player].get_unverified_selection()
-            selection_player, selection_board_index = selection
-            targeted_slot = game.index_to_slot((selection_player, selection_board_index))
-
-            if (isinstance(em_node.effect, HeroPowerEffect) and
-                    (not targetable_with_hero_power(player, targeted_slot))):
-                game.ui_manager.log_line("ERROR: SelectCharacter - selection can't be targeted by hero powers")
-                continue
-
-            return (targeted_slot,)
+        return (game.decision_makers[player].get_verified_selection(options),)
 
 
 class SelectFriendlyMinion(CharacterSelection):
@@ -35,29 +24,14 @@ class SelectFriendlyMinion(CharacterSelection):
         else:
             exclusion_options = set()
 
-        if game.battleboard.board_len(player) - len(exclusion_options) == 0:
+        options = game.get_card_slots(player, PlayerChoice.BOTH.value, CardTypes.MINION.value, em_node.effect)
+        options -= exclusion_options
+
+        if not options:
             return tuple()
 
-        while True:
-            _, selection = game.decision_makers[player].get_unverified_selection()
-            selection_player, selection_board_index = selection
-            if selection_player is None:
-                selection_player = player
-            if selection_player != player:
-                game.ui_manager.log_line('ERROR: SelectFriendlyMinion - selection needs to match players')
-                continue
-
-            board_len = game.battleboard.board_len(player)
-            if selection_board_index < 0 and board_len <= selection_board_index:
-                game.ui_manager.log_line(
-                    'ERROR: SelectFriendlyMinion - selection needs to be within the bounds of the battleboard')
-                continue
-
-            if selection_board_index in exclusion_options:
-                game.ui_manager.log_line('ERROR: SelectFriendlyMinion - selection cannot be itself')
-                continue
-
-            return (game.battleboard.get_slot(player, selection_board_index),)
+        targeted_slot = game.decision_makers[player].get_verified_selection(options)
+        return (targeted_slot,)
 
 
 class RandomCharacter(CharacterSelection):

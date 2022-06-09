@@ -1,14 +1,17 @@
 from enum import Enum
 
+
 class EffectTimeLimit(Enum):
     NO_LIMIT = 0
     END_OF_TURN = 1
     END_OF_OPP_TURN = 2
 
+
 class PlayerChoice(Enum):
     BOTH = 0
     PLAYER = 1
     OPPONENT = 2
+
 
 class EffectType(Enum):
     CONTINUOUS = 0
@@ -17,11 +20,13 @@ class EffectType(Enum):
     WRAPPER = 3
     CONDITIONAL = 4
 
+
 class EffectArea(Enum):
     FIELD = 0
     HAND = 1
     DECK = 2
     ALL = 3
+
 
 class Events(Enum):
     START_TURN = 2
@@ -43,11 +48,14 @@ class Events(Enum):
     AFTER_SPELL_ACTIVATED = 29
     PRE_END_TURN_FROZEN = 29
 
+
 class CardTypes(Enum):
     MINION = 0
     SPELL = 1
     WEAPON = 2
     ORIGINAL_HERO = 3
+    ALL = 4
+
 
 class HSClass(Enum):
     DRUID = 'druid'
@@ -62,6 +70,7 @@ class HSClass(Enum):
     PALADIN = 'paladin'
     NEUTRAL = 'neutral'
 
+
 class CanAttackResponse(Enum):
     YES = 0
     ATTACKED_ENOUGH = 1
@@ -71,6 +80,7 @@ class CanAttackResponse(Enum):
     DISOBEYS_TAUNT = 5
     FROZEN = 6
 
+
 class Actions(Enum):
     END_TURN = 'end_turn'
     PLAY = 'play'
@@ -78,6 +88,7 @@ class Actions(Enum):
     SELECT = 'select'
     HERO_POWER = 'hero_power'
     CONCEDE = 'concede'
+
 
 class Tag(Enum):
     MURLOC = 'murloc'

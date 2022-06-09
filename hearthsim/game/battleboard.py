@@ -54,7 +54,7 @@ class Battleboard:
         return len(self._boards[player])
 
     def get_slot(self, player, ix):
-        return self._boards[player][ix]
+        return self._boards[player].get(ix, None)
 
     def card_slot_to_board_index(self, card_slot):
         return self._hash_to_board_index.get(card_slot.hash, None)
