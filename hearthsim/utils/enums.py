@@ -92,5 +92,9 @@ class Actions(Enum):
 
 class Tag(Enum):
     MURLOC = 'murloc'
+    DRAGON = 'dragon'
+    BEAST = 'beast'
+    PIRATE = 'pirate'
+    MECH = 'mech'
     ANY = 'any'
     ALL = 'all'

@@ -48,6 +48,37 @@ class ContinuousEffect(Effect):
         pass
 
 
+class GroupContinuousEffect(Effect):
+    # made of multiple continuous effects
+    def __init__(self, effects):
+        super(GroupContinuousEffect, self).__init__()
+        self.effects = effects
+        for effect in self.effects:
+            if is_one_time_effect(effect):
+                raise ValueError('GroupContinuousEffect only takes non-one-time effects as arguments')
+
+    def start(self, game, em_node):
+        plan = EffectManagerNodePlan()
+        for effect in self.effects:
+            new_plan = effect.start(game, em_node)
+            plan.update(new_plan)
+        return plan
+
+    def stop(self, game, em_node):
+        plan = EffectManagerNodePlan()
+        for effect in self.effects:
+            new_plan = effect.stop(game, em_node)
+            plan.update(new_plan)
+        return plan
+
+    @property
+    def events_received(self):
+        result = []
+        for effect in self.effects:
+            result.extend(list(effect.events_received))
+        return result
+
+
 class OneTimeEffect(Effect):
     _events_received = tuple()
 
@@ -103,6 +134,8 @@ class ActivatedEffect(TriggerEffect):
 class ConditionalEffect(Effect):
     def __init__(self, condition, effect):
         super(ConditionalEffect, self).__init__()
+        if isinstance(effect, (tuple, list)):
+            effect =
         self.effect = effect
         self.condition = condition
         self.memory = edict({'current_cond_eval': False})  # current condition evaluation

@@ -9,22 +9,10 @@ from hearthsim.game.card_slots import CardSlot, MinionCardSlot, HeroCardSlot, We
 from hearthsim.game.metadata import GameMetadata, PlayerMetadata
 from hearthsim.game.ui_manager import UIManager
 from hearthsim.game.battleboard import Battleboard
-from hearthsim.game.utils import targetable_with_hero_power, matches_card_type
 from hearthsim.cards.types_of_cards import MinionCard, WeaponCard, SpellCard
 from hearthsim.effects.effects_continuous import Sleep
 from hearthsim.cards.implementations.fundamental import Coin
 from hearthsim.effects.core import  OneTimeEffectSequence
-from hearthsim.effects.effects_activated import HeroPowerEffect
-
-
-def _maybe_add_to_card_slot_list(targeting_player, card_slot_to_target, target_card_type, effect, result):
-    # only used by HearthstoneGame.get_card_slots
-    if matches_card_type(target_card_type, card_slot_to_target):
-        if isinstance(effect, HeroPowerEffect):
-            if targetable_with_hero_power(targeting_player, card_slot_to_target):
-                result.append(card_slot_to_target)
-        else:
-            result.append(card_slot_to_target)
 
 
 class HearthstoneGame:
@@ -315,25 +303,6 @@ class HearthstoneGame:
         self.weapons[player] = card_slot  # must set before sending the event
         self.effect_manager.send_event(Events.WEAPON_EQUIPPED.value,
                                        event_slot=self.weapons[player])
-
-    def get_card_slots(self, targeting_player, target_player_choice, target_card_type, effect):
-        opp = 1 - targeting_player
-        if target_player_choice == PlayerChoice.BOTH.value:
-            available_players_for_target = [targeting_player, opp]
-        elif target_player_choice == PlayerChoice.OPPONENT.value:
-            available_players_for_target = [opp]
-        elif target_player_choice == PlayerChoice.PLAYER.value:
-            available_players_for_target = [targeting_player]
-        else:
-            raise ValueError()
-        result = []
-        for player in available_players_for_target:
-            _maybe_add_to_card_slot_list(targeting_player, self.players[player], target_card_type, effect, result)
-
-            for card_slot in self.battleboard.iter_board(player):
-                _maybe_add_to_card_slot_list(targeting_player, card_slot, target_card_type, effect, result)
-
-        return set(result)
 
     def can_summon_minion(self, player):
         return self.battleboard.board_len(player) < self.player_metadata[player].battleboard_limit

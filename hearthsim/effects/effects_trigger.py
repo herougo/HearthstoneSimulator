@@ -3,14 +3,22 @@ from hearthsim.effects.core import TriggerEffect
 from hearthsim.game.utils import is_player_affected
 from hearthsim.utils.utils import matches_tag
 
-class WhenMinionDies(TriggerEffect):
+
+class WhenOtherMinionDies(TriggerEffect):
     _events_received = (Events.MINION_DIES.value,)
 
-    def __init__(self, effect):
-        super(WhenMinionDies, self).__init__(effect)
+    def __init__(self, effect, player_choice=PlayerChoice.PLAYER.value):
+        super(WhenOtherMinionDies, self).__init__(effect)
+        self.player_choice = player_choice
 
     def start(self, game, em_node):
         raise NotImplementedError()
+
+    def send_event(self, event, game, em_node, event_slot):
+        assert event in self.events_received
+        if (is_player_affected(em_node.affected_slot.player, game.game_metadata.turn, self.player_choice) and
+            event_slot != em_node.affected_slot):
+            return self.effect.execute(game, em_node)
 
 
 class OnTurnStart(TriggerEffect):

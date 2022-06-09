@@ -31,6 +31,9 @@ class CardSlot:
     def __eq__(self, other):
         return self.hash == other.hash
 
+    def __lt__(self, other):
+        return self.hash < other.hash
+
     def __ne__(self, other):
         return not self.__eq__(other)
 
