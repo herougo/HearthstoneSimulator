@@ -8,7 +8,7 @@ from hearthsim.effects.core import ConditionalEffect
 from hearthsim.effects.effects_trigger import Battlecry, Deathrattle, WhenOtherMinionDies
 from hearthsim.effects.effects_wrapped import TimeLimitedEffect, NEffects
 from hearthsim.effects.effects_one_time import (DrawCard, ChangeAttack, DealDamage, ReturnMinionToHand, Heal,
-                                                SummonMinion, Silence)
+                                                SummonMinion, Silence, Freeze)
 from hearthsim.effects.effects_continuous import (DivineShield, Taunt, Charge, Stealth, Windfury, AttackBuff,
                                                   CantBeTargetedBySpellsOrHP, ContinuousSelectionFieldEffect)
 from hearthsim.conditions.conditions import WhileWeaponEquipped, WhileSelfDamaged
@@ -330,3 +330,62 @@ class CultMaster(MinionCard):
     health = 2
     def __init__(self):
         self.in_play_effects = WhenOtherMinionDies(DrawCard(PLAYER), player_choice=PlayerChoice.PLAYER.value)
+
+
+@register_card(card_id='C027')
+class DarkIronDwarf(MinionCard):
+    name = 'Dark Iron Dwarf'
+    hs_class = HSClass.NEUTRAL.value
+    mana = 4
+    attack = 4
+    health = 4
+    def __init__(self):
+        self.in_play_effects = Battlecry(TimeLimitedEffect(
+            ChangeAttack(SELECT_OTHER_MINION, 2),
+            until_when=EffectTimeLimit.END_OF_TURN.value))
+
+
+@register_card(card_id='C028')
+class DreadCorsair(MinionCard):
+    name = 'Dread Corsair'
+    hs_class = HSClass.NEUTRAL.value
+    mana = 4
+    attack = 3
+    health = 3
+    tag = Tag.PIRATE.value
+    def __init__(self):
+        self.in_play_effects = Taunt()
+
+
+@register_card(card_id='C029')
+class MogushanWarden(MinionCard):
+    name = "Mogu'shan Warden"
+    hs_class = HSClass.NEUTRAL.value
+    mana = 4
+    attack = 1
+    health = 7
+    def __init__(self):
+        self.in_play_effects = Taunt()
+
+
+@register_card(card_id='C030')
+class SilvermoonGuardian(MinionCard):
+    name = 'Silvermoon Guardian'
+    hs_class = HSClass.NEUTRAL.value
+    mana = 4
+    attack = 3
+    health = 3
+    def __init__(self):
+        self.in_play_effects = DivineShield()
+
+
+@register_card(card_id='C036')
+class FrostElemental(MinionCard):
+    name = 'Frost Elemental'
+    hs_class = HSClass.NEUTRAL.value
+    mana = 6
+    attack = 5
+    health = 5
+    tag = Tag.ELEMENTAL.value
+    def __init__(self):
+        self.in_play_effects = Freeze(SELECT_OTHER_CHARACTER)

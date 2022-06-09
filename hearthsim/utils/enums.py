@@ -96,5 +96,6 @@ class Tag(Enum):
     BEAST = 'beast'
     PIRATE = 'pirate'
     MECH = 'mech'
+    ELEMENTAL = 'elemental'
     ANY = 'any'
     ALL = 'all'
