@@ -26,6 +26,8 @@ class DecisionMaker:
             return self._get_selection_action(args)
         elif action_type == Actions.HERO_POWER.value:
             return self._get_hero_power_action()
+        elif action_type == Actions.CONCEDE.value:
+            return (action_type, None)
         else:
             raise ValueError(f'Unhandled command: {action}')
 

@@ -40,12 +40,13 @@ Done
 - [x] coin
 - [x] spell cards
 - [x] origin vs affected
+- [x] concede
 
 To Do
 
 - [ ] implement tests
-  - [ ] basic unittest
-  - [ ] load all cards
+  - [x] basic unittest
+  - [x] load all cards
   - [ ] test each effect
 - [ ] Dread Corsair
 - [ ] Minions cost 3 more

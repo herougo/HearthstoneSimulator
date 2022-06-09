@@ -128,6 +128,8 @@ class HearthstoneGame:
                     self.effect_manager.send_event(Events.HERO_POWER_END.value,
                                                    event_slot=self.players[turn])
                     self.ui_manager.log_game_state()
+                elif action_type == Actions.CONCEDE.value:
+                    self.end_game(turn == 0, turn == 1)
             else:
                 continue
 
@@ -195,7 +197,9 @@ class HearthstoneGame:
         player1_dead = self.players[1].health <= 0
         if not player0_dead and not player1_dead:
             return
+        self.end_game(player0_dead, player1_dead)
 
+    def end_game(self, player0_dead, player1_dead):
         self.ui_manager.log_game_state()
 
         self.ui_manager.log_game_over_result(player0_dead, player1_dead)

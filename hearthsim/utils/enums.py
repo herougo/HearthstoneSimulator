@@ -77,6 +77,7 @@ class Actions(Enum):
     ATTACK = 'attack'
     SELECT = 'select'
     HERO_POWER = 'hero_power'
+    CONCEDE = 'concede'
 
 class Tag(Enum):
     MURLOC = 'murloc'
