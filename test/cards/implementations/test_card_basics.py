@@ -51,6 +51,34 @@ def main():
             '''
             _play_game(player_deck, opp_deck, player_text)
 
+        def test_card_attacking(self):
+            if self.class_type.attack == 0:
+                return
+
+            player_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
+            opp_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
+            player_text = '''
+                0:
+                    play 0 0
+                    play 0 0
+                    end_turn
+                1:
+                    play 0 0
+                    play 0 0
+                    end_turn
+                0:
+                    attack 0 0
+                    play 0 0
+                    play 0 0
+                    end_turn
+                1:
+                    attack 0 0
+                    play 0 0
+                    play 0 0
+                    concede
+            '''
+            _play_game(player_deck, opp_deck, player_text)
+
 
     class TestBasicsOfOriginalHeroBaseClass(TestBasicsOfCardIdBaseClass):
         def test_card_playing(self):
