@@ -51,13 +51,14 @@ class HearthstoneGame:
     def register_card_slot(self, card_slot):
         self.hash_to_slot_dict[card_slot.hash] = card_slot
 
-    def setup(self):
+    def setup(self, shuffle_decks=True):
         self.effect_manager = EffectManager(self)
         self.decks = tuple([Pile([CardSlot.create_card(card_id, player, self)
                                   for card_id in deck.card_id_list])
                             for player, deck in enumerate(self.deck_lists)])
-        # for i in range(2):
-        #     self.decks[i].shuffle()
+        if shuffle_decks:
+            for i in range(2):
+                self.decks[i].shuffle()
         self.game_metadata = GameMetadata()
         self.player_metadata = (PlayerMetadata(), PlayerMetadata())
         # self.game_metadata.who_goes_first = random.randint(0, 1)

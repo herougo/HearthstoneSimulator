@@ -26,7 +26,7 @@ def main():
     decision_maker0 = PlayerDecisionMaker(TextActionGetter(player0_text))
     decision_maker1 = PlayerDecisionMaker(TextActionGetter(player1_text))
     game = HearthstoneGame(my_deck, opp_deck, decision_maker0, decision_maker1)
-    game.setup()
+    game.setup(shuffle_decks=False)
     for player in game.players:
         player.health = 5
     game.play()
