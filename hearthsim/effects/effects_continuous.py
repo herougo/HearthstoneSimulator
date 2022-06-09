@@ -177,6 +177,7 @@ class ContinuousSelectionFieldEffect(ContinuousEffect):
 
         for card_slot in (prev_selected_slots - selected_card_slots):
             plan.to_remove.append(self.memory['current_selection'][card_slot])
+            del self.memory['current_selection'][card_slot]
 
         for card_slot in (selected_card_slots - prev_selected_slots):
             effect = ExternalEffect(self.effect.copy())
