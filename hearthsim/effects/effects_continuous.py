@@ -1,4 +1,3 @@
-from easydict import EasyDict as edict
 from hearthsim.utils.enums import Events, EffectArea
 from hearthsim.effects.core import ContinuousEffect, is_one_time_effect, ExternalEffect
 from hearthsim.game.effect_manager import EffectManagerNodePlan, EffectManagerNode
@@ -194,7 +193,7 @@ class ContinuousSelectionFieldEffect(ContinuousEffect):
 
 
 class Frozen(ContinuousEffect):
-    _events_received = (Events.AFTER_ATTACKER_ATTACKED.value,)
+    _events_received = (Events.PRE_END_TURN_FROZEN.value,)
     _effect_area = EffectArea.FIELD.value
 
     def start(self, game, em_node):
