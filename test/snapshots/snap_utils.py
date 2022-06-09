@@ -763,6 +763,575 @@ Player (0) - health: 5, armour: 0, mana: 96 / 100
 
 Game Over: Player 0 wins'''
 
+snapshots['TestBasicsOfAncientBrewmaster::test_card_attacking 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+0 plays Ancient Brewmaster
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 0 hand
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 96 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 96 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+0 plays Ancient Brewmaster
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 0 hand
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+1 plays Ancient Brewmaster
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 1 hand
+Opponent (1) - health: 5, armour: 0, mana: 96 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 96 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+1 plays Ancient Brewmaster
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 1 hand
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+ERROR: attacker outside range
+0 plays Ancient Brewmaster
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 0 hand
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 96 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 96 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+0 plays Ancient Brewmaster
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 0 hand
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+6: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+ERROR: attacker outside range
+1 plays Ancient Brewmaster
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 1 hand
+Opponent (1) - health: 5, armour: 0, mana: 96 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+6: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 96 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+6: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+1 plays Ancient Brewmaster
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 1 hand
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+6: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+6: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+6: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfAncientBrewmaster::test_card_playing 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+0 plays Ancient Brewmaster
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 0 hand
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 96 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 96 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+0 plays Ancient Brewmaster
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 0 hand
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+1 plays Ancient Brewmaster
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 1 hand
+Opponent (1) - health: 5, armour: 0, mana: 96 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 96 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+1 plays Ancient Brewmaster
+MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4) returned to 1 hand
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+4: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+5: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+1: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+2: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+3: MinionCardSlot - card_name=Ancient Brewmaster, mana=4, attack=5, health=4)
+
+Game Over: Player 0 wins'''
+
 snapshots['TestBasicsOfArgentSquire::test_card_attacking 1'] = '''0 goes first
 ------------------------------
 0 turn
@@ -1596,6 +2165,790 @@ Player (0) - health: 5, armour: 0, mana: 100 / 100
 
 Game Over: Player 0 wins'''
 
+snapshots['TestBasicsOfCultMaster::test_card_attacking 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+0 plays Cult Master
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 96 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+0 plays Cult Master
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+1 plays Cult Master
+Opponent (1) - health: 5, armour: 0, mana: 96 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+1 plays Cult Master
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2) attacks MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=-2) died
+MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=-2) died
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+5: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+0 plays Cult Master
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 96 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+0 plays Cult Master
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2) attacks MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=-2) died
+MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=-2) died
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+5: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+1 plays Cult Master
+Opponent (1) - health: 5, armour: 0, mana: 96 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+1 plays Cult Master
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfCultMaster::test_card_playing 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+0 plays Cult Master
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 96 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+0 plays Cult Master
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+1 plays Cult Master
+Opponent (1) - health: 5, armour: 0, mana: 96 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+1 plays Cult Master
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Opponent (1) - health: 5, armour: 0, mana: 92 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 92 / 100
+0: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+1: MinionCardSlot - card_name=Cult Master, mana=4, attack=4, health=2)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfDamagedGolem::test_card_attacking 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+0 plays Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 99 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+0 plays Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+1 plays Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 99 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+1 plays Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1) attacks MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=-1) died
+MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=-1) died
+Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+0 plays Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 99 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+0 plays Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+4: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1) attacks MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=-1) died
+MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=-1) died
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+4: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+1 plays Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 99 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+1 plays Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfDamagedGolem::test_card_playing 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+0 plays Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 99 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+0 plays Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+1 plays Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 99 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+1 plays Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Opponent (1) - health: 5, armour: 0, mana: 98 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 98 / 100
+0: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+
+Game Over: Player 0 wins'''
+
 snapshots['TestBasicsOfDemonHunter::test_card_playing 1'] = '''0 goes first
 ------------------------------
 0 turn
@@ -2300,6 +3653,384 @@ Player (0) - health: 5, armour: 1, mana: 100 / 100
 
 Game Over: Player 0 wins'''
 
+snapshots['TestBasicsOfEarthenRingFarseer::test_card_attacking 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+0 plays Earthen Ring Farseer
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 8, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+0 plays Earthen Ring Farseer
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+1 plays Earthen Ring Farseer
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+1 plays Earthen Ring Farseer
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3) attacks MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=0) died
+MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=0) died
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+0 plays Earthen Ring Farseer
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+0 plays Earthen Ring Farseer
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+4: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3) attacks MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=0) died
+MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=0) died
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+4: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+1 plays Earthen Ring Farseer
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+1 plays Earthen Ring Farseer
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 11, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfEarthenRingFarseer::test_card_playing 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+0 plays Earthen Ring Farseer
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 8, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+0 plays Earthen Ring Farseer
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 8, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 8, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+1 plays Earthen Ring Farseer
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 8, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+1 plays Earthen Ring Farseer
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 8, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Player (0) - health: 8, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Earthen Ring Farseer, mana=3, attack=3, health=3)
+
+Game Over: Player 0 wins'''
+
 snapshots['TestBasicsOfFaerieDragon::test_card_attacking 1'] = '''0 goes first
 ------------------------------
 0 turn
@@ -2678,6 +4409,784 @@ Player (0) - health: 5, armour: 0, mana: 96 / 100
 
 Game Over: Player 0 wins'''
 
+snapshots['TestBasicsOfFlesheatingGhoul::test_card_attacking 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+0 plays Flesheating Ghoul
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+0 plays Flesheating Ghoul
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+1 plays Flesheating Ghoul
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+1 plays Flesheating Ghoul
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3) attacks MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=0) died
+MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=0) died
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+0 plays Flesheating Ghoul
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+0 plays Flesheating Ghoul
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+4: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3) attacks MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=0) died
+MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=-2) died
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+4: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=7, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+1 plays Flesheating Ghoul
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=7, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+1 plays Flesheating Ghoul
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=7, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=7, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfFlesheatingGhoul::test_card_playing 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+0 plays Flesheating Ghoul
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+0 plays Flesheating Ghoul
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+1 plays Flesheating Ghoul
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+1 plays Flesheating Ghoul
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+\t1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Flesheating Ghoul, mana=3, attack=3, health=3)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfHarvestGolem::test_card_attacking 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+0 plays Harvest Golem
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+0 plays Harvest Golem
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+1 plays Harvest Golem
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+1 plays Harvest Golem
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3) attacks MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+0 plays Harvest Golem
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+0 plays Harvest Golem
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+4: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1) attacks MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=-1) died
+1 summons Damaged Golem
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+4: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+1 plays Harvest Golem
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+1 plays Harvest Golem
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t3: MinionCardSlot - card_name=Damaged Golem, mana=1, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=1)
+\t3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfHarvestGolem::test_card_playing 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+0 plays Harvest Golem
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+0 plays Harvest Golem
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+1 plays Harvest Golem
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+1 plays Harvest Golem
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Harvest Golem, mana=3, attack=2, health=3)
+
+Game Over: Player 0 wins'''
+
 snapshots['TestBasicsOfHealingTotem::test_card_playing 1'] = '''0 goes first
 ------------------------------
 0 turn
@@ -2960,6 +5469,747 @@ Player (0) - health: 3, armour: 0, mana: 100 / 100
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfIronbeakOwl::test_card_attacking 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+0 plays Ironbeak Owl
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+0 plays Ironbeak Owl
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+1 plays Ironbeak Owl
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+1 plays Ironbeak Owl
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1) attacks MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=-1) died
+MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=-1) died
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+0 plays Ironbeak Owl
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+0 plays Ironbeak Owl
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+4: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1) attacks MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=-1) died
+MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=-1) died
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+4: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+1 plays Ironbeak Owl
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+1 plays Ironbeak Owl
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfIronbeakOwl::test_card_playing 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+0 plays Ironbeak Owl
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+0 plays Ironbeak Owl
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+1 plays Ironbeak Owl
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+1 plays Ironbeak Owl
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+1: MinionCardSlot - card_name=Ironbeak Owl, mana=3, attack=2, health=1)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfJunglePanther::test_card_attacking 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+0 plays Jungle Panther
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+0 plays Jungle Panther
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+1 plays Jungle Panther
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+1 plays Jungle Panther
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+ERROR: defender cannot be attacked (stealth)
+0 plays Jungle Panther
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+0 plays Jungle Panther
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+4: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+ERROR: defender cannot be attacked (stealth)
+1 plays Jungle Panther
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+1 plays Jungle Panther
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfJunglePanther::test_card_playing 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+0 plays Jungle Panther
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+0 plays Jungle Panther
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+1 plays Jungle Panther
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+1 plays Jungle Panther
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+\t1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
+1: MinionCardSlot - card_name=Jungle Panther, mana=3, attack=4, health=2)
 
 Game Over: Player 0 wins'''
 
@@ -4625,6 +7875,384 @@ Player (0) - health: 9, armour: 0, mana: 100 / 100
 
 Game Over: Player 0 wins'''
 
+snapshots['TestBasicsOfRagingWorgen::test_card_attacking 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+0 plays Raging Worgen
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+0 plays Raging Worgen
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+1 plays Raging Worgen
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+1 plays Raging Worgen
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3) attacks MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=-1) died
+MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=-1) died
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+0 plays Raging Worgen
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+0 plays Raging Worgen
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+4: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3) attacks MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=-1) died
+MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=-1) died
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+4: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+1 plays Raging Worgen
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+1 plays Raging Worgen
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfRagingWorgen::test_card_playing 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+0 plays Raging Worgen
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+0 plays Raging Worgen
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+1 plays Raging Worgen
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+1 plays Raging Worgen
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+\t1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=4, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+1: MinionCardSlot - card_name=Raging Worgen, mana=3, attack=3, health=3)
+
+Game Over: Player 0 wins'''
+
 snapshots['TestBasicsOfRogue::test_card_playing 1'] = '''0 goes first
 ------------------------------
 0 turn
@@ -4785,6 +8413,384 @@ Player (0) - health: 5, armour: 0, mana: 100 / 100
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfScarletCrusader::test_card_attacking 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+0 plays Scarlet Crusader
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+0 plays Scarlet Crusader
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+1 plays Scarlet Crusader
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+1 plays Scarlet Crusader
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1) attacks MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=-2) died
+MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=-2) died
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+0 plays Scarlet Crusader
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+0 plays Scarlet Crusader
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+4: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1) attacks MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=-2) died
+MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=-2) died
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+4: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+1 plays Scarlet Crusader
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+1 plays Scarlet Crusader
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfScarletCrusader::test_card_playing 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+0 plays Scarlet Crusader
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+0 plays Scarlet Crusader
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+1 plays Scarlet Crusader
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+1 plays Scarlet Crusader
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+\t1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
+1: MinionCardSlot - card_name=Scarlet Crusader, mana=3, attack=3, health=1)
 
 Game Over: Player 0 wins'''
 
@@ -6219,6 +10225,764 @@ Weapon: None
 Player (0) - health: 5, armour: 0, mana: 98 / 100
 0: MinionCardSlot - card_name=Southsea Deckhand, mana=1, attack=2, health=1)
 1: MinionCardSlot - card_name=Southsea Deckhand, mana=1, attack=2, health=1)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfTaurenWarrior::test_card_attacking 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+0 plays Tauren Warrior
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+0 plays Tauren Warrior
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+1 plays Tauren Warrior
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+1 plays Tauren Warrior
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+ERROR: attack disobey taunt
+0 plays Tauren Warrior
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+0 plays Tauren Warrior
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+4: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+ERROR: attack disobey taunt
+1 plays Tauren Warrior
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+1 plays Tauren Warrior
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfTaurenWarrior::test_card_playing 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+0 plays Tauren Warrior
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+0 plays Tauren Warrior
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+1 plays Tauren Warrior
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+1 plays Tauren Warrior
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+\t1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=5, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Tauren Warrior, mana=3, attack=2, health=3)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfThrallmarFarseer::test_card_attacking 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+0 plays Thrallmar Farseer
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+0 plays Thrallmar Farseer
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+1 plays Thrallmar Farseer
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+1 plays Thrallmar Farseer
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3) attacks MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+0 plays Thrallmar Farseer
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+0 plays Thrallmar Farseer
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+4: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1) attacks MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=-1) died
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+4: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+1 plays Thrallmar Farseer
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: SpellCardSlot - card_name=Coin, mana=0
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+1 plays Thrallmar Farseer
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: SpellCardSlot - card_name=Coin, mana=0
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=1)
+\t3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Game Over: Player 0 wins'''
+
+snapshots['TestBasicsOfThrallmarFarseer::test_card_playing 1'] = '''0 goes first
+------------------------------
+0 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+0 plays Thrallmar Farseer
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 97 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+0 plays Thrallmar Farseer
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+1 plays Thrallmar Farseer
+Opponent (1) - health: 5, armour: 0, mana: 97 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+3: SpellCardSlot - card_name=Coin, mana=0
+4: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+1 plays Thrallmar Farseer
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Opponent (1) - health: 5, armour: 0, mana: 94 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+2: SpellCardSlot - card_name=Coin, mana=0
+3: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+\t1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+
+Player (0) - health: 5, armour: 0, mana: 94 / 100
+0: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
+1: MinionCardSlot - card_name=Thrallmar Farseer, mana=3, attack=2, health=3)
 
 Game Over: Player 0 wins'''
 
