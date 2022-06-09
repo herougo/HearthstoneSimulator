@@ -21,7 +21,7 @@ def main():
         end_turn
     0:
         attack 0 1
-        end_turn
+        concede
     '''
     player0_text, player1_text = split_text_by_player(player_text)
     decision_maker0 = PlayerDecisionMaker(TextActionGetter(player0_text))
