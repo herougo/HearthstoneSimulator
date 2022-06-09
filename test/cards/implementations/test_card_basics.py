@@ -1,4 +1,4 @@
-import unittest
+import snapshottest
 from hearthsim.cards.core import Card
 from hearthsim.cards.types_of_cards import MinionCard, WeaponCard, SpellCard, OriginalHeroCard
 from hearthsim.cards.card_registry import CARD_REGISTRY
@@ -27,7 +27,7 @@ def _play_game(player_deck, opp_deck, player_text):
 
 def main():
     # Note: modifying __init__ of a TestCase object throws an error
-    class TestBasicsOfCardIdBaseClass(unittest.TestCase):
+    class TestBasicsOfCardIdBaseClass(snapshottest.TestCase):
         card_id = None
         class_type = None
 
