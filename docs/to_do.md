@@ -41,6 +41,7 @@ Done
 - [x] spell cards
 - [x] origin vs affected
 - [x] concede
+- [x] fix shaman test which mysteriously fails sometimes
 
 To Do
 
@@ -50,7 +51,6 @@ To Do
   - [x] mock logger
   - [ ] why are the test snapshots in snap_utils.py?
   - [ ] test each effect
-- [ ] fix shaman test which mysteriously fails sometimes
 - [ ] Dread Corsair
 - [ ] Minions cost 3 more
 - [ ] poisonous

@@ -243,7 +243,7 @@ class SummonMinionLikeShamanHP(OneTimeEffect):
                 available_card_ids = self._card_id_set
             else:
                 available_card_ids = diff
-            available_card_ids = list(available_card_ids)
+            available_card_ids = list(sorted(list(available_card_ids)))  # needed to be deterministic
             chosen_index = random.randint(0, len(available_card_ids) - 1)
             chosen_card_id = available_card_ids[chosen_index]
             card_slot = game.create_card_slot(player, self._card_id_to_minion[chosen_card_id])
