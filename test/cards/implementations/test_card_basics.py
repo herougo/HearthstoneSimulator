@@ -12,7 +12,9 @@ from hearthsim.game.hearthstone_game import HearthstoneGame
 from test.utils import generate_class, patch_logger
 
 
-def _play_game(player_deck, opp_deck, player_text):
+def _play_game(player_deck, opp_deck, player_text, seed=0):
+    if seed is not None:
+        random.seed(seed)
     player0_text, player1_text = split_text_by_player(player_text)
     decision_maker0 = PlayerDecisionMakerWithFirstSelection(TextActionGetter(player0_text))
     decision_maker1 = PlayerDecisionMakerWithFirstSelection(TextActionGetter(player1_text))
@@ -39,7 +41,6 @@ def main():
     class TestBasicsOfMinionBaseClass(TestBasicsOfCardIdBaseClass):
         @patch_logger
         def test_card_playing(self, logger_arguments):
-            random.seed(0)
             player_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
             opp_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
             player_text = '''
@@ -61,7 +62,6 @@ def main():
             if self.class_type.attack == 0:
                 return
 
-            random.seed(0)
             player_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
             opp_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
             player_text = '''
@@ -92,7 +92,6 @@ def main():
     class TestBasicsOfOriginalHeroBaseClass(TestBasicsOfCardIdBaseClass):
         @patch_logger
         def test_card_playing(self, logger_arguments):
-            random.seed(0)
             player_deck = Deck(['C001'] * 30, cls=self.class_type.hs_class)  # Wisp
             opp_deck = Deck(['C001'] * 30, cls=self.class_type.hs_class)  # Wisp
             player_text = '''
@@ -120,7 +119,6 @@ def main():
     class TestBasicsOfSpellBaseClass(TestBasicsOfCardIdBaseClass):
         @patch_logger
         def test_card_playing(self, logger_arguments):
-            random.seed(0)
             player_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
             opp_deck = Deck([self.card_id] * 30, cls=HSClass.PRIEST.value)
             player_text = '''
