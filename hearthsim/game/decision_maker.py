@@ -205,7 +205,7 @@ class PlayerDecisionMaker(DecisionMaker):
 class PlayerDecisionMakerWithFirstSelection(DecisionMaker):
     def get_verified_selection(self, options):
         assert options, options
-        return options[0]
+        return next(iter(options))
 
 
 class RandomAIDecisionMaker(DecisionMaker):

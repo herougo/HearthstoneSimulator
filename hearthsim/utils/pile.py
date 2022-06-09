@@ -33,6 +33,11 @@ class Pile:
     def __getitem__(self, ix):
         return self.cards[ix]
 
+    def get(self, ix, default=None):
+        if ix < 0 or len(self) <= ix:
+            return default
+        return self[ix]
+
     def __iter__(self):
         for card in self.cards:
             yield card

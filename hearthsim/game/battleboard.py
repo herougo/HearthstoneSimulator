@@ -6,7 +6,7 @@ class Battleboard:
         self._game = game
         self._boards = (Pile(), Pile())
         self._hash_to_board_index = {}
-        self._taunt_hashes = ({}, {})
+        self._taunt_hashes = (set(), set())
 
     def add_cards(self, player, cards, index=None):
         if index is None:

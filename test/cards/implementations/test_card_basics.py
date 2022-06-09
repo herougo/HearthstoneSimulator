@@ -94,7 +94,7 @@ def main():
 
 
     for card_id, class_type in sorted(CARD_REGISTRY.items()):
-        name = f'TestBasicsOfCardId{card_id}'
+        name = f'TestBasicsOf{class_type.__name__}'
         if issubclass(class_type, MinionCard):
             gen_class = generate_class(name, TestBasicsOfMinionBaseClass)
         elif issubclass(class_type, WeaponCard):

@@ -21,16 +21,18 @@ class ChangeAttack(OneTimeEffect):
     def execute(self, game, em_node):
         selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
         em_nodes_to_add = []
-        for selected_card_slot in selected_card_slots:
-            em_node = EffectManagerNode(
-                effect=AttackBuff(amount=self._compute_amount(game, em_node)),
-                affected_slot=selected_card_slot,
-                origin_slot=em_node.origin_slot,
-                silenceable=True
-            )
-            em_nodes_to_add.append(em_node)
+        amount = self._compute_amount(game, em_node)
+        if amount > 0:
+            for selected_card_slot in selected_card_slots:
+                em_node = EffectManagerNode(
+                    effect=AttackBuff(amount=amount),
+                    affected_slot=selected_card_slot,
+                    origin_slot=em_node.origin_slot,
+                    silenceable=True
+                )
+                em_nodes_to_add.append(em_node)
 
-        return EffectManagerNodePlan(to_add=em_nodes_to_add)
+            return EffectManagerNodePlan(to_add=em_nodes_to_add)
 
 
 class ChangeHealth(OneTimeEffect):
@@ -48,16 +50,18 @@ class ChangeHealth(OneTimeEffect):
 
     def execute(self, game, em_node):
         em_nodes_to_add = []
-        for selected_card_slot in self.selection.get_selected_card_slots(game, em_node):
-            em_node = EffectManagerNode(
-                effect=HealthBuff(amount=self._compute_amount(game, em_node)),
-                affected_slot=selected_card_slot,
-                origin_slot=em_node.origin_slot,
-                silenceable=True
-            )
-            em_nodes_to_add.append(em_node)
+        amount = self.selection.get_selected_card_slots(game, em_node)
+        if amount > 0:
+            for selected_card_slot in self.selection.get_selected_card_slots(game, em_node):
+                em_node = EffectManagerNode(
+                    effect=HealthBuff(amount=amount),
+                    affected_slot=selected_card_slot,
+                    origin_slot=em_node.origin_slot,
+                    silenceable=True
+                )
+                em_nodes_to_add.append(em_node)
 
-        return EffectManagerNodePlan(to_add=em_nodes_to_add)
+            return EffectManagerNodePlan(to_add=em_nodes_to_add)
 
 
 class Heal(OneTimeEffect):

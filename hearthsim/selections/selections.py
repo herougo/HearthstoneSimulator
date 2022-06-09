@@ -39,7 +39,7 @@ class RandomCharacter(CharacterSelection):
         self.selection = selection
 
     def get_selected_card_slots(self, game, em_node):
-        possible_card_slots = self.selection.get_selected_card_slots()
+        possible_card_slots = self.selection.get_selected_card_slots(game, em_node)
         if not possible_card_slots:
             return tuple()
 

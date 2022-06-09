@@ -33,9 +33,10 @@ class EffectManagerNodePlan:
                 card_slot.update_stats()
 
     def update(self, new_plan):
-        self.to_add.extend(new_plan.to_add)
-        self.to_remove.extend(new_plan.to_remove)
-        self.update_stats = self.update_stats | new_plan.update_stats
+        if new_plan:
+            self.to_add.extend(new_plan.to_add)
+            self.to_remove.extend(new_plan.to_remove)
+            self.update_stats = self.update_stats | new_plan.update_stats
 
 
 class EffectManagerNode:

@@ -1,5 +1,7 @@
 from hearthsim.utils.hash_generation import generate_random_hash
+from hearthsim.utils.enums import CardTypes
 from hearthsim.cards.core import Card
+from hearthsim.cards.card_registry import CARD_REGISTRY
 from hearthsim.effects.effects_activated import HeroPowerEffect
 from hearthsim.game.effect_manager import EffectManagerNode
 
@@ -15,6 +17,13 @@ class CardSlot:
     def iter_em_nodes(self):
         for em_node in self.game.effect_manager.iter_em_nodes_by_slot_hash(self.hash):
             yield em_node
+
+    @classmethod
+    def create_card(cls, card_id, player, game):
+        card = Card.from_card_id(card_id)
+        card_type = card.card_type
+        card_slot_type = CARD_TYPE_TO_CARD_SLOT_TYPE[card_type]
+        return card_slot_type(card_id, player, game)
 
     def __str__(self):
         return f'CardSlot(card_id={self.card.card_id}, player={self.player}, hash={self.hash}, game=...)'
@@ -224,3 +233,11 @@ class SpellCardSlot(CardSlot):
 
     def __str__(self):
         return f'SpellCardSlot - card_name={self.card.name}, mana={self.mana}'
+
+
+CARD_TYPE_TO_CARD_SLOT_TYPE = {
+    CardTypes.MINION.value: MinionCardSlot,
+    CardTypes.SPELL.value: SpellCardSlot,
+    CardTypes.WEAPON.value: WeaponCardSlot,
+    CardTypes.ORIGINAL_HERO.value: HeroCardSlot
+}

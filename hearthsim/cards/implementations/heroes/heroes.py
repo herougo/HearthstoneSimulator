@@ -30,12 +30,12 @@ class Druid(OriginalHeroCard):
     name = 'Druid'
     hs_class = HSClass.DRUID.value
     hero_power_cost = 2
-    hero_power_effect = OneTimeEffectSequence(
+    hero_power_effect = OneTimeEffectSequence((
         GainArmour(PLAYER, 1),
         TimeLimitedEffect(
             ChangeAttack(PLAYER, 1),
             until_when=EffectTimeLimit.END_OF_TURN.value)
-    )
+    ))
 
 
 @register_card(card_id='shaman')
@@ -53,10 +53,10 @@ class Warlock(OriginalHeroCard):
     name = 'Warlock'
     hs_class = HSClass.WARLOCK.value
     hero_power_cost = 2
-    hero_power_effect = OneTimeEffectSequence(
+    hero_power_effect = OneTimeEffectSequence((
         DealDamage(PLAYER, 2),
         DrawCard(PLAYER)
-    )
+    ))
 
 
 @register_card(card_id='paladin')

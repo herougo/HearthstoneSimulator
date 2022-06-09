@@ -53,4 +53,5 @@ To Do
 - [ ] poisonous
 - [ ] fatigue cards
 - [ ] correct return to hand death order
+- [ ] CardSlot.create_card creates a card twice
 - [ ] refactor to use MVC framework

@@ -5,7 +5,7 @@ from hearthsim.utils.utils import maybe_wrap_as_tuple
 from hearthsim.utils.constants import HERO_INDEX
 from hearthsim.utils.exceptions import GameOverException
 from hearthsim.game.effect_manager import EffectManager, EffectManagerNode
-from hearthsim.game.card_slots import MinionCardSlot, HeroCardSlot, WeaponCardSlot, SpellCardSlot
+from hearthsim.game.card_slots import CardSlot, MinionCardSlot, HeroCardSlot, WeaponCardSlot, SpellCardSlot
 from hearthsim.game.metadata import GameMetadata, PlayerMetadata
 from hearthsim.game.ui_manager import UIManager
 from hearthsim.game.battleboard import Battleboard
@@ -53,7 +53,7 @@ class HearthstoneGame:
 
     def setup(self):
         self.effect_manager = EffectManager(self)
-        self.decks = tuple([Pile([MinionCardSlot(card_id, player, self)
+        self.decks = tuple([Pile([CardSlot.create_card(card_id, player, self)
                                   for card_id in deck.card_id_list])
                             for player, deck in enumerate(self.deck_lists)])
         # for i in range(2):
@@ -189,7 +189,7 @@ class HearthstoneGame:
         self.send_card_to_limbo(card_slot)
         effect = card_slot.card.when_played_effects
         if isinstance(effect, tuple):
-            effect = OneTimeEffectSequence(*effect)
+            effect = OneTimeEffectSequence(effect)
 
         em_node = EffectManagerNode(effect=effect, affected_slot=card_slot, origin_slot=card_slot, silenceable=False)
         em_node.execute(self, self.effect_manager)

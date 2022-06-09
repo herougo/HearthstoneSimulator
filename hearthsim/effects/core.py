@@ -61,7 +61,7 @@ class OneTimeEffect(Effect):
 
 
 class OneTimeEffectSequence(OneTimeEffect):
-    def __init__(self, *effects):
+    def __init__(self, effects):
         super(OneTimeEffectSequence, self).__init__()
         self.effects = effects
         for effect in self.effects:
@@ -80,7 +80,7 @@ class TriggerEffect(Effect):
     def __init__(self, effect):
         super(TriggerEffect, self).__init__()
         if isinstance(effect, (tuple, list)):
-            effect = OneTimeEffectSequence(*effect)
+            effect = OneTimeEffectSequence(effect)
         self.effect = effect
         if not is_one_time_effect(effect):
             raise ValueError('ActivatedEffect only takes one-time effects as arguments')
