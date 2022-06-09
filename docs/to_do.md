@@ -50,6 +50,7 @@ To Do
   - [x] mock logger
   - [ ] why are the test snapshots in snap_utils.py?
   - [ ] test each effect
+- [ ] fix shaman test which mysteriously fails sometimes
 - [ ] Dread Corsair
 - [ ] Minions cost 3 more
 - [ ] poisonous

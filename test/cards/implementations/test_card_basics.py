@@ -102,6 +102,7 @@ def main():
                 1:
                     hero_power
                     hero_power
+                    end_turn
                 0:
                     end_turn
                 1:

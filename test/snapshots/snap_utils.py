@@ -1698,6 +1698,9 @@ Player (0) - health: 5, armour: 0, mana: 99 / 100
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 ERROR: already used the hero power
+------------------------------
+0 turn
+------------------------------
 Opponent (1) - health: 5, armour: 0, mana: 99 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -1708,11 +1711,51 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 5, armour: 0, mana: 99 / 100
+Player (0) - health: 5, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 Game Over: Player 0 wins'''
 
@@ -2196,6 +2239,9 @@ Player (0) - health: 5, armour: 1, mana: 98 / 100
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 ERROR: already used the hero power
+------------------------------
+0 turn
+------------------------------
 Opponent (1) - health: 5, armour: 1, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -2206,11 +2252,51 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 5, armour: 1, mana: 98 / 100
+Player (0) - health: 5, armour: 1, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 1, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 5, armour: 1, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+Opponent (1) - health: 5, armour: 1, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 5, armour: 1, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 Game Over: Player 0 wins'''
 
@@ -2816,6 +2902,9 @@ Player (0) - health: 3, armour: 0, mana: 98 / 100
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 ERROR: already used the hero power
+------------------------------
+0 turn
+------------------------------
 Opponent (1) - health: 3, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -2826,11 +2915,51 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 3, armour: 0, mana: 98 / 100
+Player (0) - health: 3, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 3, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 3, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+Opponent (1) - health: 3, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 3, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 Game Over: Player 0 wins'''
 
@@ -4094,6 +4223,9 @@ Player (0) - health: 3, armour: 0, mana: 98 / 100
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 ERROR: already used the hero power
+------------------------------
+0 turn
+------------------------------
 Opponent (1) - health: 5, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -4104,11 +4236,51 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 3, armour: 0, mana: 98 / 100
+Player (0) - health: 3, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 3, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 3, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 Game Over: Player 0 wins'''
 
@@ -4223,6 +4395,9 @@ Player (0) - health: 5, armour: 0, mana: 98 / 100
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 ERROR: already used the hero power
+------------------------------
+0 turn
+------------------------------
 Opponent (1) - health: 5, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -4235,11 +4410,55 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Silver Hand Recruit, mana=1, attack=1, health=1)
 \t0: MinionCardSlot - card_name=Silver Hand Recruit, mana=1, attack=1, health=1)
 
-Player (0) - health: 5, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+\t0: MinionCardSlot - card_name=Silver Hand Recruit, mana=1, attack=1, health=1)
+\t0: MinionCardSlot - card_name=Silver Hand Recruit, mana=1, attack=1, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+\t0: MinionCardSlot - card_name=Silver Hand Recruit, mana=1, attack=1, health=1)
+\t0: MinionCardSlot - card_name=Silver Hand Recruit, mana=1, attack=1, health=1)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 Game Over: Player 0 wins'''
 
@@ -4345,6 +4564,9 @@ Player (0) - health: 9, armour: 0, mana: 98 / 100
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 ERROR: already used the hero power
+------------------------------
+0 turn
+------------------------------
 Opponent (1) - health: 5, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -4355,11 +4577,51 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 9, armour: 0, mana: 98 / 100
+Player (0) - health: 9, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 9, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 9, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 Game Over: Player 0 wins'''
 
@@ -4465,6 +4727,9 @@ Player (0) - health: 5, armour: 0, mana: 98 / 100
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 ERROR: already used the hero power
+------------------------------
+0 turn
+------------------------------
 Opponent (1) - health: 5, armour: 0, mana: 98 / 100
 Weapon: Rogue Dagger 1/2, 1 attack, 2 durability
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -4475,11 +4740,51 @@ Weapon: Rogue Dagger 1/2, 1 attack, 2 durability
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 5, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: Rogue Dagger 1/2, 1 attack, 2 durability
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: Rogue Dagger 1/2, 1 attack, 2 durability
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 Game Over: Player 0 wins'''
 
@@ -4972,6 +5277,9 @@ Player (0) - health: 5, armour: 0, mana: 98 / 100
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 ERROR: already used the hero power
+------------------------------
+0 turn
+------------------------------
 Opponent (1) - health: 5, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -4984,11 +5292,55 @@ Weapon: None
 \t0: MinionCardSlot - card_name=Healing Totem, mana=1, attack=0, health=2)
 \t0: MinionCardSlot - card_name=Healing Totem, mana=1, attack=0, health=2)
 
-Player (0) - health: 5, armour: 0, mana: 98 / 100
+Player (0) - health: 5, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+\t0: MinionCardSlot - card_name=Healing Totem, mana=1, attack=0, health=2)
+\t0: MinionCardSlot - card_name=Healing Totem, mana=1, attack=0, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+Opponent (1) - health: 5, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+\t0: MinionCardSlot - card_name=Healing Totem, mana=1, attack=0, health=2)
+\t0: MinionCardSlot - card_name=Healing Totem, mana=1, attack=0, health=2)
+
+Player (0) - health: 5, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 Game Over: Player 0 wins'''
 
@@ -5979,6 +6331,9 @@ Player (0) - health: 3, armour: 0, mana: 98 / 100
 4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 ERROR: already used the hero power
+------------------------------
+0 turn
+------------------------------
 Opponent (1) - health: 3, armour: 0, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -5990,12 +6345,56 @@ Weapon: None
 6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 3, armour: 0, mana: 98 / 100
+Player (0) - health: 3, armour: 0, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 3, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+7: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 3, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+Opponent (1) - health: 3, armour: 0, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+7: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 3, armour: 0, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 Game Over: Player 0 wins'''
 
@@ -6101,6 +6500,9 @@ Player (0) - health: 5, armour: 2, mana: 98 / 100
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 ERROR: already used the hero power
+------------------------------
+0 turn
+------------------------------
 Opponent (1) - health: 5, armour: 2, mana: 98 / 100
 Weapon: None
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
@@ -6111,11 +6513,51 @@ Weapon: None
 5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 
-Player (0) - health: 5, armour: 2, mana: 98 / 100
+Player (0) - health: 5, armour: 2, mana: 100 / 100
 0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+------------------------------
+1 turn
+------------------------------
+Opponent (1) - health: 5, armour: 2, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 5, armour: 2, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+Opponent (1) - health: 5, armour: 2, mana: 100 / 100
+Weapon: None
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: SpellCardSlot - card_name=Coin, mana=0
+5: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+6: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+
+
+Player (0) - health: 5, armour: 2, mana: 100 / 100
+0: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+1: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+2: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+3: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
+4: MinionCardSlot - card_name=Wisp, mana=0, attack=1, health=1)
 
 Game Over: Player 0 wins'''
 
