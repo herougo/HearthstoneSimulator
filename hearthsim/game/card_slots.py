@@ -8,14 +8,13 @@ from hearthsim.game.effect_manager import EffectManagerNode
 
 class CardSlot:
     def __init__(self, card_id, player, game):
-        self.hash = generate_random_hash()
+        self._hash = generate_random_hash()
         self.player = player
         self.card = Card.from_card_id(card_id)
         self.game = game
-        self.game.register_card_slot(self)
 
     def iter_em_nodes(self):
-        for em_node in self.game.effect_manager.iter_em_nodes_by_slot_hash(self.hash):
+        for em_node in self.game.effect_manager.iter_em_nodes_by_slot(self):
             yield em_node
 
     @classmethod
@@ -26,19 +25,19 @@ class CardSlot:
         return card_slot_type(card_id, player, game)
 
     def __str__(self):
-        return f'CardSlot(card_id={self.card.card_id}, player={self.player}, hash={self.hash}, game=...)'
+        return f'CardSlot(card_id={self.card.card_id}, player={self.player}, hash={self._hash}, game=...)'
 
     def __eq__(self, other):
-        return self.hash == other.hash
+        return hash(self) == hash(other)
 
     def __lt__(self, other):
-        return self.hash < other.hash
+        return hash(self) < hash(other)
 
     def __ne__(self, other):
         return not self.__eq__(other)
 
     def __hash__(self):
-        return self.hash
+        return self._hash
 
     @property
     def card_type(self):

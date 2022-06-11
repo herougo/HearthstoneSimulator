@@ -24,3 +24,8 @@ def matches_tag(desired_tag, actual_tag):
             actual_tag == Tag.ALL.value or
             (desired_tag == Tag.ALL.value and actual_tag is not None) or
             desired_tag == actual_tag)
+
+
+def shift_text_lines_by_tab(text, n=1):
+    lines = text.split('\n')
+    return '\n'.join(['\t' * n + line for line in lines])

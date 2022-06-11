@@ -10,60 +10,64 @@ class LinkedListNode:
         return str(self.val)
 
 class LinkedList:
-    first = None
-    last = None
-    size = 0
+    def __init__(self):
+        self._first = None
+        self._last = None
+        self._size = 0
 
     def add_node_before(self, target, new_node):
         if target is None:  # is last
-            if self.first is None:
-                self.first = new_node
+            if self._first is None:
+                self._first = new_node
             else:
-                self.last.next = new_node
-                new_node.prev = self.last
-            self.last = new_node
-        elif self.first == target:  # is first
-            new_node.next = self.first
-            self.first.prev = new_node
-            self.first = new_node
+                self._last.next = new_node
+                new_node.prev = self._last
+            self._last = new_node
+        elif self._first == target:  # is first
+            new_node.next = self._first
+            self._first.prev = new_node
+            self._first = new_node
         else:
             new_node.prev = target.prev
             new_node.next = target
             target.prev.next = new_node
             target.prev = new_node
-        self.size += 1
+        self._size += 1
         if DEBUG:
             self.check_size()
 
     def remove_node(self, node):
         if node.prev is None:  # is first
-            self.first = node.next
+            self._first = node.next
         else:
             node.prev.next = node.next
         if node.next is None:  # is last
-            self.last = node.prev
+            self._last = node.prev
         else:
             node.next.prev = node.prev
-        self.size -= 1
+        self._size -= 1
         if DEBUG:
             self.check_size()
 
     def check_size(self):
-        node = self.first
-        for i in range(self.size):
+        node = self._first
+        for i in range(self._size):
             node = node.next
         assert node is None
 
-        node = self.last
-        for i in range(self.size):
+        node = self._last
+        for i in range(self._size):
             node = node.prev
         assert node is None
 
     def __iter__(self):
-        node = self.first
+        node = self._first
         while node is not None:
             yield node
             node = node.next
+
+    def __len__(self):
+        return self._size
 
     def __repr__(self):
         return ', '.join([str(node) for node in self])

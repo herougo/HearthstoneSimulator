@@ -27,17 +27,12 @@ class HearthstoneGame:
         self.players = None
         self.weapons = None
         self.battleboard = None
-        self._limbo = {}  # hash to CardSlot
+        self._limbo = set()
 
         self.effect_manager = None
         self.game_metadata = None
         self.player_metadata = None
         self.ui_manager = None
-
-        self.hash_to_slot_dict = {}
-
-    def register_card_slot(self, card_slot):
-        self.hash_to_slot_dict[card_slot.hash] = card_slot
 
     def setup(self, shuffle_decks=True):
         self.effect_manager = EffectManager(self)
@@ -255,9 +250,6 @@ class HearthstoneGame:
             self.remove_card_slot(card_slot)
             self.ui_manager.log_line(f'{player} Burned {card_slot}')
 
-    def hash_to_slot(self, hash):
-        return self.hash_to_slot_dict[hash]
-
     def index_to_slot(self, board_index):
         player, board_index = board_index
         if board_index == HERO_INDEX:
@@ -283,10 +275,10 @@ class HearthstoneGame:
         limbo is a place in-between dying and living
         assume the card has already been removed from its appropriate place
         '''
-        self._limbo[card_slot.hash] = card_slot
+        self._limbo.add(card_slot)
 
     def remove_card_slot(self, card_slot):
-        del self._limbo[card_slot.hash]
+        self._limbo.remove(card_slot)
 
     def destroy_weapon(self, player):
         weapon_card_slot = self.weapons[player]
