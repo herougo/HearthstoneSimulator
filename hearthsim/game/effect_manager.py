@@ -204,7 +204,7 @@ class EffectManager:
         for event in self._em_node_to_events[em_node]:
             self._event_to_effect_node_list.remove(event, em_node)
 
-        self._slot_to_em_node_list[em_node].remove(em_node)
+        self._slot_to_em_node_list[slot].remove(em_node)
         self._em_nodes.remove(em_node)
         del self._em_node_to_events[em_node]
 
