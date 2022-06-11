@@ -40,6 +40,10 @@ class CardSlot:
     def __hash__(self):
         return self.hash
 
+    @property
+    def card_type(self):
+        return self.card.card_type
+
 
 class DamageableCardSlot(CardSlot):
     def take_damage(self, amount):

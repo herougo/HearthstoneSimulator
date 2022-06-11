@@ -39,13 +39,5 @@ def attackable_characters(card_slot):
 def matches_card_type(desired_card_type, card_slot):
     if desired_card_type == CardTypes.ALL.value:
         return True
-    elif desired_card_type == CardTypes.MINION.value:
-        return isinstance(card_slot, MinionCardSlot)
-    elif desired_card_type == CardTypes.SPELL.value:
-        return isinstance(card_slot, SpellCardSlot)
-    elif desired_card_type == CardTypes.WEAPON.value:
-        return isinstance(card_slot, WeaponCardSlot)
-    elif desired_card_type == CardTypes.ORIGINAL_HERO.value:
-        return isinstance(card_slot, HeroCardSlot)
-    else:
-        raise NotImplementedError()
+
+    return desired_card_type == card_slot.card_type
