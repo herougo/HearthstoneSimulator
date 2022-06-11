@@ -189,13 +189,12 @@ class EffectManager:
         for received_event in em_node.effect.events_received:
             self._em_node_to_events[em_node].append(received_event)
             self._event_to_effect_node_list.add(received_event, em_node)
+        self._slot_to_em_node_list[slot].append(em_node)
 
         em_node.start(self._game, self)
 
-        self._slot_to_em_node_list[slot].append(em_node)
-
     def iter_em_nodes_by_slot(self, slot):
-        for em_node in self._em_node_to_events.get(slot, []):
+        for em_node in self._slot_to_em_node_list.get(slot, []):
             yield em_node
 
     def pop_effect(self, em_node):
