@@ -119,7 +119,7 @@ class DecisionMaker:
                 self.game.ui_manager.log_line('ERROR: destination outside range')
                 return
 
-            if not self.game.can_summon_minion(self.game.game_metadata.turn):
+            if not self.game.card_mover.can_summon_minion(self.game.game_metadata.turn):
                 self.game.ui_manager.log_line('ERROR: not enough space on the battleboard')
                 return
         elif isinstance(card_slot, SpellCardSlot):

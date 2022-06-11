@@ -97,7 +97,7 @@ class ReturnMinionToHand(OneTimeEffect):
 
     def execute(self, game, em_node):
         selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
-        game.return_minions_to_hand(em_node.affected_slot.player, selected_card_slots)
+        game.card_mover.return_minions_to_hand(em_node.affected_slot.player, selected_card_slots)
 
 
 class Silence(OneTimeEffect):
@@ -122,7 +122,7 @@ class DrawCard(OneTimeEffect):
     def execute(self, game, em_node):
         selected_card_slots = self.selection.get_selected_card_slots(game, em_node)
         for card_slot in selected_card_slots:
-            game.draw_cards(card_slot.player, n=1)
+            game.card_mover.draw_cards(card_slot.player, n=1)
 
 
 class GainManaCrystals(OneTimeEffect):
@@ -199,7 +199,7 @@ class EquipWeapon(OneTimeEffect):
         for card_slot in selected_card_slots:
             assert isinstance(card_slot, HeroCardSlot)
             weapon_card_slot = game.create_card_slot(card_slot.player, self.weapon)
-            game.equip_weapon(card_slot.player, weapon_card_slot)
+            game.card_mover.equip_weapon(card_slot.player, weapon_card_slot)
 
 
 class GainArmour(OneTimeEffect):
@@ -221,9 +221,9 @@ class SummonMinion(OneTimeEffect):
 
     def execute(self, game, em_node):
         player = em_node.affected_slot.player
-        if game.can_summon_minion(player):
+        if game.card_mover.can_summon_minion(player):
             card_slot = game.create_card_slot(player, self.minion)
-            game.summon_minion(card_slot)
+            game.card_mover.summon_minion(card_slot)
 
 
 class SummonMinionLikeShamanHP(OneTimeEffect):
@@ -236,7 +236,7 @@ class SummonMinionLikeShamanHP(OneTimeEffect):
 
     def execute(self, game, em_node):
         player = em_node.affected_slot.player
-        if game.can_summon_minion(player):
+        if game.card_mover.can_summon_minion(player):
             unavailable_card_ids = {slot.card.card_id for slot in game.battleboard.iter_board(player)}
             diff = self._card_id_set - unavailable_card_ids
             if not diff:
@@ -247,7 +247,7 @@ class SummonMinionLikeShamanHP(OneTimeEffect):
             chosen_index = random.randint(0, len(available_card_ids) - 1)
             chosen_card_id = available_card_ids[chosen_index]
             card_slot = game.create_card_slot(player, self._card_id_to_minion[chosen_card_id])
-            game.summon_minion(card_slot)
+            game.card_mover.summon_minion(card_slot)
 
 
 class Freeze(OneTimeEffect):
