@@ -221,7 +221,7 @@ class SummonMinion(OneTimeEffect):
 
     def execute(self, game, em_node):
         player = em_node.affected_slot.player
-        if game.card_mover.can_summon_minion(player):
+        if game.battleboard.has_room(player):
             card_slot = game.create_card_slot(player, self.minion)
             game.card_mover.summon_minion(card_slot)
 
@@ -236,7 +236,7 @@ class SummonMinionLikeShamanHP(OneTimeEffect):
 
     def execute(self, game, em_node):
         player = em_node.affected_slot.player
-        if game.card_mover.can_summon_minion(player):
+        if game.battleboard.has_room(player):
             unavailable_card_ids = {slot.card.card_id for slot in game.battleboard.iter_board(player)}
             diff = self._card_id_set - unavailable_card_ids
             if not diff:

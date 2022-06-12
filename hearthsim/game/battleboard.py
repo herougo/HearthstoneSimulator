@@ -69,3 +69,6 @@ class Battleboard:
     def defender_obeys_taunt(self, defender_card_slot):
         taunts = self._taunts[defender_card_slot.player]
         return defender_card_slot and (defender_card_slot not in taunts)
+
+    def has_room(self, player):
+        return self.board_len(player) < self._game.player_metadata[player].battleboard_limit

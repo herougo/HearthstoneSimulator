@@ -114,9 +114,6 @@ class CardMover:
         self._game.effect_manager.send_event(Events.WEAPON_EQUIPPED.value,
                                        event_slot=self._game.weapons[player])
 
-    def can_summon_minion(self, player):
-        return self._game.battleboard.board_len(player) < self._game.player_metadata[player].battleboard_limit
-
     def summon_minion(self, card_slot):
         self._game.battleboard.add_cards(card_slot.player, [card_slot], index=None)
 
