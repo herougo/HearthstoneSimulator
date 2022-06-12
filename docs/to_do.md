@@ -55,6 +55,7 @@ To Do
 - [ ] Minions cost 3 more
 - [ ] poisonous
 - [ ] fatigue cards
+- [ ] implement mulligan
 - [ ] correct return to hand death order
 - [ ] CardSlot.create_card creates a card twice
 - [ ] refactor to use MVC framework
