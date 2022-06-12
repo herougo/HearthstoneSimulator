@@ -8,3 +8,4 @@
 - Do we need affected_slot vs origin_slot?
 - Are start and stop needed for ContinuousSelectionFieldEffect?
   - no because it only resolves when a minion is played or dies
+- maybe group hands, players, weapons, battleboard, and decks into CardSlotManager
